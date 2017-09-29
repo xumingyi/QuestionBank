@@ -2,8 +2,426 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23860ed-7295-48c7-b4cf-aedd1eb7d314" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/xi.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank.xcodeproj/xcuserdata/xi.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank.xcworkspace/xcuserdata/xi.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank.xcworkspace/xcuserdata/xi.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-device/CDVDevice.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-device/CDVDevice.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-splashscreen/CDVSplashScreen.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-splashscreen/CDVSplashScreen.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-splashscreen/CDVViewController+SplashScreen.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-splashscreen/CDVViewController+SplashScreen.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-statusbar/CDVStatusBar.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-statusbar/CDVStatusBar.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-sqlite-storage/SQLitePlugin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-sqlite-storage/SQLitePlugin.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-sqlite-storage/sqlite3.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-sqlite-storage/sqlite3.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/ionic-plugin-keyboard/IonicKeyboard.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/ionic-plugin-keyboard/IonicKeyboard.m" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-40.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-40@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-40@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-50.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-50.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-50@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-50@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-60@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-60@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-60@3x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-60@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-72.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-72@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-72@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-76.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-76.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-76@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-76@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-83.5@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-83.5@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-small.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-small.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-small@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-small@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-small@3x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon-small@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/icon@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-568h@2x~iphone.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-568h@2x~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-667h.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-667h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-736h.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-736h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-Landscape-736h.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-Landscape-736h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-Landscape@2x~ipad.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-Landscape@2x~ipad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-Landscape~ipad.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-Landscape~ipad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-Portrait@2x~ipad.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-Portrait@2x~ipad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-Portrait~ipad.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default-Portrait~ipad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default@2x~iphone.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default@2x~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default~iphone.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Default~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/Default-568h@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/Default-568h@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/dummyProj/platforms/.gitkeep" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/dummyProj/platforms/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/dummyProj/www/.gitkeep" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/dummyProj/www/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-40.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-40@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-40@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-50.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-50.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-50@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-50@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-60@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-60@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-60@3x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-60@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-72.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-72@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-72@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-76.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-76.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-76@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-76@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-83.5@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-83.5@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-small.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-small.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-small@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-small@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-small@3x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon-small@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/icon@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-568h@2x~iphone.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-568h@2x~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-667h.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-667h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-736h.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-736h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-Landscape-736h.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-Landscape-736h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-Landscape@2x~ipad.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-Landscape@2x~ipad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-Landscape~ipad.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-Landscape~ipad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-Portrait@2x~ipad.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-Portrait@2x~ipad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-Portrait~ipad.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default-Portrait~ipad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default@2x~iphone.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default@2x~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default~iphone.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Default~iphone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/platform_www/.gitkeep" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/platform_www/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/www/.gitkeep" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/www/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/res/screen/ios/Default@2x~universal~anyany.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/res/screen/ios/Default@2x~universal~anyany.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/res/screen/ios/Default@2x~universal~comany.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/res/screen/ios/Default@2x~universal~comany.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/res/screen/ios/Default@2x~universal~comcom.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/res/screen/ios/Default@2x~universal~comcom.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/res/screen/ios/Default@3x~universal~anyany.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/res/screen/ios/Default@3x~universal~anyany.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/res/screen/ios/Default@3x~universal~anycom.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/res/screen/ios/Default@3x~universal~anycom.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/res/screen/ios/Default@3x~universal~comany.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/res/screen/ios/Default@3x~universal~comany.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/www/dummyplugin/image.jpg" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/www/dummyplugin/image.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/arrow_left.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/arrow_left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/arrow_left@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/arrow_left@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/arrow_right.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/arrow_right.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/arrow_right@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/arrow_right@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/but_refresh.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/but_refresh.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/but_refresh@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/but_refresh@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/compass.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/compass.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/compass@2x.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPlugin.bundle/compass@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/resource-file-support/image-1234.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/resource-file-support/image-1234.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/resource-file-support/image-5678.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/resource-file-support/image-5678.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/resource-file-support/image-8888.png" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/resource-file-support/image-8888.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/.gitattributes" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/.github/PULL_REQUEST_TEMPLATE.md" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/.istanbul.yml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/.istanbul.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/.jshintignore" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/.jshintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/.jshintrc" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/.npmignore" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/.ratignore" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/.ratignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/CDVDebug.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/CDVDebug.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/CDVJSON_private.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/CDVJSON_private.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/CDVJSON_private.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/CDVJSON_private.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/CDVPlugin+Private.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/CDVPlugin+Private.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDV.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDV.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVAppDelegate.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVAppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVAppDelegate.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVAppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVAvailability.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVAvailability.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVAvailabilityDeprecated.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVAvailabilityDeprecated.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVCommandDelegate.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVCommandDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVCommandDelegateImpl.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVCommandDelegateImpl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVCommandDelegateImpl.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVCommandDelegateImpl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVCommandQueue.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVCommandQueue.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVCommandQueue.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVCommandQueue.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVConfigParser.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVConfigParser.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVConfigParser.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVConfigParser.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVInvokedUrlCommand.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVInvokedUrlCommand.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVInvokedUrlCommand.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVInvokedUrlCommand.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVPlugin+Resources.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVPlugin+Resources.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVPlugin+Resources.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVPlugin+Resources.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVPlugin.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVPlugin.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVPlugin.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVPlugin.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVPluginResult.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVPluginResult.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVPluginResult.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVPluginResult.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVScreenOrientationDelegate.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVScreenOrientationDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVTimer.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVTimer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVTimer.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVTimer.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVURLProtocol.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVURLProtocol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVURLProtocol.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVURLProtocol.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVUserAgentUtil.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVUserAgentUtil.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVUserAgentUtil.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVUserAgentUtil.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVViewController.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVViewController.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVWebViewEngineProtocol.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVWebViewEngineProtocol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVWhitelist.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVWhitelist.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVWhitelist.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/CDVWhitelist.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Cordova/Cordova.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Cordova/Cordova.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Cordova/Info.plist" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/Cordova/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/CordovaLib.xcodeproj/xcshareddata/xcschemes/Cordova.xcscheme" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/CordovaLib.xcodeproj/xcshareddata/xcschemes/Cordova.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/CordovaLib_Prefix.pch" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/CordovaLib_Prefix.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/VERSION" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/VERSION" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/cordova.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/CordovaLib/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/LICENSE" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/NOTICE" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/NOTICE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/README.md" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/RELEASENOTES.md" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/RELEASENOTES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/appveyor.yml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/appveyor.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/apple_ios_version.bat" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/apple_ios_version.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/apple_osx_version.bat" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/apple_osx_version.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/apple_xcode_version.bat" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/apple_xcode_version.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/check_reqs.bat" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/check_reqs.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/create.bat" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/create.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/lib/check_reqs.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/lib/check_reqs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Bridging-Header.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Bridging-Header.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/CDVLaunchScreen.storyboard" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/CDVLaunchScreen.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Classes/AppDelegate.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Classes/AppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Classes/AppDelegate.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Classes/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Classes/MainViewController.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Classes/MainViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Classes/MainViewController.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Classes/MainViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Classes/MainViewController.xib" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Classes/MainViewController.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Entitlements-Debug.plist" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Entitlements-Debug.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Entitlements-Release.plist" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Entitlements-Release.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/Contents.json" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchImage.launchimage/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchStoryboard.imageset/Contents.json" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Images.xcassets/LaunchStoryboard.imageset/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Plugins/README" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/Plugins/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/__PROJECT_NAME__-Info.plist" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/__PROJECT_NAME__-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/__PROJECT_NAME__-Prefix.pch" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/__PROJECT_NAME__-Prefix.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/config.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/gitignore" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/main.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__PROJECT_NAME__/main.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__TEMP__.xcworkspace/contents.xcworkspacedata" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__TEMP__.xcworkspace/contents.xcworkspacedata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__TEMP__.xcworkspace/xcshareddata/xcschemes/__PROJECT_NAME__.xcscheme" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/__TEMP__.xcworkspace/xcshareddata/xcschemes/__PROJECT_NAME__.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/pods-debug.xcconfig" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/pods-debug.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/pods-release.xcconfig" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/project/pods-release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/Api.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/Api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/build-debug.xcconfig" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/build-debug.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/build-extras.xcconfig" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/build-extras.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/build-release.xcconfig" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/build-release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/build.bat" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/build.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/build.xcconfig" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/build.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/clean.bat" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/clean.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/defaults.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/defaults.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/Podfile.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/Podfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/PodsJson.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/PodsJson.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/build.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/clean.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/clean.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/copy-www-build-step.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/copy-www-build-step.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/plugman/pluginHandlers.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/plugman/pluginHandlers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/prepare.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/prepare.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/projectFile.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/projectFile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/run.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/run.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/spawn.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/lib/spawn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/log.bat" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/log.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/loggingHelper.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/loggingHelper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/run.bat" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/run.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/version.bat" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/templates/scripts/cordova/version.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/tests/autotest.coffee" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/tests/autotest.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/tests/create.coffee" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/tests/create.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/tests/debug.coffee" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/tests/debug.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/tests/test.coffee" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/tests/test.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/uncrustify.cfg" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/uncrustify.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/bin/update.bat" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/bin/update.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/component.json" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/cordova-js-src/exec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/cordova-js-src/platform.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/cordova-js-src/platform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/guides/API changes in 4.0.md" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/guides/API changes in 4.0.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/guides/Cordova Custom URL Scheme Handling.md" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/guides/Cordova Custom URL Scheme Handling.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/guides/Setting Delegates, Preferences and Script Message Handlers in the WebView.md" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/guides/Setting Delegates, Preferences and Script Message Handlers in the WebView.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/spec/support/jasmine.json" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/spec/support/jasmine.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/.jshintrc" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/.npmignore" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVBase64Tests.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVBase64Tests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVCommandDelegateTests.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVCommandDelegateTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVFakeFileManager.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVFakeFileManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVFakeFileManager.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVFakeFileManager.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVInvokedUrlCommandTests.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVInvokedUrlCommandTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVLocalStorageTests.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVLocalStorageTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVPluginResultJSONSerializationTests.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVPluginResultJSONSerializationTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVStartPageTests.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVStartPageTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVUserAgentTest.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVUserAgentTest.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVViewControllerTest.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVViewControllerTest.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVWebViewDelegateTests.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVWebViewDelegateTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVWebViewTest.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVWebViewTest.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVWebViewTest.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVWebViewTest.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVWhitelistTests.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CDVWhitelistTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/AppDelegate.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/AppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/AppDelegate.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/Bridging-Header.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/Bridging-Header.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/CordovaLibApp-Info.plist" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/CordovaLibApp-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/ViewController.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/ViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/ViewController.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/config.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/en.lproj/InfoPlist.strings" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/en.lproj/InfoPlist.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/main.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/main.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/www/index.html" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibApp/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibTests-Info.plist" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibTests-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibTests.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/CordovaLibTests.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/config-custom.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/config-custom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/en.lproj/InfoPlist.strings" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/CordovaLibTests/en.lproj/InfoPlist.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/cordova-ios.xcworkspace/contents.xcworkspacedata" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/cordova-ios.xcworkspace/contents.xcworkspacedata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/cordova-ios.xcworkspace/xcshareddata/cordova-ios.xccheckout" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/cordova-ios.xcworkspace/xcshareddata/cordova-ios.xccheckout" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/cordova-ios.xcworkspace/xcshareddata/xcschemes/CordovaFrameworkApp.xcscheme" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/cordova-ios.xcworkspace/xcshareddata/xcschemes/CordovaFrameworkApp.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/cordova-ios.xcworkspace/xcshareddata/xcschemes/CordovaLib.xcscheme" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/cordova-ios.xcworkspace/xcshareddata/xcschemes/CordovaLib.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/cordova-ios.xcworkspace/xcshareddata/xcschemes/CordovaLibApp.xcscheme" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/cordova-ios.xcworkspace/xcshareddata/xcschemes/CordovaLibApp.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/cordova-ios.xcworkspace/xcshareddata/xcschemes/CordovaLibTests.xcscheme" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/cordova-ios.xcworkspace/xcshareddata/xcschemes/CordovaLibTests.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/create.spec.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/create.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/Api.spec.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/Api.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/Plugman/common.spec.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/Plugman/common.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/Plugman/pluginHandler.spec.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/Plugman/pluginHandler.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/Podfile.spec.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/Podfile.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/PodsJson.spec.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/PodsJson.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/build.spec.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/build.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/dummyProj/config.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/dummyProj/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/CordovaLib/VERSION" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/CordovaLib/VERSION" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp.xcodeproj/project.orig.pbxproj" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp.xcodeproj/project.orig.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/Contents.json" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchImage.launchimage/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchStoryboard.imageset/Contents.json" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/Images.xcassets/LaunchStoryboard.imageset/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/SampleApp-Info.plist" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/SampleApp-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/config.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/ios-config-xml/SampleApp/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/configs/legacy-only.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/configs/legacy-only.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/configs/modern-and-legacy.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/configs/modern-and-legacy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/configs/modern-only.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/configs/modern-only.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/configs/none.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/configs/none.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-json/empty.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-json/empty.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-json/single-2xanyany.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-json/single-2xanyany.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-json/typical-universal.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-json/typical-universal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-json/varied-device.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-json/varied-device.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-map/empty-map.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-map/empty-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-map/single-2xanyany-map.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-map/single-2xanyany-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-map/typical-universal-map.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-map/typical-universal-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-map/varied-device-map.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/launch-storyboard-support/contents-map/varied-device-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/plugin.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/Custom.framework/someFheader.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/Custom.framework/someFheader.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/Custom.framework/somebinlib" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/Custom.framework/somebinlib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/CustomEmbeddable.framework/someFheader.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/CustomEmbeddable.framework/someFheader.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/CustomEmbeddable.framework/somebinlib" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/CustomEmbeddable.framework/somebinlib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/DummyPlugin.bundle" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/DummyPlugin.bundle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/DummyPluginCommand.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/DummyPluginCommand.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/DummyPluginCommand.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/DummyPluginCommand.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/SourceWithFramework.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/SourceWithFramework.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/TargetDirTest.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/TargetDirTest.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/TargetDirTest.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/TargetDirTest.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/libsqlite3.dylib" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/src/ios/libsqlite3.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/www/dummyplugin.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.dummyplugin/www/dummyplugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.faultyplugin/plugin.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.faultyplugin/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.faultyplugin/src/ios/FaultyPlugin.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.faultyplugin/src/ios/FaultyPlugin.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.faultyplugin/src/ios/FaultyPlugin.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.faultyplugin/src/ios/FaultyPlugin.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/plugin.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPluginCommand.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPluginCommand.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPluginCommand.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPluginCommand.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPluginViewController.h" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPluginViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPluginViewController.m" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPluginViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPluginViewController.xib" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/org.test.plugins.weblessplugin/src/ios/WeblessPluginViewController.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/resource-file-support/config.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/resource-file-support/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/sample-cocoapod-plugin-no-spec-overlapping-dependency/plugin.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/sample-cocoapod-plugin-no-spec-overlapping-dependency/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/sample-cocoapod-plugin-no-spec-overlapping-dependency/www/test.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/sample-cocoapod-plugin-no-spec-overlapping-dependency/www/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/sample-cordova-plugin-with-spec/plugin.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/sample-cordova-plugin-with-spec/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/sample-cordova-plugin-with-spec/www/test.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/sample-cordova-plugin-with-spec/www/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/test-config-2.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/test-config-2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/test-config.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/test-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/testProj/platforms/ios/.npmignore" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/fixtures/testProj/platforms/ios/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/prepare.spec.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/prepare.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/preparePlatform.spec.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/preparePlatform.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/projectFile.spec.js" afterPath="$PROJECT_DIR$/node_modules/cordova-ios/tests/spec/unit/projectFile.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/.gitignore" afterPath="$PROJECT_DIR$/platforms/ios/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/CDVDebug.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/CDVDebug.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/CDVJSON_private.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/CDVJSON_private.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/CDVJSON_private.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/CDVJSON_private.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/CDVPlugin+Private.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/CDVPlugin+Private.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDV.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDV.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVAppDelegate.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVAppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVAppDelegate.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVAppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVAvailability.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVAvailability.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVAvailabilityDeprecated.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVAvailabilityDeprecated.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandDelegate.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandDelegateImpl.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandDelegateImpl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandDelegateImpl.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandDelegateImpl.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandQueue.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandQueue.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandQueue.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandQueue.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVConfigParser.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVConfigParser.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVConfigParser.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVConfigParser.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVInvokedUrlCommand.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVInvokedUrlCommand.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVInvokedUrlCommand.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVInvokedUrlCommand.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPlugin+Resources.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPlugin+Resources.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPlugin+Resources.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPlugin+Resources.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPlugin.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPlugin.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPlugin.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPlugin.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPluginResult.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPluginResult.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPluginResult.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPluginResult.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVScreenOrientationDelegate.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVScreenOrientationDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVTimer.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVTimer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVTimer.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVTimer.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVURLProtocol.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVURLProtocol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVURLProtocol.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVURLProtocol.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVUserAgentUtil.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVUserAgentUtil.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVUserAgentUtil.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVUserAgentUtil.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVViewController.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVViewController.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVWebViewEngineProtocol.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVWebViewEngineProtocol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVWhitelist.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVWhitelist.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVWhitelist.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVWhitelist.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.h" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.m" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib_Prefix.pch" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib_Prefix.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/VERSION" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/VERSION" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/cordova.js" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank.xcworkspace/contents.xcworkspacedata" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank.xcworkspace/contents.xcworkspacedata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank.xcworkspace/xcshareddata/xcschemes/QuestionBank.xcscheme" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank.xcworkspace/xcshareddata/xcschemes/QuestionBank.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/.gitignore" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Bridging-Header.h" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/Bridging-Header.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/CDVLaunchScreen.storyboard" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/CDVLaunchScreen.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Classes/AppDelegate.h" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/Classes/AppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Classes/AppDelegate.m" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/Classes/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Classes/MainViewController.h" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/Classes/MainViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Classes/MainViewController.m" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/Classes/MainViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Classes/MainViewController.xib" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/Classes/MainViewController.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Entitlements-Debug.plist" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/Entitlements-Debug.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Entitlements-Release.plist" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/Entitlements-Release.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/Images.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Images.xcassets/Contents.json" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/Images.xcassets/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/Images.xcassets/LaunchImage.launchimage/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Images.xcassets/LaunchStoryboard.imageset/Contents.json" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/Images.xcassets/LaunchStoryboard.imageset/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/README" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/QuestionBank-Info.plist" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/QuestionBank-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/QuestionBank-Prefix.pch" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/QuestionBank-Prefix.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/main.m" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/main.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/exec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/platform.js" afterPath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/platform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova.js" afterPath="$PROJECT_DIR$/platforms/ios/platform_www/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova-js-src/exec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova-js-src/platform.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova-js-src/platform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,24 +435,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="390">
+              <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitattributes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -96,6 +504,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,12 +529,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="QuestionBank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,16 +576,16 @@
       <option name="presentableId" value="Default" />
       <updated>1506558925038</updated>
       <workItem from="1506558926472" duration="6787000" />
-      <workItem from="1506576730189" duration="6009000" />
+      <workItem from="1506576730189" duration="6965000" />
+      <workItem from="1506619668785" duration="1277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12796000" />
+    <option name="totallyTimeSpent" value="15029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24225576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -181,7 +595,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -250,6 +664,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tslint.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -275,13 +699,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/theme/variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -388,26 +805,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -415,9 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -425,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -433,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -441,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -450,19 +845,8 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="135">
             <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,7 +854,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/theme/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="44" column="14" lean-forward="false" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
