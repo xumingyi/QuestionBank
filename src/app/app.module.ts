@@ -3,8 +3,9 @@ import {ErrorHandler, NgModule} from '@angular/core';
 
 import {IonicApp, IonicErrorHandler, IonicModule} from 'ionic-angular';
 
-import {SplashScreen} from '@ionic-native/splash-screen';
 import {StatusBar} from '@ionic-native/status-bar';
+import {SplashScreen} from '@ionic-native/splash-screen';
+import {ScreenOrientation} from "@ionic-native/screen-orientation";
 import {SQLite} from "@ionic-native/sqlite";
 
 import {MyApp} from './app.component';
@@ -24,6 +25,7 @@ import {MyApp} from './app.component';
   providers: [
     StatusBar,
     SplashScreen,
+    ScreenOrientation,
     SQLite,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]

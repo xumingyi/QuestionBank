@@ -9,21 +9,6 @@
     "installed_plugins": {
         "cordova-plugin-device": {
             "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
-        "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
-        "cordova-sqlite-storage": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
         }
     },
     "dependent_plugins": {}
