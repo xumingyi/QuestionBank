@@ -461,7 +461,7 @@ var __extends = (this && this.__extends) || (function () {
                     };
                     // cool, we've loaded up the columns with options
                     // preselect the option for this column
-                    var /** @type {?} */ optValue = datetime_util_1.getValueFromFormat(_this.getValue(), format);
+                    var /** @type {?} */ optValue = datetime_util_1.getValueFromFormat(_this.getValueOrDefault(), format);
                     var /** @type {?} */ selectedIndex = column.options.findIndex(function (opt) { return opt.value === optValue; });
                     if (selectedIndex >= 0) {
                         // set the select index for this column's options
@@ -606,6 +606,47 @@ var __extends = (this && this.__extends) || (function () {
          * @hidden
          * @return {?}
          */
+        DateTime.prototype.getValueOrDefault = function () {
+            if (this.hasValue()) {
+                return this._value;
+            }
+            var /** @type {?} */ initialDateString = this.getDefaultValueDateString();
+            var /** @type {?} */ _default = {};
+            datetime_util_1.updateDate(_default, initialDateString);
+            return _default;
+        };
+        /**
+         * Get the default value as a date string
+         * @hidden
+         * @return {?}
+         */
+        DateTime.prototype.getDefaultValueDateString = function () {
+            if (this.initialValue) {
+                return this.initialValue;
+            }
+            var /** @type {?} */ nowString = (new Date).toISOString();
+            if (this.max) {
+                var /** @type {?} */ now = datetime_util_1.parseDate(nowString);
+                var /** @type {?} */ max = datetime_util_1.parseDate(this.max);
+                var /** @type {?} */ v = void 0;
+                for (var /** @type {?} */ i in max) {
+                    v = ((max))[i];
+                    if (v === null) {
+                        ((max))[i] = ((now))[i];
+                    }
+                }
+                var /** @type {?} */ diff = datetime_util_1.compareDates(now, max);
+                // If max is before current time, return max
+                if (diff > 0) {
+                    return this.max;
+                }
+            }
+            return nowString;
+        };
+        /**
+         * @hidden
+         * @return {?}
+         */
         DateTime.prototype.hasValue = function () {
             var /** @type {?} */ val = this._value;
             return util_1.isPresent(val)
@@ -703,6 +744,7 @@ var __extends = (this && this.__extends) || (function () {
         'min': [{ type: core_1.Input },],
         'max': [{ type: core_1.Input },],
         'displayFormat': [{ type: core_1.Input },],
+        'initialValue': [{ type: core_1.Input },],
         'pickerFormat': [{ type: core_1.Input },],
         'cancelText': [{ type: core_1.Input },],
         'doneText': [{ type: core_1.Input },],
@@ -771,6 +813,14 @@ var __extends = (this && this.__extends) || (function () {
          * @type {?}
          */
         DateTime.prototype.displayFormat;
+        /**
+         * \@input {string} The default datetime selected in picker modal if field value is empty.
+         * Value must be a date string following the
+         * [ISO 8601 datetime format standard](https://www.w3.org/TR/NOTE-datetime),
+         * `1996-12-19`.
+         * @type {?}
+         */
+        DateTime.prototype.initialValue;
         /**
          * \@input {string} The format of the date and time picker columns the user selects.
          * A datetime input can have one or many datetime parts, each getting their

@@ -6,7 +6,7 @@ import { Form } from '../../util/form';
 import { BaseInput } from '../../util/base-input';
 import { Item } from '../item/item';
 import { clamp, deepCopy, isArray, isBlank, isObject, isPresent, isString } from '../../util/util';
-import { convertDataToISO, convertFormatToKey, dateDataSortValue, dateSortValue, dateValueRange, daysInMonth, getValueFromFormat, parseDate, parseTemplate, renderDateTime, renderTextFormat, updateDate, } from '../../util/datetime-util';
+import { compareDates, convertDataToISO, convertFormatToKey, dateDataSortValue, dateSortValue, dateValueRange, daysInMonth, getValueFromFormat, parseDate, parseTemplate, renderDateTime, renderTextFormat, updateDate, } from '../../util/datetime-util';
 /**
  * \@name DateTime
  * \@description
@@ -435,7 +435,7 @@ export class DateTime extends BaseInput {
                 };
                 // cool, we've loaded up the columns with options
                 // preselect the option for this column
-                const /** @type {?} */ optValue = getValueFromFormat(this.getValue(), format);
+                const /** @type {?} */ optValue = getValueFromFormat(this.getValueOrDefault(), format);
                 const /** @type {?} */ selectedIndex = column.options.findIndex(opt => opt.value === optValue);
                 if (selectedIndex >= 0) {
                     // set the select index for this column's options
@@ -580,6 +580,47 @@ export class DateTime extends BaseInput {
      * @hidden
      * @return {?}
      */
+    getValueOrDefault() {
+        if (this.hasValue()) {
+            return this._value;
+        }
+        const /** @type {?} */ initialDateString = this.getDefaultValueDateString();
+        const /** @type {?} */ _default = {};
+        updateDate(_default, initialDateString);
+        return _default;
+    }
+    /**
+     * Get the default value as a date string
+     * @hidden
+     * @return {?}
+     */
+    getDefaultValueDateString() {
+        if (this.initialValue) {
+            return this.initialValue;
+        }
+        const /** @type {?} */ nowString = (new Date).toISOString();
+        if (this.max) {
+            const /** @type {?} */ now = parseDate(nowString);
+            const /** @type {?} */ max = parseDate(this.max);
+            let /** @type {?} */ v;
+            for (let /** @type {?} */ i in max) {
+                v = ((max))[i];
+                if (v === null) {
+                    ((max))[i] = ((now))[i];
+                }
+            }
+            const /** @type {?} */ diff = compareDates(now, max);
+            // If max is before current time, return max
+            if (diff > 0) {
+                return this.max;
+            }
+        }
+        return nowString;
+    }
+    /**
+     * @hidden
+     * @return {?}
+     */
     hasValue() {
         const /** @type {?} */ val = this._value;
         return isPresent(val)
@@ -676,6 +717,7 @@ DateTime.propDecorators = {
     'min': [{ type: Input },],
     'max': [{ type: Input },],
     'displayFormat': [{ type: Input },],
+    'initialValue': [{ type: Input },],
     'pickerFormat': [{ type: Input },],
     'cancelText': [{ type: Input },],
     'doneText': [{ type: Input },],
@@ -743,6 +785,14 @@ function DateTime_tsickle_Closure_declarations() {
      * @type {?}
      */
     DateTime.prototype.displayFormat;
+    /**
+     * \@input {string} The default datetime selected in picker modal if field value is empty.
+     * Value must be a date string following the
+     * [ISO 8601 datetime format standard](https://www.w3.org/TR/NOTE-datetime),
+     * `1996-12-19`.
+     * @type {?}
+     */
+    DateTime.prototype.initialValue;
     /**
      * \@input {string} The format of the date and time picker columns the user selects.
      * A datetime input can have one or many datetime parts, each getting their

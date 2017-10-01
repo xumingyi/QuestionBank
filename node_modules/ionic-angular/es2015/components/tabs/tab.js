@@ -92,7 +92,7 @@ import { TransitionController } from '../../transitions/transition-controller';
  * ```html
  * <ion-tabs>
  *   <ion-tab (ionSelect)="chat()" tabTitle="Show Modal"></ion-tab>
- * </ion-tabs>
+ * </ion-tabs>pop
  * ```
  *
  * ```ts
