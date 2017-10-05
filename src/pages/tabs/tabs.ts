@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController } from 'ionic-angular';
+import {Component} from '@angular/core';
+import {IonicPage, NavController} from 'ionic-angular';
 
 /**
  * Generated class for the TabsPage tabs.
@@ -8,7 +8,9 @@ import { IonicPage, NavController } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+@IonicPage({
+  priority: 'high'
+})
 @Component({
   selector: 'page-tabs',
   templateUrl: 'tabs.html'
@@ -21,6 +23,7 @@ export class TabsPage {
   myselfRoot = 'MyselfPage';
 
 
-  constructor(public navCtrl: NavController) {}
+  constructor(public navCtrl: NavController) {
+  }
 
 }

@@ -16,7 +16,9 @@ import {MyApp} from './app.component';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp, {
+      preloadModules: true
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
