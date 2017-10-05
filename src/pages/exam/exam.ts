@@ -17,15 +17,15 @@ import {IonicPage, NavController, NavParams} from 'ionic-angular';
 })
 export class ExamPage {
 
-  exams: Array<{ title: string, img: string, problemNum: number, collectionNum: number }>;
+  exams: Array<{ img: string, year: number, problemNum: number, collectionNum: number }>;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.exams = [];
 
     for (let i = 0; i < 10; i++) {
       this.exams.push({
-        title: (2017 - i) + "年考研政治真题",
         img: "assets/img/card/card-" + (2017 - i) + ".jpg",
+        year: 2017 - i,
         problemNum: 0,
         collectionNum: 0,
       });
