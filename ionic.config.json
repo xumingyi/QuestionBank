@@ -1,6 +1,6 @@
 {
   "name": "QuestionBank",
-  "app_id": "",
+  "app_id": "d6a25364",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}

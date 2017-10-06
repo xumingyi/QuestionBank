@@ -32,6 +32,12 @@
     <feature name="SQLitePlugin">
         <param name="ios-package" value="SQLitePlugin" />
     </feature>
+    <feature name="IonicDeploy">
+        <param name="ios-package" onload="true" value="IonicDeploy" />
+    </feature>
+    <feature name="IonicCordovaCommon">
+        <param name="ios-package" onload="true" value="IonicCordovaCommon" />
+    </feature>
     <name>QuestionBank</name>
     <description>An awesome Ionic/Cordova app named "QuestionBank".</description>
     <author href="http://metaphors.name">Metaphors</author>
@@ -102,10 +108,4 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
     <preference name="Orientation" value="portrait" />
-    <feature name="IonicDeploy">
-        <param name="ios-package" onload="true" value="IonicDeploy" />
-    </feature>
-    <feature name="IonicCordovaCommon">
-        <param name="ios-package" onload="true" value="IonicCordovaCommon" />
-    </feature>
 </widget>

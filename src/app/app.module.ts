@@ -10,11 +10,17 @@ import {SQLite} from "@ionic-native/sqlite";
 
 import {MyApp} from './app.component';
 
-import { Pro } from '@ionic/pro';
+import {Pro} from '@ionic/pro';
 
 const IonicPro = Pro.init('d6a25364', {
   appVersion: "0.0.1"
 });
+
+export class MyErrorHandler implements ErrorHandler {
+  handleError(err: any): void {
+    IonicPro.monitoring.handleNewError(err);
+  }
+}
 
 @NgModule({
   declarations: [
@@ -35,15 +41,10 @@ const IonicPro = Pro.init('d6a25364', {
     SplashScreen,
     ScreenOrientation,
     SQLite,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    {provide: ErrorHandler, useClass: MyErrorHandler}
   ]
 })
-
-export class MyErrorHandler implements ErrorHandler {
-  handleError(err: any): void {
-    IonicPro.monitoring.handleNewError(err);
-  }
-}
 
 export class AppModule {
 }
