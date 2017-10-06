@@ -10,6 +10,12 @@ import {SQLite} from "@ionic-native/sqlite";
 
 import {MyApp} from './app.component';
 
+import { Pro } from '@ionic/pro';
+
+const IonicPro = Pro.init('d6a25364', {
+  appVersion: "0.0.1"
+});
+
 @NgModule({
   declarations: [
     MyApp,
@@ -32,6 +38,12 @@ import {MyApp} from './app.component';
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
+
+export class MyErrorHandler implements ErrorHandler {
+  handleError(err: any): void {
+    IonicPro.monitoring.handleNewError(err);
+  }
+}
 
 export class AppModule {
 }

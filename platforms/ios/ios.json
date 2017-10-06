@@ -35,6 +35,48 @@
                         {
                             "xml": "<feature name=\"SQLitePlugin\"><param name=\"ios-package\" value=\"SQLitePlugin\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"IonicDeploy\"><param name=\"ios-package\" onload=\"true\" value=\"IonicDeploy\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"IonicCordovaCommon\"><param name=\"ios-package\" onload=\"true\" value=\"IonicCordovaCommon\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "IonAppId": [
+                        {
+                            "xml": "<string>d6a25364</string>",
+                            "count": 1
+                        }
+                    ],
+                    "IonChannelName": [
+                        {
+                            "xml": "<string>Master</string>",
+                            "count": 1
+                        }
+                    ],
+                    "IonApi": [
+                        {
+                            "xml": "<string>https://api.ionicjs.com</string>",
+                            "count": 1
+                        }
+                    ],
+                    "IonUpdateMethod": [
+                        {
+                            "xml": "<string>background</string>",
+                            "count": 1
+                        }
+                    ],
+                    "IonMaxVersions": [
+                        {
+                            "xml": "<string>2</string>",
+                            "count": 1
                         }
                     ]
                 }
@@ -58,6 +100,17 @@
             "PACKAGE_NAME": "metaphors.name.questionbank"
         },
         "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "metaphors.name.questionbank"
+        },
+        "cordova-plugin-add-swift-support": {
+            "PACKAGE_NAME": "metaphors.name.questionbank"
+        },
+        "cordova-plugin-ionic": {
+            "APP_ID": "d6a25364",
+            "CHANNEL_NAME": "Master",
+            "UPDATE_API": "https://api.ionicjs.com",
+            "UPDATE_METHOD": "background",
+            "MAX_STORE": "2",
             "PACKAGE_NAME": "metaphors.name.questionbank"
         }
     },
@@ -103,6 +156,15 @@
             "clobbers": [
                 "SQLitePlugin"
             ]
+        },
+        {
+            "id": "cordova-plugin-ionic.common",
+            "file": "plugins/cordova-plugin-ionic/www/common.js",
+            "pluginId": "cordova-plugin-ionic",
+            "clobbers": [
+                "IonicCordova"
+            ],
+            "runs": true
         }
     ],
     "plugin_metadata": {
@@ -111,6 +173,8 @@
         "cordova-plugin-statusbar": "2.2.2",
         "cordova-plugin-whitelist": "1.3.1",
         "ionic-plugin-keyboard": "2.2.1",
-        "cordova-sqlite-storage": "2.0.4"
+        "cordova-sqlite-storage": "2.0.4",
+        "cordova-plugin-add-swift-support": "1.7.0",
+        "cordova-plugin-ionic": "1.1.9"
     }
 }

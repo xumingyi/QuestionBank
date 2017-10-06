@@ -14,11 +14,62 @@
                         }
                     ]
                 }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"IonicCordovaCommon\"><param name=\"android-package\" onload=\"true\" value=\"com.ionicframework.common.IonicCordovaCommon\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"IonicDeploy\"><param name=\"android-package\" value=\"com.ionicframework.deploy.IonicDeploy\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "res/values/strings.xml": {
+                "parents": {
+                    "/resources": [
+                        {
+                            "xml": "<string name=\"ionic_app_id\">d6a25364</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"ionic_channel_name\">Master</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"ionic_update_api\">https://api.ionicjs.com</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"ionic_update_method\">background</string>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<string name=\"ionic_max_versions\">2</string>",
+                            "count": 1
+                        }
+                    ]
+                }
             }
         }
     },
     "installed_plugins": {
         "cordova-plugin-device": {
+            "PACKAGE_NAME": "metaphors.name.questionbank"
+        },
+        "cordova-plugin-add-swift-support": {
+            "PACKAGE_NAME": "metaphors.name.questionbank"
+        },
+        "cordova-plugin-ionic": {
+            "APP_ID": "d6a25364",
+            "CHANNEL_NAME": "Master",
+            "UPDATE_API": "https://api.ionicjs.com",
+            "UPDATE_METHOD": "background",
+            "MAX_STORE": "2",
             "PACKAGE_NAME": "metaphors.name.questionbank"
         }
     },
@@ -31,9 +82,20 @@
             "clobbers": [
                 "device"
             ]
+        },
+        {
+            "id": "cordova-plugin-ionic.common",
+            "file": "plugins/cordova-plugin-ionic/www/common.js",
+            "pluginId": "cordova-plugin-ionic",
+            "clobbers": [
+                "IonicCordova"
+            ],
+            "runs": true
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-device": "1.1.4"
+        "cordova-plugin-device": "1.1.4",
+        "cordova-plugin-add-swift-support": "1.7.0",
+        "cordova-plugin-ionic": "1.1.9"
     }
 }
