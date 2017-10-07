@@ -1,4 +1,4 @@
-webpackJsonp([5],{
+webpackJsonp([6],{
 
 /***/ 107:
 /***/ (function(module, exports) {
@@ -21,25 +21,29 @@ webpackEmptyAsyncContext.id = 107;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"../pages/collection/collection.module": [
+	"../pages/catalog/catalog.module": [
 		263,
+		5
+	],
+	"../pages/collection/collection.module": [
+		264,
 		4
 	],
 	"../pages/exam/exam.module": [
-		264,
-		3
+		265,
+		0
 	],
 	"../pages/myself/myself.module": [
-		265,
-		2
+		266,
+		3
 	],
 	"../pages/problem/problem.module": [
-		266,
-		1
+		267,
+		2
 	],
 	"../pages/tabs/tabs.module": [
-		267,
-		0
+		268,
+		1
 	]
 };
 function webpackAsyncContext(req) {
@@ -102,6 +106,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+// ionic pro monitoring
 
 var IonicPro = __WEBPACK_IMPORTED_MODULE_8__ionic_pro__["Pro"].init('d6a25364', {
     appVersion: "0.0.1"
@@ -128,9 +133,11 @@ AppModule = __decorate([
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */], {
-                preloadModules: true
+                preloadModules: true,
+                backButtonText: ''
             }, {
                 links: [
+                    { loadChildren: '../pages/catalog/catalog.module#CatalogPageModule', name: 'CatalogPage', segment: 'catalog', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/collection/collection.module#CollectionPageModule', name: 'CollectionPage', segment: 'collection', priority: 'high', defaultHistory: [] },
                     { loadChildren: '../pages/exam/exam.module#ExamPageModule', name: 'ExamPage', segment: 'exam', priority: 'high', defaultHistory: [] },
                     { loadChildren: '../pages/myself/myself.module#MyselfPageModule', name: 'MyselfPage', segment: 'myself', priority: 'high', defaultHistory: [] },

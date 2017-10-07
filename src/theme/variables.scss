@@ -35,12 +35,15 @@ $colors: (
   dark: #222
 );
 
+$grid-columns: 15;
+
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
 
 $tabs-ios-tab-color-active: #bd9a7e;
 $card-ios-border-radius: 20px;
+$toolbar-ios-button-color: #222;
 
 // App Material Design Variables
 // --------------------------------------------------

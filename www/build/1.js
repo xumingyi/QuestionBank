@@ -1,14 +1,14 @@
 webpackJsonp([1],{
 
-/***/ 266:
+/***/ 268:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProblemPageModule", function() { return ProblemPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TabsPageModule", function() { return TabsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__problem__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs__ = __webpack_require__(274);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,31 +18,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ProblemPageModule = (function () {
-    function ProblemPageModule() {
+var TabsPageModule = (function () {
+    function TabsPageModule() {
     }
-    return ProblemPageModule;
+    return TabsPageModule;
 }());
-ProblemPageModule = __decorate([
+TabsPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__problem__["a" /* ProblemPage */],
+            __WEBPACK_IMPORTED_MODULE_2__tabs__["a" /* TabsPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__problem__["a" /* ProblemPage */]),
-        ],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__tabs__["a" /* TabsPage */]),
+        ]
     })
-], ProblemPageModule);
+], TabsPageModule);
 
-//# sourceMappingURL=problem.module.js.map
+//# sourceMappingURL=tabs.module.js.map
 
 /***/ }),
 
-/***/ 271:
+/***/ 274:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProblemPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(99);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -57,38 +57,32 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the ProblemPage page.
+ * Generated class for the TabsPage tabs.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var ProblemPage = (function () {
-    function ProblemPage(navCtrl, navParams) {
+var TabsPage = (function () {
+    function TabsPage(navCtrl) {
         this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.exams = [];
-        for (var i = 0; i < 10; i++) {
-            this.exams.push({
-                img: "assets/img/card/card-" + (2017 - i) + ".jpg",
-                year: 2017 - i,
-                problemNum: 0,
-                collectionNum: 0,
-            });
-        }
+        this.examRoot = 'ExamPage';
+        this.problemRoot = 'ProblemPage';
+        this.collectionRoot = 'CollectionPage';
+        this.myselfRoot = 'MyselfPage';
     }
-    return ProblemPage;
+    return TabsPage;
 }());
-ProblemPage = __decorate([
+TabsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])({
         priority: 'high'
     }),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-problem',template:/*ion-inline-start:"/Users/xi/Ionic/QuestionBank/src/pages/problem/problem.html"*/'<!--\n  Generated template for the ProblemPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>我的错题</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-card *ngFor="let exam of exams">\n\n    <img src="{{exam.img}}">\n\n    <div class="card-title">{{exam.year}}年考研政治真题</div>\n\n    <div class="card-subtitle">我的错题</div>\n\n    <ion-grid>\n      <ion-row>\n        <ion-col col-3>\n          <button ion-button icon-left clear small color="light">\n            <ion-icon ios="ios-close-circle-outline" md="ios-close-circle-outline"></ion-icon>\n            <div>{{exam.problemNum}}题</div>\n          </button>\n        </ion-col>\n        <ion-col col-3>\n          <button ion-button icon-left clear small color="light">\n            <ion-icon name="star"></ion-icon>\n            <div>{{exam.collectionNum}}题</div>\n          </button>\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n\n  </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/Users/xi/Ionic/QuestionBank/src/pages/problem/problem.html"*/,
+        selector: 'page-tabs',template:/*ion-inline-start:"/Users/xi/Ionic/QuestionBank/src/pages/tabs/tabs.html"*/'<ion-tabs>\n    <ion-tab [root]="examRoot" tabTitle="真题" tabIcon="list-box"></ion-tab>\n    <ion-tab [root]="problemRoot" tabTitle="错题" tabIcon="close-circle"></ion-tab>\n    <ion-tab [root]="collectionRoot" tabTitle="收藏" tabIcon="star"></ion-tab>\n    <ion-tab [root]="myselfRoot" tabTitle="我" tabIcon="contact"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/xi/Ionic/QuestionBank/src/pages/tabs/tabs.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-], ProblemPage);
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+], TabsPage);
 
-//# sourceMappingURL=problem.js.map
+//# sourceMappingURL=tabs.js.map
 
 /***/ })
 

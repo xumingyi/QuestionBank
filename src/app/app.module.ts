@@ -10,6 +10,7 @@ import {SQLite} from "@ionic-native/sqlite";
 
 import {MyApp} from './app.component';
 
+// ionic pro monitoring
 import {Pro} from '@ionic/pro';
 
 const IonicPro = Pro.init('d6a25364', {
@@ -29,7 +30,8 @@ export class MyErrorHandler implements ErrorHandler {
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp, {
-      preloadModules: true
+      preloadModules: true,
+      backButtonText: ''
     })
   ],
   bootstrap: [IonicApp],

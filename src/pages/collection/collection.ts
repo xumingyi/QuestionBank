@@ -17,19 +17,8 @@ import {IonicPage, NavController, NavParams} from 'ionic-angular';
 })
 export class CollectionPage {
 
-  exams: Array<{ img: string, year: number, problemNum: number, collectionNum: number }>;
-
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.exams = [];
 
-    for (let i = 0; i < 10; i++) {
-      this.exams.push({
-        img: "assets/img/card/card-" + (2017 - i) + ".jpg",
-        year: 2017 - i,
-        problemNum: 0,
-        collectionNum: 0,
-      });
-    }
   }
 
 }

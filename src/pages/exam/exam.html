@@ -7,7 +7,13 @@
 <ion-header>
 
   <ion-navbar>
+
     <ion-title>历年真题</ion-title>
+
+    <ion-buttons end>
+      <button ion-button color="dark">模拟练习</button>
+    </ion-buttons>
+
   </ion-navbar>
 
 </ion-header>
@@ -15,29 +21,38 @@
 
 <ion-content>
 
-  <ion-card *ngFor="let exam of exams">
+  <ion-card *ngFor="let exam of exams" (click)="openCatalogPage(exam.year)">
 
-    <img src="{{exam.img}}">
+    <img src="{{exam.backgroundImg}}">
 
     <div class="card-title">{{exam.year}}年考研政治真题</div>
 
     <div class="card-subtitle">选择题</div>
 
     <ion-grid>
+
       <ion-row>
+
         <ion-col col-3>
           <button ion-button icon-left clear small color="light">
             <ion-icon ios="ios-close-circle-outline" md="ios-close-circle-outline"></ion-icon>
             <div>{{exam.problemNum}}题</div>
           </button>
         </ion-col>
+
         <ion-col col-3>
           <button ion-button icon-left clear small color="light">
             <ion-icon name="star"></ion-icon>
             <div>{{exam.collectionNum}}题</div>
           </button>
         </ion-col>
+
+        <ion-col col-6>
+          <button ion-button clear small color="light">用时：{{exam.finishedTime}}</button>
+        </ion-col>
+
       </ion-row>
+
     </ion-grid>
 
   </ion-card>

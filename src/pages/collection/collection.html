@@ -15,31 +15,4 @@
 
 <ion-content>
 
-  <ion-card *ngFor="let exam of exams">
-
-    <img src="{{exam.img}}">
-
-    <div class="card-title">{{exam.year}}年考研政治真题</div>
-
-    <div class="card-subtitle">我的收藏</div>
-
-    <ion-grid>
-      <ion-row>
-        <ion-col col-3>
-          <button ion-button icon-left clear small color="light">
-            <ion-icon ios="ios-close-circle-outline" md="ios-close-circle-outline"></ion-icon>
-            <div>{{exam.problemNum}}题</div>
-          </button>
-        </ion-col>
-        <ion-col col-3>
-          <button ion-button icon-left clear small color="light">
-            <ion-icon name="star"></ion-icon>
-            <div>{{exam.collectionNum}}题</div>
-          </button>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-
-  </ion-card>
-
 </ion-content>
