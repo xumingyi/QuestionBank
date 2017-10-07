@@ -21,7 +21,7 @@
 
 <ion-content>
 
-  <ion-card *ngFor="let exam of exams" (click)="openCatalogPage(exam.year)">
+  <ion-card tappable *ngFor="let exam of exams" (click)="openCatalogPage(exam.year)">
 
     <img src="{{exam.backgroundImg}}">
 

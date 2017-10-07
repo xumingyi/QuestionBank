@@ -24,6 +24,9 @@
         },
         "cordova-sqlite-storage": {
             "PACKAGE_NAME": "metaphors.name.questionbank"
+        },
+        "cordova-plugin-ionic-webview": {
+            "PACKAGE_NAME": "metaphors.name.questionbank"
         }
     },
     "dependent_plugins": {}

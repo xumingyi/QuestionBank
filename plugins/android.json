@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-device": {
             "PACKAGE_NAME": "metaphors.name.questionbank"
+        },
+        "cordova-plugin-ionic-webview": {
+            "PACKAGE_NAME": "metaphors.name.questionbank"
         }
     },
     "dependent_plugins": {}
