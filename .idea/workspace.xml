@@ -2,38 +2,366 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23860ed-7295-48c7-b4cf-aedd1eb7d314" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-add-swift-support/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-add-swift-support/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-add-swift-support/add-swift-support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-add-swift-support/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-add-swift-support/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/android/IonicCordovaCommon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/android/IonicDeploy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ARCHelper/ARCHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/CDVSplashScreen+IonicDeploy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/CDVSplashScreen+IonicDeploy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Download.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Download.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/DownloadManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/DownloadManager.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/IonicConstant.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/IonicConstant.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/IonicCordovaCommon.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/IonicDeploy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/IonicDeploy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/MiniZip/crypt.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/MiniZip/ioapi.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/MiniZip/ioapi.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/MiniZip/unzip.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/MiniZip/unzip.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/MiniZip/zip.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/MiniZip/zip.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/SSZipArchive.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/SSZipArchive.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/Base64.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/Base64.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIBaseRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIBaseRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIBodyRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIBodyRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPBinaryResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPBinaryResponse.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPClientHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPClientHelper.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPJsonResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPJsonResponse.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPRequestWithBody.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPRequestWithBody.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPResponse.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPStringResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPStringResponse.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIJsonNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIJsonNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIRest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIRest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNISimpleRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNISimpleRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIUrlConnection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/UNIUrlConnection.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/Unirest/Unirest-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/adler32.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/compress.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/crc32.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/crc32.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/deflate.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/deflate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/gzclose.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/gzguts.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/gzlib.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/gzread.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/gzwrite.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/infback.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/inffast.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/inffast.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/inffixed.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/inflate.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/inflate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/inftrees.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/inftrees.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/trees.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/trees.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/uncompr.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/zconf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/zlib.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/zutil.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/src/ios/ZLib/zutil.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic/www/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/mkpath.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/run_linters.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/test/chmod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/test/clobber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/test/mkpath.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/test/perm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/test/perm_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/test/rel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/test/root.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/test/sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/test/umask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mkpath/test/umask_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-version-compare/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-version-compare/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-version-compare/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-version-compare/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-version-compare/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/dist/plist-build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/dist/plist-parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/dist/plist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/examples/browser/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/lib/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/lib/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/base64-js/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/base64-js/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/base64-js/base64js.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/base64-js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/base64-js/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/base64-js/test/big-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/base64-js/test/convert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/base64-js/test/url-safe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/Utility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLAttribute.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLCData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLComment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLDTDAttList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLDTDElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLDTDEntity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLDTDNotation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLDeclaration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLDocType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLDocument.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLDocumentCB.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLProcessingInstruction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLRaw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLStreamWriter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLStringWriter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLStringifier.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLText.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/XMLWriterBase.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/plist/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/xmldom/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/xmldom/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/xmldom/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/xmldom/__package__.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/xmldom/changelog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/xmldom/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/xmldom/dom-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/xmldom/dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/xmldom/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/xmldom/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/xmldom/sax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-plugin-ionic/www/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/platform_www/plugins/cordova-plugin-ionic/www/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/com/ionicframework/common/IonicCordovaCommon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/com/ionicframework/deploy/IonicDeploy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/ARCHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/Base64.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/Base64.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/CDVSplashScreen+IonicDeploy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/CDVSplashScreen+IonicDeploy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/Download.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/Download.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/DownloadManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/DownloadManager.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/IonicConstant.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/IonicConstant.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/IonicCordovaCommon.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/IonicDeploy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/IonicDeploy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/SSZipArchive.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/SSZipArchive.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIBaseRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIBaseRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIBodyRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIBodyRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPBinaryResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPBinaryResponse.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPClientHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPClientHelper.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPJsonResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPJsonResponse.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPRequestWithBody.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPRequestWithBody.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPResponse.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPStringResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIHTTPStringResponse.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIJsonNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIJsonNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIRest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIRest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNISimpleRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNISimpleRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIUrlConnection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/UNIUrlConnection.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/Unirest-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/adler32.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/compress.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/crc32.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/crc32.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/crypt.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/deflate.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/deflate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/gzclose.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/gzguts.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/gzlib.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/gzread.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/gzwrite.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/infback.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/inffast.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/inffast.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/inffixed.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/inflate.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/inflate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/inftrees.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/inftrees.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/ioapi.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/ioapi.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/trees.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/trees.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/uncompr.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/unzip.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/unzip.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/zconf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/zip.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/zip.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/zlib.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/zutil.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/Plugins/cordova-plugin-ionic/zutil.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/platform_www/plugins/cordova-plugin-ionic/www/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/plugins/cordova-plugin-ionic/www/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-add-swift-support/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-add-swift-support/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-add-swift-support/add-swift-support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-add-swift-support/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-add-swift-support/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/android/IonicCordovaCommon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/android/IonicDeploy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ARCHelper/ARCHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/CDVSplashScreen+IonicDeploy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/CDVSplashScreen+IonicDeploy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Download.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Download.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/DownloadManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/DownloadManager.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/IonicConstant.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/IonicConstant.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/IonicCordovaCommon.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/IonicDeploy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/IonicDeploy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/MiniZip/crypt.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/MiniZip/ioapi.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/MiniZip/ioapi.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/MiniZip/unzip.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/MiniZip/unzip.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/MiniZip/zip.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/MiniZip/zip.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/SSZipArchive.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/SSZipArchive.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/Base64.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/Base64.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIBaseRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIBaseRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIBodyRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIBodyRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPBinaryResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPBinaryResponse.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPClientHelper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPClientHelper.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPJsonResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPJsonResponse.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPRequestWithBody.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPRequestWithBody.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPResponse.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPStringResponse.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIHTTPStringResponse.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIJsonNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIJsonNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIRest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIRest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNISimpleRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNISimpleRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIUrlConnection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/UNIUrlConnection.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/Unirest/Unirest-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/adler32.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/compress.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/crc32.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/crc32.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/deflate.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/deflate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/gzclose.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/gzguts.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/gzlib.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/gzread.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/gzwrite.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/infback.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/inffast.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/inffast.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/inffixed.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/inflate.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/inflate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/inftrees.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/inftrees.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/trees.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/trees.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/uncompr.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/zconf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/zlib.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/zutil.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/src/ios/ZLib/zutil.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-ionic/www/common.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/0.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/0.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/1.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/1.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/2.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/2.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/3.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/3.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/4.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/4.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/main.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/collection/collection.html" afterPath="$PROJECT_DIR$/src/pages/collection/collection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/collection/collection.scss" afterPath="$PROJECT_DIR$/src/pages/collection/collection.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/collection/collection.ts" afterPath="$PROJECT_DIR$/src/pages/collection/collection.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/exam/exam.html" afterPath="$PROJECT_DIR$/src/pages/exam/exam.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/exam/exam.ts" afterPath="$PROJECT_DIR$/src/pages/exam/exam.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/problem/problem.html" afterPath="$PROJECT_DIR$/src/pages/problem/problem.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/problem/problem.scss" afterPath="$PROJECT_DIR$/src/pages/problem/problem.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/problem/problem.ts" afterPath="$PROJECT_DIR$/src/pages/problem/problem.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/variables.scss" afterPath="$PROJECT_DIR$/src/theme/variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/0.js" afterPath="$PROJECT_DIR$/www/build/0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/0.js.map" afterPath="$PROJECT_DIR$/www/build/0.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/1.js" afterPath="$PROJECT_DIR$/www/build/1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/1.js.map" afterPath="$PROJECT_DIR$/www/build/1.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/2.js" afterPath="$PROJECT_DIR$/www/build/2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/2.js.map" afterPath="$PROJECT_DIR$/www/build/2.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/3.js" afterPath="$PROJECT_DIR$/www/build/3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/3.js.map" afterPath="$PROJECT_DIR$/www/build/3.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/4.js" afterPath="$PROJECT_DIR$/www/build/4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/4.js.map" afterPath="$PROJECT_DIR$/www/build/4.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.css" afterPath="$PROJECT_DIR$/www/build/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.js" afterPath="$PROJECT_DIR$/www/build/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.js.map" afterPath="$PROJECT_DIR$/www/build/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/vendor.js" afterPath="$PROJECT_DIR$/www/build/vendor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/vendor.js.map" afterPath="$PROJECT_DIR$/www/build/vendor.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/android.json" afterPath="$PROJECT_DIR$/platforms/android/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/values/strings.xml" afterPath="$PROJECT_DIR$/platforms/android/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/QuestionBank-Info.plist" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/QuestionBank-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/QuestionBank/config.xml" afterPath="$PROJECT_DIR$/platforms/ios/QuestionBank/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/ios.json" afterPath="$PROJECT_DIR$/platforms/ios/ios.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/platform_www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/fetch.json" afterPath="$PROJECT_DIR$/plugins/fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="$PROJECT_DIR$/plugins/ios.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,46 +378,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="variables.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/theme/variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="catalog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/catalog/catalog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2130">
-              <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="catalog.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/catalog/catalog.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -118,7 +412,6 @@
         <option value="$PROJECT_DIR$/src/pages/myself/myself.html" />
         <option value="$PROJECT_DIR$/src/pages/myself/test.html" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/.gitattributes" />
         <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/pages/tabs/tabs.html" />
@@ -139,6 +432,7 @@
         <option value="$PROJECT_DIR$/src/pages/catalog/catalog.ts" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/theme/variables.scss" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -206,6 +500,16 @@
             <path>
               <item name="QuestionBank" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuestionBank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionBank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionBank" type="462c0819:PsiDirectoryNode" />
+              <item name="platforms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionBank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionBank" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuestionBank" type="b2602c69:ProjectViewProjectNode" />
@@ -313,7 +617,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82072000" />
+    <option name="totallyTimeSpent" value="82202000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -326,10 +630,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24225576" sideWeight="0.47638604" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32724383" sideWeight="0.47638604" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -340,12 +643,23 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24225576" sideWeight="0.523614" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24225576" sideWeight="0.523614" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24225576" sideWeight="0.47638604" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24225576" sideWeight="0.523614" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -547,9 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,20 +880,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="39" />
+        <state relative-caret-position="240">
+          <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/myErrorHandler.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/myErrorHandler.ts" />
     <entry file="file://$PROJECT_DIR$/src/pages/exam/exam.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -599,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,7 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,7 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -719,7 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,7 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,7 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>

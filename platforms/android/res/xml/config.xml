@@ -3,13 +3,6 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-    <feature name="IonicCordovaCommon">
-        <param name="android-package" onload="true" value="com.ionicframework.common.IonicCordovaCommon" />
-    </feature>
-    <feature name="IonicDeploy">
-        <param name="android-package" value="com.ionicframework.deploy.IonicDeploy" />
-        <param name="onload" value="true" />
-    </feature>
     <name>QuestionBank</name>
     <description>An awesome Ionic/Cordova app named "QuestionBank".</description>
     <author href="http://metaphors.name">Metaphors</author>

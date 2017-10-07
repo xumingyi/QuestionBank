@@ -29,9 +29,7 @@
         "@ionic/storage": "^2.0.1",
         "cordova-android": "^6.3.0",
         "cordova-ios": "^4.4.0",
-        "cordova-plugin-add-swift-support": "^1.7.0",
         "cordova-plugin-device": "^1.1.4",
-        "cordova-plugin-ionic": "^1.1.9",
         "cordova-plugin-screen-orientation": "^2.0.1",
         "cordova-plugin-splashscreen": "^4.0.3",
         "cordova-plugin-statusbar": "^2.2.2",
@@ -58,14 +56,7 @@
             "cordova-plugin-whitelist": {},
             "ionic-plugin-keyboard": {},
             "cordova-sqlite-storage": {},
-            "cordova-plugin-screen-orientation": {},
-            "cordova-plugin-ionic": {
-                "APP_ID": "d6a25364",
-                "CHANNEL_NAME": "Master",
-                "UPDATE_METHOD": "background",
-                "UPDATE_API": "https://api.ionicjs.com",
-                "MAX_STORE": "2"
-            }
+            "cordova-plugin-screen-orientation": {}
         },
         "platforms": [
             "ios"
