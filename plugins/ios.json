@@ -10,6 +10,12 @@
         "cordova-plugin-device": {
             "PACKAGE_NAME": "metaphors.name.questionbank"
         },
+        "cordova-plugin-ionic-webview": {
+            "PACKAGE_NAME": "metaphors.name.questionbank"
+        },
+        "cordova-plugin-screen-orientation": {
+            "PACKAGE_NAME": "metaphors.name.questionbank"
+        },
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "metaphors.name.questionbank"
         },
@@ -19,13 +25,10 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "metaphors.name.questionbank"
         },
-        "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
         "cordova-sqlite-storage": {
             "PACKAGE_NAME": "metaphors.name.questionbank"
         },
-        "cordova-plugin-ionic-webview": {
+        "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "metaphors.name.questionbank"
         }
     },

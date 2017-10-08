@@ -3,8 +3,8 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-    <name>QuestionBank</name>
-    <description>An awesome Ionic/Cordova app named "QuestionBank".</description>
+    <name>考研政治</name>
+    <description>An awesome Ionic/Cordova app.含盖近十年考研政治选择题真题。</description>
     <author href="http://metaphors.name">Metaphors</author>
     <content src="index.html" />
     <access origin="*" />

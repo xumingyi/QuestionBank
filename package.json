@@ -1,8 +1,8 @@
 {
     "name": "QuestionBank",
     "version": "0.0.1",
-    "author": "Ionic Framework",
-    "homepage": "http://ionicframework.com/",
+    "author": "metaphors",
+    "homepage": "http://metaphors.name/",
     "private": true,
     "scripts": {
         "clean": "ionic-app-scripts clean",
@@ -27,8 +27,8 @@
         "@ionic-native/status-bar": "^3.14.0",
         "@ionic/pro": "^1.0.9",
         "@ionic/storage": "^2.0.1",
-        "cordova-android": "^6.3.0",
-        "cordova-ios": "^4.5.1",
+        "cordova-android": "^6.2.3",
+        "cordova-ios": "^4.4.0",
         "cordova-plugin-device": "^1.1.6",
         "cordova-plugin-ionic-webview": "^1.1.14",
         "cordova-plugin-screen-orientation": "^2.0.1",

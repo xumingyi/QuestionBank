@@ -14,16 +14,6 @@
                         }
                     ]
                 }
-            },
-            "config.xml": {
-                "parents": {
-                    "/*": []
-                }
-            },
-            "res/values/strings.xml": {
-                "parents": {
-                    "/resources": []
-                }
             }
         }
     },

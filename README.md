@@ -5,5 +5,3 @@
 ## App Preview
 
 ## File Structure of App
-```
-```
