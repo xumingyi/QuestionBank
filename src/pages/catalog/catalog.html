@@ -7,7 +7,13 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>{{exam_year}}年真题</ion-title>
+
+    <ion-title>{{examYear}}年真题</ion-title>
+
+    <ion-buttons end>
+      <button ion-button color="dark">重做</button>
+    </ion-buttons>
+
   </ion-navbar>
 
 </ion-header>
@@ -17,124 +23,16 @@
 
   <ion-grid>
 
-    <ion-row>
-      <ion-col>
-        <button ion-button color="light">01</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">02</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">03</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">04</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">05</button>
-      </ion-col>
-    </ion-row>
+    <ion-row *ngFor="let row of rows">
 
-    <ion-row>
-      <ion-col>
-        <button ion-button color="light">06</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">07</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">08</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">09</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">10</button>
-      </ion-col>
-    </ion-row>
+      <ion-col col-3 *ngFor="let questionNum of row[1]">
 
-    <ion-row>
-      <ion-col>
-        <button ion-button color="light">11</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">12</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">13</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">14</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">15</button>
-      </ion-col>
-    </ion-row>
+        <button ion-button color="light" (click)="openQuestionPage(examYear,questionNum)">
+          {{questionNum}}
+        </button>
 
-    <ion-row>
-      <ion-col>
-        <button ion-button color="light">16</button>
       </ion-col>
-      <ion-col>
-        <button ion-button color="light">17</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">18</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">19</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">20</button>
-      </ion-col>
-    </ion-row>
 
-    <ion-row>
-      <ion-col>
-        <button ion-button color="light">21</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">22</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">23</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">24</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">25</button>
-      </ion-col>
-    </ion-row>
-
-    <ion-row>
-      <ion-col>
-        <button ion-button color="light">26</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">27</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">28</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">29</button>
-      </ion-col>
-      <ion-col>
-        <button ion-button color="light">30</button>
-      </ion-col>
-    </ion-row>
-
-    <ion-row>
-      <ion-col col-3>
-        <button ion-button color="light">31</button>
-      </ion-col>
-      <ion-col col-3>
-        <button ion-button color="light">32</button>
-      </ion-col>
-      <ion-col  col-3>
-        <button ion-button color="light">33</button>
-      </ion-col>
     </ion-row>
 
   </ion-grid>

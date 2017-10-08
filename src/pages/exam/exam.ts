@@ -19,26 +19,26 @@ import {CatalogPage} from "../catalog/catalog";
 })
 export class ExamPage {
 
-  exams: Array<{ backgroundImg: string, year: number, problemNum: number, collectionNum: number, finishedTime: string }> = [];
-  exam_year: number;
+  exams: Array<{ backgroundImg: string, examYear: number, problemNum: number, collectionNum: number, finishedTime: string }> = [];
+  examYear: number;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
 
     for (let i = 0; i < 10; i++) {
       this.exams.push({
         backgroundImg: "assets/img/card/card-" + (2017 - i) + ".jpg",
-        year: 2017 - i,
+        examYear: 2017 - i,
         problemNum: 0,
         collectionNum: 0,
         finishedTime: "00:00:00"
       });
     }
 
-    this.exam_year = this.navParams.data.exam_year;
+    this.examYear = this.navParams.data.examYear;
 
   }
 
-  openCatalogPage(exam_year) {
-    this.navCtrl.push(CatalogPage, {exam_year: exam_year});
+  openCatalogPage(examYear) {
+    this.navCtrl.push(CatalogPage, {examYear: examYear});
   }
 }
