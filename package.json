@@ -27,6 +27,7 @@
         "@ionic-native/status-bar": "^3.14.0",
         "@ionic/pro": "^1.0.9",
         "@ionic/storage": "^2.0.1",
+        "animate.css": "^3.5.2",
         "cordova-android": "^6.2.3",
         "cordova-ios": "^4.4.0",
         "cordova-plugin-device": "^1.1.6",

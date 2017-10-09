@@ -21,7 +21,7 @@
 
 <ion-content>
 
-  <ion-card tappable *ngFor="let exam of exams" (click)="openCatalogPage(exam.examYear)">
+  <ion-card class="animated bounceIn" tappable *ngFor="let exam of exams" (click)="openCatalogPage(exam.examYear)">
 
     <img src="{{exam.backgroundImg}}">
 
