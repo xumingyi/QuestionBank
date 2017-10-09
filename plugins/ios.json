@@ -30,7 +30,19 @@
         },
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "metaphors.name.questionbank"
+        },
+        "cordova-plugin-ionic": {
+            "APP_ID": "d6a25364",
+            "CHANNEL_NAME": "Master",
+            "UPDATE_API": "https://api.ionicjs.com",
+            "UPDATE_METHOD": "none",
+            "MAX_STORE": "2",
+            "PACKAGE_NAME": "metaphors.name.questionbank"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-add-swift-support": {
+            "PACKAGE_NAME": "metaphors.name.questionbank"
+        }
+    }
 }

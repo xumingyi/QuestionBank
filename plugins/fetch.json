@@ -62,5 +62,27 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-ionic": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-ionic@^1.1.9"
+        },
+        "is_top_level": true,
+        "variables": {
+            "APP_ID": "d6a25364",
+            "CHANNEL_NAME": "Master",
+            "UPDATE_METHOD": "none",
+            "UPDATE_API": "https://api.ionicjs.com",
+            "MAX_STORE": "2"
+        }
+    },
+    "cordova-plugin-add-swift-support": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-add-swift-support@^1.6.1"
+        },
+        "is_top_level": false,
+        "variables": {}
     }
 }

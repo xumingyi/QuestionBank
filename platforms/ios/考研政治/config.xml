@@ -38,6 +38,12 @@
     <feature name="Keyboard">
         <param name="ios-package" onload="true" value="IonicKeyboard" />
     </feature>
+    <feature name="IonicDeploy">
+        <param name="ios-package" onload="true" value="IonicDeploy" />
+    </feature>
+    <feature name="IonicCordovaCommon">
+        <param name="ios-package" onload="true" value="IonicCordovaCommon" />
+    </feature>
     <name>考研政治</name>
     <description>An awesome Ionic/Cordova app.含盖近十年考研政治选择题真题。</description>
     <author href="http://metaphors.name">Metaphors</author>

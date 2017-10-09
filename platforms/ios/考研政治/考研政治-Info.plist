@@ -68,5 +68,15 @@
     </array>
     <key>UILaunchStoryboardName</key>
     <string>CDVLaunchScreen</string>
+    <key>IonAppId</key>
+    <string>d6a25364</string>
+    <key>IonChannelName</key>
+    <string>Master</string>
+    <key>IonApi</key>
+    <string>https://api.ionicjs.com</string>
+    <key>IonUpdateMethod</key>
+    <string>none</string>
+    <key>IonMaxVersions</key>
+    <string>2</string>
   </dict>
 </plist>

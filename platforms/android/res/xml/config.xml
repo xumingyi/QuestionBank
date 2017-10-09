@@ -25,6 +25,13 @@
         <param name="android-package" value="io.ionic.keyboard.IonicKeyboard" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="IonicCordovaCommon">
+        <param name="android-package" onload="true" value="com.ionicframework.common.IonicCordovaCommon" />
+    </feature>
+    <feature name="IonicDeploy">
+        <param name="android-package" value="com.ionicframework.deploy.IonicDeploy" />
+        <param name="onload" value="true" />
+    </feature>
     <name>考研政治</name>
     <description>An awesome Ionic/Cordova app.含盖近十年考研政治选择题真题。</description>
     <author href="http://metaphors.name">Metaphors</author>
