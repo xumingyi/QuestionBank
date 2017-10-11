@@ -22,8 +22,8 @@ export class TabsPage {
   collectionRoot = 'CollectionPage';
   myselfRoot = 'MyselfPage';
 
-
   constructor(public navCtrl: NavController) {
+
   }
 
 }
