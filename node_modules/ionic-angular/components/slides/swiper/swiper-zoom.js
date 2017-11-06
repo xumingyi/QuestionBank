@@ -83,12 +83,14 @@ function onGestureStart(s, _plt, ev) {
             z.gesture.slide = s._slides[s._activeIndex];
         }
         z.gesture.image = (z.gesture.slide.querySelector('img, svg, canvas, ion-img'));
-        z.gesture.imageWrap = (z.gesture.image.closest('.' + CLS.zoomContainer));
-        if (!z.gesture.imageWrap) {
-            z.gesture.image = undefined;
-            return;
+        if (z.gesture.image) {
+            z.gesture.imageWrap = (z.gesture.image.closest('.' + CLS.zoomContainer));
+            if (!z.gesture.imageWrap) {
+                z.gesture.image = undefined;
+                return;
+            }
+            z.gesture.zoomMax = parseInt(z.gesture.imageWrap.getAttribute('data-swiper-zoom') || (s.zoomMax), 10);
         }
-        z.gesture.zoomMax = parseInt(z.gesture.imageWrap.getAttribute('data-swiper-zoom') || (s.zoomMax), 10);
     }
     transition(z.gesture.image, 0);
     z.isScaling = true;
@@ -320,9 +322,9 @@ function toggleZoom(s, plt) {
     if (!z.gesture.slide) {
         z.gesture.slide = s.clickedSlide ? s.clickedSlide : s._slides[s._activeIndex];
         z.gesture.image = (z.gesture.slide.querySelector('img, svg, canvas, ion-img'));
-        z.gesture.imageWrap = (z.gesture.image.closest('.' + CLS.zoomContainer));
+        z.gesture.imageWrap = z.gesture.image && (z.gesture.image.closest('.' + CLS.zoomContainer));
     }
-    if (!z.gesture.image)
+    if (!z.gesture.imageWrap)
         return;
     var /** @type {?} */ touchX;
     var /** @type {?} */ touchY;

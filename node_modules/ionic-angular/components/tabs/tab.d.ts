@@ -6,7 +6,7 @@ import { DomController } from '../../platform/dom-controller';
 import { GestureController } from '../../gestures/gesture-controller';
 import { Tab as ITab } from '../../navigation/nav-interfaces';
 import { NavControllerBase } from '../../navigation/nav-controller-base';
-import { NavOptions, TransitionDoneFn } from '../../navigation/nav-util';
+import { NavOptions, NavSegment } from '../../navigation/nav-util';
 import { Platform } from '../../platform/platform';
 import { TabButton } from './tab-button';
 import { Tabs } from './tabs';
@@ -161,11 +161,7 @@ export declare class Tab extends NavControllerBase implements ITab {
     /**
      * @hidden
      */
-    _lazyRootFromUrl: any;
-    /**
-     * @hidden
-     */
-    _lazyRootFromUrlData: any;
+    _segment: NavSegment;
     /**
      * @input {Page} Set the root page for this tab.
      */
@@ -225,7 +221,7 @@ export declare class Tab extends NavControllerBase implements ITab {
     /**
      * @hidden
      */
-    load(opts: NavOptions, done?: TransitionDoneFn): Promise<any>;
+    load(opts: NavOptions): Promise<any>;
     /**
      * @hidden
      */

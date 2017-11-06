@@ -1,4 +1,4 @@
-import { AfterContentInit, ChangeDetectorRef, DoCheck, ElementRef, IterableDiffer, IterableDiffers, NgZone, OnDestroy, Renderer, TrackByFn } from '@angular/core';
+import { AfterContentInit, ChangeDetectorRef, DoCheck, ElementRef, IterableDiffer, IterableDiffers, NgZone, OnChanges, OnDestroy, Renderer, SimpleChanges, TrackByFunction } from '@angular/core';
 import { Config } from '../../config/config';
 import { Content, ScrollEvent } from '../content/content';
 import { DomController } from '../../platform/dom-controller';
@@ -206,7 +206,7 @@ import { VirtualHeader } from './virtual-header';
  * dataset, so please make sure they're performant.
  *
  */
-export declare class VirtualScroll implements DoCheck, AfterContentInit, OnDestroy {
+export declare class VirtualScroll implements DoCheck, OnChanges, AfterContentInit, OnDestroy {
     private _iterableDiffers;
     private _elementRef;
     private _renderer;
@@ -233,7 +233,6 @@ export declare class VirtualScroll implements DoCheck, AfterContentInit, OnDestr
     _recordSize: number;
     _data: VirtualData;
     _queue: number;
-    _virtualTrackBy: TrackByFn;
     _itmTmp: VirtualItem;
     _hdrTmp: VirtualHeader;
     _ftrTmp: VirtualFooter;
@@ -341,7 +340,7 @@ export declare class VirtualScroll implements DoCheck, AfterContentInit, OnDestr
     /**
      * @input {function} Same as `ngForTrackBy` which can be used on `ngFor`.
      */
-    virtualTrackBy: TrackByFn;
+    virtualTrackBy: TrackByFunction<any>;
     constructor(_iterableDiffers: IterableDiffers, _elementRef: ElementRef, _renderer: Renderer, _zone: NgZone, _cd: ChangeDetectorRef, _content: Content, _plt: Platform, _ctrl: ViewController, _config: Config, _dom: DomController);
     /**
      * @hidden
@@ -351,6 +350,10 @@ export declare class VirtualScroll implements DoCheck, AfterContentInit, OnDestr
      * @hidden
      */
     lastRecord(): number;
+    /**
+    * @hidden
+    */
+    ngOnChanges(changes: SimpleChanges): void;
     /**
      * @hidden
      */
@@ -367,8 +370,6 @@ export declare class VirtualScroll implements DoCheck, AfterContentInit, OnDestr
      * @hidden
      */
     private calcDimensions();
-    private _changes();
-    private _updateDiffer();
     /**
      * @hidden
      * DOM WRITE

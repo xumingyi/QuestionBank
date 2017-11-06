@@ -18,6 +18,8 @@ import {UserDataProvider} from '../providers/user-data/user-data';
 
 // ionic pro monitoring
 import {Pro} from '@ionic/pro';
+import { ExamDataProvider } from '../providers/exam-data/exam-data';
+import { QuestionDataProvider } from '../providers/question-data/question-data';
 
 const IonicPro = Pro.init('d6a25364', {
   appVersion: "0.0.1"
@@ -58,6 +60,8 @@ export class MyErrorHandler implements ErrorHandler {
     UserDataProvider,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     {provide: ErrorHandler, useClass: MyErrorHandler},
+    ExamDataProvider,
+    QuestionDataProvider,
   ]
 })
 
