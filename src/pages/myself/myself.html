@@ -16,15 +16,18 @@
 <ion-content>
 
   <ion-list>
-    <ion-item>
+    <ion-item tappable *ngIf="!userDataProvider.hasLoggedIn" (click)="openLoginPage()">
       <ion-thumbnail item-start>
         <img src="assets/avatar/avatar.png">
       </ion-thumbnail>
       <h2>登录 / 注册</h2>
-      <p>你还没有登录或注册呢（//▽//）</p>
+      <p>你还没有登录或注册呢</p>
       <button ion-button clear icon-only item-end>
-        <ion-icon name="arrow-forward"></ion-icon>
+        <ion-icon name="arrow-forward" color="dark"></ion-icon>
       </button>
+    </ion-item>
+
+    <ion-item tappable *ngIf="userDataProvider.hasLoggedIn" (click)="openProfilePage()">
     </ion-item>
   </ion-list>
 

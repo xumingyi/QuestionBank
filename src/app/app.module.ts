@@ -12,14 +12,14 @@ import {MyApp} from './app.component';
 
 import {DataProvider} from '../providers/data/data';
 import {UserDataProvider} from '../providers/user-data/user-data';
+import {ExamDataProvider} from '../providers/exam-data/exam-data';
+import {QuestionDataProvider} from '../providers/question-data/question-data';
 
 // ionic storage
 /*import {IonicStorageModule} from "@ionic/storage";*/
 
 // ionic pro monitoring
 import {Pro} from '@ionic/pro';
-import { ExamDataProvider } from '../providers/exam-data/exam-data';
-import { QuestionDataProvider } from '../providers/question-data/question-data';
 
 const IonicPro = Pro.init('d6a25364', {
   appVersion: "0.0.1"
@@ -58,10 +58,10 @@ export class MyErrorHandler implements ErrorHandler {
     SQLite,
     DataProvider,
     UserDataProvider,
-    {provide: ErrorHandler, useClass: IonicErrorHandler},
-    {provide: ErrorHandler, useClass: MyErrorHandler},
     ExamDataProvider,
     QuestionDataProvider,
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    {provide: ErrorHandler, useClass: MyErrorHandler},
   ]
 })
 

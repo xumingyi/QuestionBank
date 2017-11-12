@@ -1,0 +1,39 @@
+page-login {
+  ion-content {
+    background: no-repeat center;
+    background-size: cover;
+  }
+
+  .slide-zoom {
+    height: 100%;
+  }
+
+  .slide-inner {
+    padding: 20% 34px 34px 34px;
+  }
+
+  ion-item {
+    background-color: transparent !important;
+    padding-right: 16px !important;
+  }
+
+  .forget-button {
+    font-weight: bold;
+    float: right;
+  }
+
+  .go-back-button {
+    font-weight: bold;
+    float: left;
+  }
+
+  .bottom-button {
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .top-button {
+    width: 100%;
+    font-weight: bold;
+  }
+}

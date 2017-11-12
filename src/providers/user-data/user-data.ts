@@ -16,9 +16,11 @@ import {User} from "./user";
 export class UserDataProvider {
 
   database: SQLiteObject;
+  hasLoggedIn: Boolean;
 
   constructor(private dataProvider: DataProvider) {
     this.database = this.dataProvider.myAppDatabase;
+    this.hasLoggedIn = false;
   }
 
   insertIntoUserTable(user: User) {
