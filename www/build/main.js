@@ -1,1 +1,427 @@
-webpackJsonp([9],{111:function(e,a,o){"use strict";o.d(a,"a",function(){return r});var t=o(3),n=o(0),l=o(112),r=function(){function e(e){this.sqlite=e}return e.prototype.initDatabase=function(){var e=this;this.sqlite.create({name:"myApp.db",location:"default"}).then(function(a){a.executeSql("CREATE TABLE IF NOT EXISTS users(email VARCHAR(320) PRIMARY KEY, username VARCHAR(20) NOT NULL, password VARCHAR(30) NOT NULL, gender BOOLEAN, age TINYINT, birthday DATE, intro VARCHAR(300), phone CHAR(11), location VARCHAR(100), avatar VARCHAR(100));",{}).then(function(){return console.log("init database successfully")}).catch(function(e){return console.log(e)}),e.myAppDatabase=a})},e}();r=Object(t.__decorate)([Object(n.o)(),Object(t.__metadata)("design:paramtypes",["function"==typeof(i=void 0!==l.a&&l.a)&&i||Object])],r);var i},126:function(e,a,o){"use strict";o.d(a,"a",function(){return r});var t=o(3),n=o(0),l=o(111),r=function(){function e(e){this.dataProvider=e,this.database=this.dataProvider.myAppDatabase,this.hasLoggedIn=!1}return e.prototype.insertIntoUserTable=function(e){this.database.executeSql("INSERT INTO users VALUES (?, ?, ?, NULL, NULL, NULL, NULL, NULL, NULL, NULL);",[e.email,e.username,e.password]).then(function(){return console.log("insert into users table successfully")}).catch(function(e){return console.log(e)})},e.prototype.queryUserTable=function(){this.database.executeSql("SELECT * FROM users;",{}).then(function(){return console.log("query users table successfully")}).catch(function(e){return console.log(e)})},e.prototype.updateUserTable=function(e){this.database.executeSql("UPDATE users SET username=?, password=?, gender=?, age=?, birthday=?, intro=?, phone=?, location=?, avatar=? WHERE email=?;",[e.username,e.password,e.gender,e.age,e.birthday,e.intro,e.phone,e.location,e.avatar,e.email]).then(function(){return console.log("update users table successfully")}).catch(function(e){return console.log(e)})},e}();r=Object(t.__decorate)([Object(n.o)(),Object(t.__metadata)("design:paramtypes",["function"==typeof(i=void 0!==l.a&&l.a)&&i||Object])],r);var i},137:function(e,a){function o(e){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+e+"'.")})}o.keys=function(){return[]},o.resolve=o,e.exports=o,o.id=137},166:function(e,a,o){function t(e){var a=n[e];return a?o.e(a[1]).then(function(){return o(a[0])}):Promise.reject(new Error("Cannot find module '"+e+"'."))}var n={"../pages/catalog/catalog.module.ngfactory":[227,2],"../pages/collection/collection.module.ngfactory":[228,7],"../pages/exam/exam.module.ngfactory":[229,1],"../pages/login/login.module.ngfactory":[230,5],"../pages/myself/myself.module.ngfactory":[231,0],"../pages/problem/problem.module.ngfactory":[232,6],"../pages/profile/profile.module.ngfactory":[233,4],"../pages/question/question.module.ngfactory":[234,3],"../pages/tabs/tabs.module.ngfactory":[235,8]};t.keys=function(){return Object.keys(n)},t.id=166,e.exports=t},198:function(e,a,o){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var t=o(25),n=o(0),l=o(3),r=o(114),i=o(69),s=o(70),u=o(186),c=o(112),g=function(){return function(e,a,o){this.rootPage="TabsPage",e.ready().then(function(){a.styleDefault(),o.hide()})}}();g=Object(l.__decorate)([Object(n.i)({templateUrl:"app.html"}),Object(l.__metadata)("design:paramtypes",["function"==typeof(d=void 0!==r.g&&r.g)&&d||Object,"function"==typeof(f=void 0!==i.a&&i.a)&&f||Object,"function"==typeof(m=void 0!==s.a&&s.a)&&m||Object])],g);var d,f,m,y=o(111),p=o(126),_=o(113),b=(o(187),function(){return function(e){this.http=e,console.log("Hello ExamDataProvider Provider")}}());b=Object(l.__decorate)([Object(n.o)(),Object(l.__metadata)("design:paramtypes",["function"==typeof(h=void 0!==_.a&&_.a)&&h||Object])],b);var h,P=function(){return function(e){this.http=e,console.log("Hello QuestionDataProvider Provider")}}();P=Object(l.__decorate)([Object(n.o)(),Object(l.__metadata)("design:paramtypes",["function"==typeof(C=void 0!==_.a&&_.a)&&C||Object])],P);var C,j=o(225),v=j.Pro.init("d6a25364",{appVersion:"0.0.1"}),N=function(){function e(){}return e.prototype.handleError=function(e){v.monitoring.handleNewError(e)},e}(),O=function(){return function(){}}();O=Object(l.__decorate)([Object(n.u)({declarations:[g],imports:[t.a,r.c.forRoot(g,{preloadModules:!0,backButtonText:""},{links:[{loadChildren:"../pages/catalog/catalog.module.ngfactory#CatalogPageModuleNgFactory",name:"CatalogPage",segment:"catalog",priority:"low",defaultHistory:[]},{loadChildren:"../pages/collection/collection.module.ngfactory#CollectionPageModuleNgFactory",name:"CollectionPage",segment:"collection",priority:"high",defaultHistory:[]},{loadChildren:"../pages/exam/exam.module.ngfactory#ExamPageModuleNgFactory",name:"ExamPage",segment:"exam",priority:"high",defaultHistory:[]},{loadChildren:"../pages/login/login.module.ngfactory#LoginPageModuleNgFactory",name:"LoginPage",segment:"login",priority:"low",defaultHistory:[]},{loadChildren:"../pages/myself/myself.module.ngfactory#MyselfPageModuleNgFactory",name:"MyselfPage",segment:"myself",priority:"high",defaultHistory:[]},{loadChildren:"../pages/problem/problem.module.ngfactory#ProblemPageModuleNgFactory",name:"ProblemPage",segment:"problem",priority:"high",defaultHistory:[]},{loadChildren:"../pages/profile/profile.module.ngfactory#ProfilePageModuleNgFactory",name:"ProfilePage",segment:"profile",priority:"low",defaultHistory:[]},{loadChildren:"../pages/question/question.module.ngfactory#QuestionPageModuleNgFactory",name:"QuestionPage",segment:"question",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tabs/tabs.module.ngfactory#TabsPageModuleNgFactory",name:"TabsPage",segment:"tabs",priority:"high",defaultHistory:[]}]})],bootstrap:[r.a],entryComponents:[g],providers:[i.a,s.a,u.a,c.a,y.a,p.a,b,P,{provide:n.l,useClass:r.b},{provide:n.l,useClass:N}]})],O);var x=o(45),H=o(188),M=o(189),L=o(190),E=o(191),T=o(192),A=o(193),w=o(194),F=o(195),q=o(196),R=o(226),U=o(31),k=o(49),S=o(5),I=o(20),D=o(8),V=o(1),Q=o(4),B=o(7),J=o(24),Y=o(13),W=o(9),X=n._1({encapsulation:2,styles:[],data:{}}),G=n.Z("ng-component",g,function(e){return n._24(0,[(e()(),n._4(0,null,null,1,"ng-component",[],null,null,null,function(e){return n._24(0,[(e()(),n._4(0,null,null,2,"ion-nav",[],null,null,null,R.b,R.a)),n._20(6144,null,U.a,null,[k.a]),n._2(4374528,null,0,k.a,[[2,S.a],[2,I.a],D.a,V.a,Q.a,n.k,n.x,n.C,n.j,B.l,J.a,[2,Y.a],W.a,n.l],{root:[0,"root"]},null),(e()(),n._23(null,["\n"]))],function(e,a){e(a,2,0,a.component.rootPage)},null)},X)),n._2(49152,null,0,g,[Q.a,i.a,s.a],null,null)],null,null)},{},{},[]),K=o(16),Z=o(94),z=o(17),$=o(84),ee=o(86),ae=o(93),oe=o(14),te=o(30),ne=o(33),le=o(91),re=o(116),ie=o(47),se=o(34),ue=o(98),ce=o(57),ge=o(102),de=o(96),fe=o(107),me=o(95),ye=o(27),pe=o(92),_e=o(97),be=n._0(O,[x.b],function(e){return n._15([n._16(512,n.j,n.W,[[8,[H.a,M.a,L.a,E.a,T.a,A.a,w.a,F.a,q.a,G]],[3,n.j],n.v]),n._16(5120,n.t,n._14,[[3,n.t]]),n._16(4608,K.k,K.j,[n.t]),n._16(5120,n.b,n._5,[]),n._16(5120,n.r,n._11,[]),n._16(5120,n.s,n._12,[]),n._16(4608,t.c,t.s,[K.c]),n._16(6144,n.G,null,[t.c]),n._16(4608,t.f,Z.a,[]),n._16(5120,t.d,function(e,a,o,n){return[new t.l(e),new t.p(a),new t.o(o,n)]},[K.c,K.c,K.c,t.f]),n._16(4608,t.e,t.e,[t.d,n.x]),n._16(135680,t.n,t.n,[K.c]),n._16(4608,t.m,t.m,[t.e,t.n]),n._16(6144,n.E,null,[t.m]),n._16(6144,t.q,null,[t.n]),n._16(4608,n.J,n.J,[n.x]),n._16(4608,t.h,t.h,[K.c]),n._16(4608,t.j,t.j,[K.c]),n._16(4608,z.k,z.k,[]),n._16(4608,z.c,z.c,[]),n._16(4608,$.a,$.a,[D.a,V.a]),n._16(4608,ee.a,ee.a,[D.a,V.a]),n._16(4608,ae.a,ae.a,[]),n._16(4608,oe.a,oe.a,[]),n._16(4608,te.a,te.a,[Q.a]),n._16(4608,ne.a,ne.a,[V.a,Q.a,n.x,W.a]),n._16(4608,le.a,le.a,[D.a,V.a]),n._16(5120,K.f,re.c,[K.q,[2,K.a],V.a]),n._16(4608,K.e,K.e,[K.f]),n._16(5120,ie.b,ie.d,[D.a,ie.a]),n._16(5120,Y.a,Y.b,[D.a,ie.b,K.e,se.b,n.j]),n._16(4608,ue.a,ue.a,[D.a,V.a,Y.a]),n._16(4608,ce.a,ce.a,[D.a,V.a]),n._16(4608,ge.a,ge.a,[D.a,V.a,Y.a]),n._16(4608,de.a,de.a,[V.a,Q.a,W.a,D.a,B.l]),n._16(4608,fe.a,fe.a,[D.a,V.a]),n._16(4608,J.a,J.a,[Q.a,V.a]),n._16(4608,i.a,i.a,[]),n._16(4608,s.a,s.a,[]),n._16(4608,u.a,u.a,[]),n._16(4608,c.a,c.a,[]),n._16(4608,y.a,y.a,[c.a]),n._16(4608,p.a,p.a,[y.a]),n._16(4608,b,b,[_.a]),n._16(4608,P,P,[_.a]),n._16(512,K.b,K.b,[]),n._16(512,n.l,N,[]),n._16(256,V.b,{preloadModules:!0,backButtonText:""},[]),n._16(1024,me.a,me.b,[]),n._16(1024,Q.a,Q.b,[t.b,me.a,n.x]),n._16(1024,V.a,V.c,[V.b,Q.a]),n._16(512,W.a,W.a,[Q.a]),n._16(512,ye.a,ye.a,[]),n._16(512,D.a,D.a,[V.a,Q.a,[2,ye.a]]),n._16(512,B.l,B.l,[D.a]),n._16(256,ie.a,{links:[{loadChildren:"../pages/catalog/catalog.module.ngfactory#CatalogPageModuleNgFactory",name:"CatalogPage",segment:"catalog",priority:"low",defaultHistory:[]},{loadChildren:"../pages/collection/collection.module.ngfactory#CollectionPageModuleNgFactory",name:"CollectionPage",segment:"collection",priority:"high",defaultHistory:[]},{loadChildren:"../pages/exam/exam.module.ngfactory#ExamPageModuleNgFactory",name:"ExamPage",segment:"exam",priority:"high",defaultHistory:[]},{loadChildren:"../pages/login/login.module.ngfactory#LoginPageModuleNgFactory",name:"LoginPage",segment:"login",priority:"low",defaultHistory:[]},{loadChildren:"../pages/myself/myself.module.ngfactory#MyselfPageModuleNgFactory",name:"MyselfPage",segment:"myself",priority:"high",defaultHistory:[]},{loadChildren:"../pages/problem/problem.module.ngfactory#ProblemPageModuleNgFactory",name:"ProblemPage",segment:"problem",priority:"high",defaultHistory:[]},{loadChildren:"../pages/profile/profile.module.ngfactory#ProfilePageModuleNgFactory",name:"ProfilePage",segment:"profile",priority:"low",defaultHistory:[]},{loadChildren:"../pages/question/question.module.ngfactory#QuestionPageModuleNgFactory",name:"QuestionPage",segment:"question",priority:"low",defaultHistory:[]},{loadChildren:"../pages/tabs/tabs.module.ngfactory#TabsPageModuleNgFactory",name:"TabsPage",segment:"tabs",priority:"high",defaultHistory:[]}]},[]),n._16(512,n.h,n.h,[]),n._16(512,pe.a,pe.a,[n.h]),n._16(1024,se.b,se.c,[pe.a,n.q]),n._16(1024,n.c,function(e,a,o,n,l,r,i,s,u,c,g,d,f,m){return[t.r(e,a),_e.a(o),ae.b(n,l),de.b(r,i,s,u,c),se.d(g,d,f,m)]},[[2,t.i],[2,n.w],V.a,Q.a,W.a,V.a,Q.a,W.a,D.a,B.l,V.a,ie.a,se.b,n.x]),n._16(512,n.d,n.d,[[2,n.c]]),n._16(131584,n._3,n._3,[n.x,n.X,n.q,n.l,n.j,n.d]),n._16(2048,n.f,null,[n._3]),n._16(512,n.e,n.e,[n.f]),n._16(512,t.a,t.a,[[3,t.a]]),n._16(512,z.j,z.j,[]),n._16(512,z.d,z.d,[]),n._16(512,z.i,z.i,[]),n._16(512,re.a,re.a,[]),n._16(512,O,O,[]),n._16(256,x.a,g,[]),n._16(256,K.a,"/",[])])});Object(n.Q)(),Object(t.k)().bootstrapModuleFactory(be)}},[198]);
+webpackJsonp([9],{
+
+/***/ 108:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 108;
+
+/***/ }),
+
+/***/ 150:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"../pages/catalog/catalog.module": [
+		270,
+		2
+	],
+	"../pages/collection/collection.module": [
+		271,
+		8
+	],
+	"../pages/exam/exam.module": [
+		272,
+		1
+	],
+	"../pages/login/login.module": [
+		273,
+		7
+	],
+	"../pages/myself/myself.module": [
+		274,
+		0
+	],
+	"../pages/problem/problem.module": [
+		275,
+		6
+	],
+	"../pages/profile/profile.module": [
+		276,
+		5
+	],
+	"../pages/question/question.module": [
+		277,
+		4
+	],
+	"../pages/tabs/tabs.module": [
+		278,
+		3
+	]
+};
+function webpackAsyncContext(req) {
+	var ids = map[req];
+	if(!ids)
+		return Promise.reject(new Error("Cannot find module '" + req + "'."));
+	return __webpack_require__.e(ids[1]).then(function() {
+		return __webpack_require__(ids[0]);
+	});
+};
+webpackAsyncContext.keys = function webpackAsyncContextKeys() {
+	return Object.keys(map);
+};
+webpackAsyncContext.id = 150;
+module.exports = webpackAsyncContext;
+
+/***/ }),
+
+/***/ 151:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DataProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_sqlite__ = __webpack_require__(152);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/*
+  Generated class for the DataProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var DataProvider = (function () {
+    function DataProvider(sqlite) {
+        this.sqlite = sqlite;
+    }
+    DataProvider.prototype.initDatabase = function () {
+        var _this = this;
+        this.sqlite.create({
+            name: 'myApp.db',
+            location: 'default'
+        }).then(function (database) {
+            database.executeSql('CREATE TABLE IF NOT EXISTS users(email VARCHAR(320) PRIMARY KEY, username VARCHAR(20) NOT NULL, password VARCHAR(30) NOT NULL, gender BOOLEAN, age TINYINT, birthday DATE, intro VARCHAR(300), phone CHAR(11), location VARCHAR(100), avatar VARCHAR(100));', {}).then(function () { return console.log('init database successfully'); }).catch(function (e) { return console.log(e); });
+            _this.myAppDatabase = database;
+        });
+    };
+    return DataProvider;
+}());
+DataProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_native_sqlite__["a" /* SQLite */]])
+], DataProvider);
+
+//# sourceMappingURL=data.js.map
+
+/***/ }),
+
+/***/ 197:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserDataProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_data__ = __webpack_require__(151);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/*
+  Generated class for the UserDataProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var UserDataProvider = (function () {
+    function UserDataProvider(dataProvider) {
+        this.dataProvider = dataProvider;
+        this.database = this.dataProvider.myAppDatabase;
+        this.hasLoggedIn = false;
+    }
+    UserDataProvider.prototype.insertIntoUserTable = function (user) {
+        this.database.executeSql('INSERT INTO users VALUES (?, ?, ?, NULL, NULL, NULL, NULL, NULL, NULL, NULL);', [user.email, user.username, user.password]).then(function () { return console.log('insert into users table successfully'); }).catch(function (e) { return console.log(e); });
+    };
+    UserDataProvider.prototype.queryUserTable = function () {
+        this.database.executeSql('SELECT * FROM users;', {}).then(function () { return console.log('query users table successfully'); }).catch(function (e) { return console.log(e); });
+    };
+    UserDataProvider.prototype.updateUserTable = function (user) {
+        this.database.executeSql('UPDATE users SET username=?, password=?, gender=?, age=?, birthday=?, intro=?, phone=?, location=?, avatar=? WHERE email=?;', [user.username, user.password, user.gender, user.age, user.birthday, user.intro, user.phone, user.location, user.avatar, user.email]).then(function () { return console.log('update users table successfully'); }).catch(function (e) { return console.log(e); });
+    };
+    return UserDataProvider;
+}());
+UserDataProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__data_data__["a" /* DataProvider */]])
+], UserDataProvider);
+
+//# sourceMappingURL=user-data.js.map
+
+/***/ }),
+
+/***/ 198:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(217);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 217:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export MyErrorHandler */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_status_bar__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_screen_orientation__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_sqlite__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_data_data__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_user_data_user_data__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_exam_data_exam_data__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_question_data_question_data__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_pro__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_pro___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__ionic_pro__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+// ionic storage
+/*import {IonicStorageModule} from "@ionic/storage";*/
+// ionic pro monitoring
+
+var IonicPro = __WEBPACK_IMPORTED_MODULE_12__ionic_pro__["Pro"].init('d6a25364', {
+    appVersion: "0.0.1"
+});
+var MyErrorHandler = (function () {
+    function MyErrorHandler() {
+    }
+    MyErrorHandler.prototype.handleError = function (err) {
+        IonicPro.monitoring.handleNewError(err);
+    };
+    return MyErrorHandler;
+}());
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */], {
+                preloadModules: true,
+                backButtonText: ''
+            }, {
+                links: [
+                    { loadChildren: '../pages/catalog/catalog.module#CatalogPageModule', name: 'CatalogPage', segment: 'catalog', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/collection/collection.module#CollectionPageModule', name: 'CollectionPage', segment: 'collection', priority: 'high', defaultHistory: [] },
+                    { loadChildren: '../pages/exam/exam.module#ExamPageModule', name: 'ExamPage', segment: 'exam', priority: 'high', defaultHistory: [] },
+                    { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/myself/myself.module#MyselfPageModule', name: 'MyselfPage', segment: 'myself', priority: 'high', defaultHistory: [] },
+                    { loadChildren: '../pages/problem/problem.module#ProblemPageModule', name: 'ProblemPage', segment: 'problem', priority: 'high', defaultHistory: [] },
+                    { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/question/question.module#QuestionPageModule', name: 'QuestionPage', segment: 'question', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'high', defaultHistory: [] }
+                ]
+            }),
+        ],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+        entryComponents: [
+            __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+        ],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_5__ionic_native_screen_orientation__["a" /* ScreenOrientation */],
+            __WEBPACK_IMPORTED_MODULE_6__ionic_native_sqlite__["a" /* SQLite */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_data_data__["a" /* DataProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_user_data_user_data__["a" /* UserDataProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__providers_exam_data_exam_data__["a" /* ExamDataProvider */],
+            __WEBPACK_IMPORTED_MODULE_11__providers_question_data_question_data__["a" /* QuestionDataProvider */],
+            { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] },
+            { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* ErrorHandler */], useClass: MyErrorHandler },
+        ]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 266:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(194);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = 'TabsPage';
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    return MyApp;
+}());
+MyApp = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/Users/xi/Ionic/QuestionBank/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/xi/Ionic/QuestionBank/src/app/app.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+], MyApp);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 267:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ExamDataProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/*
+  Generated class for the ExamDataProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var ExamDataProvider = (function () {
+    function ExamDataProvider(http) {
+        this.http = http;
+        console.log('Hello ExamDataProvider Provider');
+    }
+    return ExamDataProvider;
+}());
+ExamDataProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+], ExamDataProvider);
+
+//# sourceMappingURL=exam-data.js.map
+
+/***/ }),
+
+/***/ 268:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QuestionDataProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/*
+  Generated class for the QuestionDataProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var QuestionDataProvider = (function () {
+    function QuestionDataProvider(http) {
+        this.http = http;
+        console.log('Hello QuestionDataProvider Provider');
+    }
+    return QuestionDataProvider;
+}());
+QuestionDataProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+], QuestionDataProvider);
+
+//# sourceMappingURL=question-data.js.map
+
+/***/ })
+
+},[198]);
+//# sourceMappingURL=main.js.map

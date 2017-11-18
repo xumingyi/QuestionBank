@@ -1,1 +1,204 @@
-webpackJsonp([0],{231:function(l,n,u){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var t=u(0),a=u(3),e=u(114),o=u(241),i=u(242),r=u(126),s=function(){function l(l,n,u){this.navCtrl=l,this.navParams=n,this.userDataProvider=u}return l.prototype.openLoginPage=function(){this.navCtrl.push(o.a)},l.prototype.openProfilePage=function(){this.navCtrl.push(i.a)},l}();s=Object(a.__decorate)([Object(t.i)({selector:"page-myself",templateUrl:"myself.html"}),Object(a.__metadata)("design:paramtypes",["function"==typeof(c=void 0!==e.e&&e.e)&&c||Object,"function"==typeof(_=void 0!==e.f&&e.f)&&_||Object,"function"==typeof(d=void 0!==r.a&&r.a)&&d||Object])],s);var c,_,d,b=function(){return function(){}}();b=Object(a.__decorate)([Object(t.u)({declarations:[s],imports:[e.d.forChild(s)]})],b);var f=u(188),p=u(189),g=u(190),k=u(191),v=u(192),m=u(193),h=u(194),C=u(195),y=u(196),j=u(197),O=u(18),P=u(14),x=u(1),S=u(41),L=u(73),I=u(129),w=u(39),D=u(19),M=u(40),N=u(117),T=u(5),U=u(236),B=u(38),V=u(8),Y=u(20),F=u(238),J=u(115),R=u(51),W=u(237),Z=u(21),q=u(4),z=u(9),A=u(33),E=u(52),G=u(7),H=u(16),K=u(10),Q=t._1({encapsulation:2,styles:[],data:{}}),X=t.Z("page-myself",s,function(l){return t._24(0,[(l()(),t._4(0,null,null,1,"page-myself",[],null,null,null,function(l){return t._24(0,[(l()(),t._23(null,["\n"])),(l()(),t._4(0,null,null,10,"ion-header",[],null,null,null,null,null)),t._2(16384,null,0,N.a,[x.a,t.k,t.C,[2,T.a]],null,null),(l()(),t._23(null,["\n\n  "])),(l()(),t._4(0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,U.b,U.a)),t._2(49152,null,0,B.a,[V.a,[2,T.a],[2,Y.a],x.a,t.k,t.C],null,null),(l()(),t._23(3,["\n    "])),(l()(),t._4(0,null,3,2,"ion-title",[],null,null,null,F.b,F.a)),t._2(49152,null,0,J.a,[x.a,t.k,t.C,[2,R.a],[2,B.a]],null,null),(l()(),t._23(0,["我"])),(l()(),t._23(3,["\n  "])),(l()(),t._23(null,["\n\n"])),(l()(),t._23(null,["\n\n\n"])),(l()(),t._4(0,null,null,12,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,W.b,W.a)),t._2(4374528,null,0,Z.a,[x.a,q.a,z.a,t.k,t.C,V.a,A.a,t.x,[2,T.a],[2,Y.a]],null,null),(l()(),t._23(1,["\n\n  "])),(l()(),t._4(0,null,1,8,"ion-list",[],null,null,null,null,null)),t._2(16384,null,0,E.a,[x.a,t.k,t.C,q.a,G.l,z.a],null,null),(l()(),t._23(null,["\n    "])),(l()(),t.Y(16777216,null,null,1,null,function(l){return t._24(0,[(l()(),t._4(0,null,null,25,"ion-item",[["class","item item-block"],["tappable",""]],null,[[null,"click"]],function(l,n,u){var t=!0;return"click"===n&&(t=!1!==l.component.openLoginPage()&&t),t},j.b,j.a)),t._2(1097728,null,3,O.a,[P.a,x.a,t.k,t.C,[2,S.a]],null,null),t._21(335544320,1,{contentLabel:0}),t._21(603979776,2,{_buttons:1}),t._21(603979776,3,{_icons:1}),t._2(16384,null,0,L.a,[],null,null),(l()(),t._23(2,["\n      "])),(l()(),t._4(0,null,0,4,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),t._2(16384,null,0,I.a,[],null,null),(l()(),t._23(null,["\n        "])),(l()(),t._4(0,null,null,0,"img",[["src","assets/avatar/avatar.png"]],null,null,null,null,null)),(l()(),t._23(null,["\n      "])),(l()(),t._23(2,["\n      "])),(l()(),t._4(0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),t._23(null,["登录 / 注册"])),(l()(),t._23(2,["\n      "])),(l()(),t._4(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),t._23(null,["你还没有登录或注册呢"])),(l()(),t._23(2,["\n      "])),(l()(),t._4(0,null,4,5,"button",[["clear",""],["icon-only",""],["ion-button",""],["item-end",""]],null,null,null,w.b,w.a)),t._2(1097728,[[2,4]],0,D.a,[[8,""],x.a,t.k,t.C],{clear:[0,"clear"]},null),(l()(),t._23(0,["\n        "])),(l()(),t._4(0,null,0,1,"ion-icon",[["color","dark"],["name","arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t._2(147456,null,0,M.a,[x.a,t.k,t.C],{color:[0,"color"],name:[1,"name"]},null),(l()(),t._23(0,["\n      "])),(l()(),t._23(2,["\n    "]))],function(l,n){l(n,20,0,""),l(n,23,0,"dark","arrow-forward")},function(l,n){l(n,22,0,t._18(n,23)._hidden)})})),t._2(16384,null,0,H.i,[t.M,t.I],{ngIf:[0,"ngIf"]},null),(l()(),t._23(null,["\n\n    "])),(l()(),t.Y(16777216,null,null,1,null,function(l){return t._24(0,[(l()(),t._4(0,null,null,6,"ion-item",[["class","item item-block"],["tappable",""]],null,[[null,"click"]],function(l,n,u){var t=!0;return"click"===n&&(t=!1!==l.component.openProfilePage()&&t),t},j.b,j.a)),t._2(1097728,null,3,O.a,[P.a,x.a,t.k,t.C,[2,S.a]],null,null),t._21(335544320,4,{contentLabel:0}),t._21(603979776,5,{_buttons:1}),t._21(603979776,6,{_icons:1}),t._2(16384,null,0,L.a,[],null,null),(l()(),t._23(2,["\n    "]))],null,null)})),t._2(16384,null,0,H.i,[t.M,t.I],{ngIf:[0,"ngIf"]},null),(l()(),t._23(null,["\n  "])),(l()(),t._23(1,["\n\n"])),(l()(),t._23(null,["\n"]))],function(l,n){var u=n.component;l(n,20,0,!u.userDataProvider.hasLoggedIn),l(n,23,0,u.userDataProvider.hasLoggedIn)},function(l,n){l(n,4,0,t._18(n,5)._hidden,t._18(n,5)._sbPadding),l(n,13,0,t._18(n,14).statusbarPadding,t._18(n,14)._hasRefresher)})},Q)),t._2(49152,null,0,s,[Y.a,K.a,r.a],null,null)],null,null)},{},{},[]),$=u(17),ll=u(116),nl=u(34);u.d(n,"MyselfPageModuleNgFactory",function(){return ul});var ul=t._0(b,[],function(l){return t._15([t._16(512,t.j,t.W,[[8,[f.a,p.a,g.a,k.a,v.a,m.a,h.a,C.a,y.a,X]],[3,t.j],t.v]),t._16(4608,H.k,H.j,[t.t]),t._16(4608,$.k,$.k,[]),t._16(4608,$.c,$.c,[]),t._16(512,H.b,H.b,[]),t._16(512,$.j,$.j,[]),t._16(512,$.d,$.d,[]),t._16(512,$.i,$.i,[]),t._16(512,ll.a,ll.a,[]),t._16(512,ll.b,ll.b,[]),t._16(512,b,b,[]),t._16(256,nl.a,s,[])])})},236:function(l,n,u){"use strict";function t(l){return a._24(0,[(l()(),a._4(0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),a._2(278528,null,0,e.g,[a.r,a.s,a.k,a.C],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),a._4(0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;return"click"===n&&(t=!1!==l.component.backButtonClick(u)&&t),t},o.b,o.a)),a._2(278528,null,0,e.g,[a.r,a.s,a.k,a.C],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._2(1097728,null,0,i.a,[[8,"bar-button"],r.a,a.k,a.C],null,null),(l()(),a._4(0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a._2(278528,null,0,e.g,[a.r,a.s,a.k,a.C],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._2(147456,null,0,s.a,[r.a,a.k,a.C],{name:[0,"name"]},null),(l()(),a._4(0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),a._2(278528,null,0,e.g,[a.r,a.s,a.k,a.C],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),a._23(null,["",""])),a._17(null,0),a._17(null,1),a._17(null,2),(l()(),a._4(0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),a._2(278528,null,0,e.g,[a.r,a.s,a.k,a.C],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._17(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode),l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb),l(n,5,0,a._18(n,7)._hidden),l(n,10,0,u._backText)})}u.d(n,"a",function(){return c}),n.b=t;var a=u(0),e=u(16),o=(u(38),u(39)),i=u(19),r=u(1),s=u(40),c=(u(8),u(5),u(20),a._1({encapsulation:2,styles:[],data:{}}))},237:function(l,n,u){"use strict";function t(l){return a._24(2,[a._21(402653184,1,{_fixedContent:0}),a._21(402653184,2,{_scrollContent:0}),(l()(),a._4(0,[[1,0],["fixedContent",1]],null,1,"div",[["class","fixed-content"]],null,null,null,null,null)),a._17(null,0),(l()(),a._4(0,[[2,0],["scrollContent",1]],null,1,"div",[["class","scroll-content"]],null,null,null,null,null)),a._17(null,1),a._17(null,2)],null,null)}u.d(n,"a",function(){return e}),n.b=t;var a=u(0),e=(u(21),u(1),u(4),u(9),u(8),u(33),u(5),u(20),a._1({encapsulation:2,styles:[],data:{}}))},238:function(l,n,u){"use strict";function t(l){return a._24(2,[(l()(),a._4(0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),a._2(278528,null,0,e.g,[a.r,a.s,a.k,a.C],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._17(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}u.d(n,"a",function(){return o}),n.b=t;var a=u(0),e=u(16),o=(u(115),u(1),u(51),u(38),a._1({encapsulation:2,styles:[],data:{}}))},241:function(l,n,u){"use strict";u.d(n,"a",function(){return o});var t=u(3),a=u(0),e=u(114),o=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.outerSlideToNext=function(){this.outerSlides.slideNext()},l.prototype.outerSlideToPrev=function(){this.outerSlides.slidePrev()},l.prototype.innerSlideToNext=function(){this.innerSlides.slideNext()},l.prototype.innerSlideToPrev=function(){this.innerSlides.slidePrev()},l}();Object(t.__decorate)([Object(a.L)("outerSlides"),Object(t.__metadata)("design:type","function"==typeof(i=void 0!==e.h&&e.h)&&i||Object)],o.prototype,"outerSlides",void 0),Object(t.__decorate)([Object(a.L)("innerSlides"),Object(t.__metadata)("design:type","function"==typeof(r=void 0!==e.h&&e.h)&&r||Object)],o.prototype,"innerSlides",void 0),o=Object(t.__decorate)([Object(a.i)({selector:"page-login",templateUrl:"login.html"}),Object(t.__metadata)("design:paramtypes",["function"==typeof(s=void 0!==e.e&&e.e)&&s||Object,"function"==typeof(c=void 0!==e.f&&e.f)&&c||Object])],o);var i,r,s,c},242:function(l,n,u){"use strict";u.d(n,"a",function(){return o});var t=u(3),a=u(0),e=u(114),o=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad ProfilePage")},l}();o=Object(t.__decorate)([Object(a.i)({selector:"page-profile",templateUrl:"profile.html"}),Object(t.__metadata)("design:paramtypes",["function"==typeof(i=void 0!==e.e&&e.e)&&i||Object,"function"==typeof(r=void 0!==e.f&&e.f)&&r||Object])],o);var i,r}});
+webpackJsonp([0],{
+
+/***/ 274:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MyselfPageModule", function() { return MyselfPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__myself__ = __webpack_require__(285);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var MyselfPageModule = (function () {
+    function MyselfPageModule() {
+    }
+    return MyselfPageModule;
+}());
+MyselfPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__myself__["a" /* MyselfPage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__myself__["a" /* MyselfPage */]),
+        ],
+    })
+], MyselfPageModule);
+
+//# sourceMappingURL=myself.module.js.map
+
+/***/ }),
+
+/***/ 281:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(100);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the LoginPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var LoginPage = (function () {
+    function LoginPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    LoginPage.prototype.outerSlideToNext = function () {
+        this.outerSlides.slideNext();
+    };
+    LoginPage.prototype.outerSlideToPrev = function () {
+        this.outerSlides.slidePrev();
+    };
+    LoginPage.prototype.innerSlideToNext = function () {
+        this.innerSlides.slideNext();
+    };
+    LoginPage.prototype.innerSlideToPrev = function () {
+        this.innerSlides.slidePrev();
+    };
+    return LoginPage;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])("outerSlides"),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Slides */])
+], LoginPage.prototype, "outerSlides", void 0);
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])("innerSlides"),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Slides */])
+], LoginPage.prototype, "innerSlides", void 0);
+LoginPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-login',template:/*ion-inline-start:"/Users/xi/Ionic/QuestionBank/src/pages/login/login.html"*/'<!--\n  Generated template for the LoginPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n  <ion-navbar transparent>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content [ngStyle]="{\'background-image\': \'url(assets/img/login_background.jpg)\'}">\n\n  <ion-slides direction="vertical" #outerSlides>\n\n    <ion-slide>\n      <ion-slides #innerSlides>\n        <ion-slide>\n          <div class="slide-inner">\n            <ion-item>\n              <ion-label floating color="light">电子邮件</ion-label>\n              <ion-input type="email" clearInput="true"></ion-input>\n            </ion-item>\n\n            <ion-item>\n              <ion-label floating color="light">密码</ion-label>\n              <ion-input type="password" clearInput="true"></ion-input>\n            </ion-item>\n\n            <button ion-button block round color="light">登录</button>\n\n            <button ion-button clear color="light" class="forget-button" (click)="innerSlideToNext()">忘记密码？</button>\n          </div>\n\n          <button ion-button clear color="light" class="bottom-button" (click)="outerSlideToNext()">去注册&nbsp;&nbsp;\n            <ion-icon name="arrow-down"></ion-icon>\n          </button>\n        </ion-slide>\n\n        <ion-slide>\n          <div class="slide-inner">\n            <ion-item>\n              <ion-label floating color="light">电子邮件</ion-label>\n              <ion-input type="email" clearInput="true"></ion-input>\n            </ion-item>\n\n            <button ion-button block round color="light">重置密码</button>\n\n            <button ion-button clear color="light" class="go-back-button" (click)="innerSlideToPrev()">\n              <ion-icon name="arrow-back"></ion-icon>\n              &nbsp;&nbsp;返回\n            </button>\n          </div>\n        </ion-slide>\n      </ion-slides>\n    </ion-slide>\n\n    <ion-slide>\n      <button ion-button clear color="light" class="top-button" (click)="outerSlideToPrev()">去登录&nbsp;&nbsp;\n        <ion-icon name="arrow-up"></ion-icon>\n      </button>\n\n      <div class="slide-inner">\n        <ion-item>\n          <ion-label floating color="light">电子邮件</ion-label>\n          <ion-input type="email" clearInput="true"></ion-input>\n        </ion-item>\n\n        <ion-item>\n          <ion-label floating color="light">密码</ion-label>\n          <ion-input type="password" clearInput="true"></ion-input>\n        </ion-item>\n\n        <ion-item>\n          <ion-label floating color="light">确认密码</ion-label>\n          <ion-input type="password" clearInput="true"></ion-input>\n        </ion-item>\n\n        <button ion-button block round color="light">注册</button>\n      </div>\n    </ion-slide>\n\n  </ion-slides>\n\n</ion-content>\n'/*ion-inline-end:"/Users/xi/Ionic/QuestionBank/src/pages/login/login.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+], LoginPage);
+
+//# sourceMappingURL=login.js.map
+
+/***/ }),
+
+/***/ 282:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfilePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(100);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ProfilePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ProfilePage = (function () {
+    function ProfilePage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ProfilePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ProfilePage');
+    };
+    return ProfilePage;
+}());
+ProfilePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-profile',template:/*ion-inline-start:"/Users/xi/Ionic/QuestionBank/src/pages/profile/profile.html"*/'<!--\n  Generated template for the ProfilePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>profile</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/xi/Ionic/QuestionBank/src/pages/profile/profile.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+], ProfilePage);
+
+//# sourceMappingURL=profile.js.map
+
+/***/ }),
+
+/***/ 285:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyselfPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_profile__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_user_data_user_data__ = __webpack_require__(197);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/**
+ * Generated class for the MyselfPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var MyselfPage = (function () {
+    function MyselfPage(navCtrl, navParams, userDataProvider) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.userDataProvider = userDataProvider;
+    }
+    MyselfPage.prototype.openLoginPage = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__login_login__["a" /* LoginPage */]);
+    };
+    MyselfPage.prototype.openProfilePage = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__profile_profile__["a" /* ProfilePage */]);
+    };
+    return MyselfPage;
+}());
+MyselfPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-myself',template:/*ion-inline-start:"/Users/xi/Ionic/QuestionBank/src/pages/myself/myself.html"*/'<!--\n  Generated template for the MyselfPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>我</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-list>\n    <ion-item tappable *ngIf="!userDataProvider.hasLoggedIn" (click)="openLoginPage()">\n      <ion-thumbnail item-start>\n        <img src="assets/avatar/avatar.png">\n      </ion-thumbnail>\n      <h2>登录 / 注册</h2>\n      <p>你还没有登录或注册呢</p>\n      <button ion-button clear icon-only item-end>\n        <ion-icon name="arrow-forward" color="dark"></ion-icon>\n      </button>\n    </ion-item>\n\n    <ion-item tappable *ngIf="userDataProvider.hasLoggedIn" (click)="openProfilePage()">\n    </ion-item>\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/Users/xi/Ionic/QuestionBank/src/pages/myself/myself.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_user_data_user_data__["a" /* UserDataProvider */]])
+], MyselfPage);
+
+//# sourceMappingURL=myself.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=0.js.map

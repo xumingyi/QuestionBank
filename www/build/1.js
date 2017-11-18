@@ -1,1 +1,194 @@
-webpackJsonp([1],{229:function(l,n,u){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var a=u(0),t=u(3),o=u(114),e=u(240),i=function(){function l(l,n){this.navCtrl=l,this.navParams=n,this.exams=[];for(var u=0;u<10;u++)this.exams.push({backgroundImg:"assets/img/card/card-"+(2017-u)+".jpg",examYear:2017-u,problemNum:0,collectionNum:0,finishedTime:"00:00:00"});this.examYear=this.navParams.data.examYear}return l.prototype.openCatalogPage=function(l){this.navCtrl.push(e.a,{examYear:l})},l}();i=Object(t.__decorate)([Object(a.i)({selector:"page-exam",templateUrl:"exam.html"}),Object(t.__metadata)("design:paramtypes",["function"==typeof(c=void 0!==o.e&&o.e)&&c||Object,"function"==typeof(s=void 0!==o.f&&o.f)&&s||Object])],i);var c,s,r=function(){return function(){}}();r=Object(t.__decorate)([Object(a.u)({declarations:[i],imports:[o.d.forChild(i)]})],r);var _=u(188),d=u(189),b=u(190),m=u(191),f=u(192),g=u(193),k=u(194),p=u(195),h=u(196),v=u(128),C=u(1),x=u(119),j=u(120),O=u(118),y=u(39),P=u(19),Y=u(40),N=u(117),q=u(5),$=u(236),I=u(38),w=u(8),F=u(20),M=u(238),T=u(115),U=u(51),B=u(122),E=u(237),J=u(21),Q=u(4),R=u(9),W=u(33),X=u(16),Z=u(10),z=a._1({encapsulation:2,styles:[],data:{}}),A=a.Z("page-exam",i,function(l){return a._24(0,[(l()(),a._4(0,null,null,1,"page-exam",[],null,null,null,function(l){return a._24(0,[(l()(),a._23(null,["\n"])),(l()(),a._4(0,null,null,19,"ion-header",[],null,null,null,null,null)),a._2(16384,null,0,N.a,[C.a,a.k,a.C,[2,q.a]],null,null),(l()(),a._23(null,["\n\n  "])),(l()(),a._4(0,null,null,15,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,$.b,$.a)),a._2(49152,null,0,I.a,[w.a,[2,q.a],[2,F.a],C.a,a.k,a.C],null,null),(l()(),a._23(3,["\n\n    "])),(l()(),a._4(0,null,3,2,"ion-title",[],null,null,null,M.b,M.a)),a._2(49152,null,0,T.a,[C.a,a.k,a.C,[2,U.a],[2,I.a]],null,null),(l()(),a._23(0,["历年真题"])),(l()(),a._23(3,["\n\n    "])),(l()(),a._4(0,null,2,7,"ion-buttons",[["end",""]],null,null,null,null,null)),a._2(16384,null,1,B.a,[C.a,a.k,a.C,[2,U.a],[2,I.a]],null,null),a._21(603979776,1,{_buttons:1}),(l()(),a._23(null,["\n      "])),(l()(),a._4(0,null,null,2,"button",[["color","dark"],["ion-button",""]],null,null,null,y.b,y.a)),a._2(1097728,[[1,4]],0,P.a,[[8,""],C.a,a.k,a.C],{color:[0,"color"]},null),(l()(),a._23(0,["模拟练习"])),(l()(),a._23(null,["\n    "])),(l()(),a._23(3,["\n\n  "])),(l()(),a._23(null,["\n\n"])),(l()(),a._23(null,["\n\n\n"])),(l()(),a._4(0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,E.b,E.a)),a._2(4374528,null,0,J.a,[C.a,Q.a,R.a,a.k,a.C,w.a,W.a,a.x,[2,q.a],[2,F.a]],null,null),(l()(),a._23(1,["\n\n  "])),(l()(),a.Y(16777216,null,1,1,null,function(l){return a._24(0,[(l()(),a._4(0,null,null,54,"ion-card",[["class","animated flipInX"],["tappable",""]],null,[[null,"click"]],function(l,n,u){var a=!0;return"click"===n&&(a=!1!==l.component.openCatalogPage(l.context.$implicit.examYear)&&a),a},null,null)),a._2(16384,null,0,v.a,[C.a,a.k,a.C],null,null),(l()(),a._23(null,["\n\n    "])),(l()(),a._4(0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),a._23(null,["\n\n    "])),(l()(),a._4(0,null,null,1,"div",[["class","card-title"]],null,null,null,null,null)),(l()(),a._23(null,["","年考研政治真题"])),(l()(),a._23(null,["\n\n    "])),(l()(),a._4(0,null,null,1,"div",[["class","card-subtitle"]],null,null,null,null,null)),(l()(),a._23(null,["选择题"])),(l()(),a._23(null,["\n\n    "])),(l()(),a._4(0,null,null,42,"ion-grid",[["class","grid"]],null,null,null,null,null)),a._2(16384,null,0,x.a,[],null,null),(l()(),a._23(null,["\n\n      "])),(l()(),a._4(0,null,null,38,"ion-row",[["class","row"]],null,null,null,null,null)),a._2(16384,null,0,j.a,[],null,null),(l()(),a._23(null,["\n\n        "])),(l()(),a._4(0,null,null,12,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),a._2(16384,null,0,O.a,[],null,null),(l()(),a._23(null,["\n          "])),(l()(),a._4(0,null,null,8,"button",[["clear",""],["color","light"],["icon-left",""],["ion-button",""],["small",""]],null,null,null,y.b,y.a)),a._2(1097728,null,0,P.a,[[8,""],C.a,a.k,a.C],{color:[0,"color"],small:[1,"small"],clear:[2,"clear"]},null),(l()(),a._23(0,["\n            "])),(l()(),a._4(0,null,0,1,"ion-icon",[["ios","ios-close-circle-outline"],["md","ios-close-circle-outline"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a._2(147456,null,0,Y.a,[C.a,a.k,a.C],{ios:[0,"ios"],md:[1,"md"]},null),(l()(),a._23(0,["\n            "])),(l()(),a._4(0,null,0,1,"div",[],null,null,null,null,null)),(l()(),a._23(null,["","题"])),(l()(),a._23(0,["\n          "])),(l()(),a._23(null,["\n        "])),(l()(),a._23(null,["\n\n        "])),(l()(),a._4(0,null,null,12,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),a._2(16384,null,0,O.a,[],null,null),(l()(),a._23(null,["\n          "])),(l()(),a._4(0,null,null,8,"button",[["clear",""],["color","light"],["icon-left",""],["ion-button",""],["small",""]],null,null,null,y.b,y.a)),a._2(1097728,null,0,P.a,[[8,""],C.a,a.k,a.C],{color:[0,"color"],small:[1,"small"],clear:[2,"clear"]},null),(l()(),a._23(0,["\n            "])),(l()(),a._4(0,null,0,1,"ion-icon",[["name","star"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a._2(147456,null,0,Y.a,[C.a,a.k,a.C],{name:[0,"name"]},null),(l()(),a._23(0,["\n            "])),(l()(),a._4(0,null,0,1,"div",[],null,null,null,null,null)),(l()(),a._23(null,["","题"])),(l()(),a._23(0,["\n          "])),(l()(),a._23(null,["\n        "])),(l()(),a._23(null,["\n\n        "])),(l()(),a._4(0,null,null,6,"ion-col",[["class","col"],["col-6",""]],null,null,null,null,null)),a._2(16384,null,0,O.a,[],null,null),(l()(),a._23(null,["\n          "])),(l()(),a._4(0,null,null,2,"button",[["clear",""],["color","light"],["ion-button",""],["small",""]],null,null,null,y.b,y.a)),a._2(1097728,null,0,P.a,[[8,""],C.a,a.k,a.C],{color:[0,"color"],small:[1,"small"],clear:[2,"clear"]},null),(l()(),a._23(0,["用时: ",""])),(l()(),a._23(null,["\n        "])),(l()(),a._23(null,["\n\n      "])),(l()(),a._23(null,["\n\n    "])),(l()(),a._23(null,["\n\n  "]))],function(l,n){l(n,21,0,"light","",""),l(n,24,0,"ios-close-circle-outline","ios-close-circle-outline"),l(n,35,0,"light","",""),l(n,38,0,"star"),l(n,49,0,"light","","")},function(l,n){l(n,3,0,a._7(1,"",n.context.$implicit.backgroundImg,"")),l(n,6,0,n.context.$implicit.examYear),l(n,23,0,a._18(n,24)._hidden),l(n,27,0,n.context.$implicit.problemNum),l(n,37,0,a._18(n,38)._hidden),l(n,41,0,n.context.$implicit.collectionNum),l(n,50,0,n.context.$implicit.finishedTime)})})),a._2(802816,null,0,X.h,[a.M,a.I,a.r],{ngForOf:[0,"ngForOf"]},null),(l()(),a._23(1,["\n\n"])),(l()(),a._23(null,["\n"]))],function(l,n){var u=n.component;l(n,16,0,"dark"),l(n,26,0,u.exams)},function(l,n){l(n,4,0,a._18(n,5)._hidden,a._18(n,5)._sbPadding),l(n,22,0,a._18(n,23).statusbarPadding,a._18(n,23)._hasRefresher)})},z)),a._2(49152,null,0,i,[F.a,Z.a],null,null)],null,null)},{},{},[]),D=u(17),G=u(116),H=u(34);u.d(n,"ExamPageModuleNgFactory",function(){return K});var K=a._0(r,[],function(l){return a._15([a._16(512,a.j,a.W,[[8,[_.a,d.a,b.a,m.a,f.a,g.a,k.a,p.a,h.a,A]],[3,a.j],a.v]),a._16(4608,X.k,X.j,[a.t]),a._16(4608,D.k,D.k,[]),a._16(4608,D.c,D.c,[]),a._16(512,X.b,X.b,[]),a._16(512,D.j,D.j,[]),a._16(512,D.d,D.d,[]),a._16(512,D.i,D.i,[]),a._16(512,G.a,G.a,[]),a._16(512,G.b,G.b,[]),a._16(512,r,r,[]),a._16(256,H.a,i,[])])})},236:function(l,n,u){"use strict";function a(l){return t._24(0,[(l()(),t._4(0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),t._2(278528,null,0,o.g,[t.r,t.s,t.k,t.C],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t._4(0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;return"click"===n&&(a=!1!==l.component.backButtonClick(u)&&a),a},e.b,e.a)),t._2(278528,null,0,o.g,[t.r,t.s,t.k,t.C],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._2(1097728,null,0,i.a,[[8,"bar-button"],c.a,t.k,t.C],null,null),(l()(),t._4(0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t._2(278528,null,0,o.g,[t.r,t.s,t.k,t.C],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._2(147456,null,0,s.a,[c.a,t.k,t.C],{name:[0,"name"]},null),(l()(),t._4(0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),t._2(278528,null,0,o.g,[t.r,t.s,t.k,t.C],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t._23(null,["",""])),t._17(null,0),t._17(null,1),t._17(null,2),(l()(),t._4(0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),t._2(278528,null,0,o.g,[t.r,t.s,t.k,t.C],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._17(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode),l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb),l(n,5,0,t._18(n,7)._hidden),l(n,10,0,u._backText)})}u.d(n,"a",function(){return r}),n.b=a;var t=u(0),o=u(16),e=(u(38),u(39)),i=u(19),c=u(1),s=u(40),r=(u(8),u(5),u(20),t._1({encapsulation:2,styles:[],data:{}}))},237:function(l,n,u){"use strict";function a(l){return t._24(2,[t._21(402653184,1,{_fixedContent:0}),t._21(402653184,2,{_scrollContent:0}),(l()(),t._4(0,[[1,0],["fixedContent",1]],null,1,"div",[["class","fixed-content"]],null,null,null,null,null)),t._17(null,0),(l()(),t._4(0,[[2,0],["scrollContent",1]],null,1,"div",[["class","scroll-content"]],null,null,null,null,null)),t._17(null,1),t._17(null,2)],null,null)}u.d(n,"a",function(){return o}),n.b=a;var t=u(0),o=(u(21),u(1),u(4),u(9),u(8),u(33),u(5),u(20),t._1({encapsulation:2,styles:[],data:{}}))},238:function(l,n,u){"use strict";function a(l){return t._24(2,[(l()(),t._4(0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),t._2(278528,null,0,o.g,[t.r,t.s,t.k,t.C],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._17(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}u.d(n,"a",function(){return e}),n.b=a;var t=u(0),o=u(16),e=(u(115),u(1),u(51),u(38),t._1({encapsulation:2,styles:[],data:{}}))},239:function(l,n,u){"use strict";u.d(n,"a",function(){return e});var a=u(3),t=u(0),o=u(114),e=function(){return function(l,n){this.navCtrl=l,this.navParams=n,this.examYear=this.navParams.get("examYear"),this.questionNum=this.navParams.get("questionNum")}}();e=Object(a.__decorate)([Object(t.i)({selector:"page-question",templateUrl:"question.html"}),Object(a.__metadata)("design:paramtypes",["function"==typeof(i=void 0!==o.e&&o.e)&&i||Object,"function"==typeof(c=void 0!==o.f&&o.f)&&c||Object])],e);var i,c},240:function(l,n,u){"use strict";u.d(n,"a",function(){return i});var a=u(3),t=u(0),o=u(114),e=u(239),i=function(){function l(l,n){this.navCtrl=l,this.navParams=n,this.rows=[[1,["01","02","03","04","05"]],[2,["06","07","08","09","10"]],[3,["11","12","13","14","15"]],[4,["16","17","18","19","20"]],[5,["21","22","23","24","25"]],[6,["26","27","28","29","30"]],[7,["31","32","33"]]],this.examYear=this.navParams.get("examYear"),this.questionNum=this.navParams.data.questionNum}return l.prototype.openQuestionPage=function(l,n){this.navCtrl.push(e.a,{examYear:l,questionNum:n})},l}();i=Object(a.__decorate)([Object(t.i)({selector:"page-catalog",templateUrl:"catalog.html"}),Object(a.__metadata)("design:paramtypes",["function"==typeof(c=void 0!==o.e&&o.e)&&c||Object,"function"==typeof(s=void 0!==o.f&&o.f)&&s||Object])],i);var c,s}});
+webpackJsonp([1],{
+
+/***/ 272:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExamPageModule", function() { return ExamPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__exam__ = __webpack_require__(284);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var ExamPageModule = (function () {
+    function ExamPageModule() {
+    }
+    return ExamPageModule;
+}());
+ExamPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__exam__["a" /* ExamPage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__exam__["a" /* ExamPage */]),
+        ],
+    })
+], ExamPageModule);
+
+//# sourceMappingURL=exam.module.js.map
+
+/***/ }),
+
+/***/ 279:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return QuestionPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(100);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the QuestionPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var QuestionPage = (function () {
+    function QuestionPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.examYear = this.navParams.get('examYear');
+        this.questionNum = this.navParams.get('questionNum');
+    }
+    return QuestionPage;
+}());
+QuestionPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-question',template:/*ion-inline-start:"/Users/xi/Ionic/QuestionBank/src/pages/question/question.html"*/'<!--\n  Generated template for the QuestionPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{examYear}}年第{{questionNum}}题</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n</ion-content>\n'/*ion-inline-end:"/Users/xi/Ionic/QuestionBank/src/pages/question/question.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+], QuestionPage);
+
+//# sourceMappingURL=question.js.map
+
+/***/ }),
+
+/***/ 280:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CatalogPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__question_question__ = __webpack_require__(279);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the CatalogPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var CatalogPage = (function () {
+    function CatalogPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.rows = [[1, ['01', '02', '03', '04', '05']], [2, ['06', '07', '08', '09', '10']], [3, ['11', '12', '13', '14', '15']], [4, ['16', '17', '18', '19', '20']], [5, ['21', '22', '23', '24', '25']], [6, ['26', '27', '28', '29', '30']], [7, ['31', '32', '33']]];
+        this.examYear = this.navParams.get('examYear');
+        this.questionNum = this.navParams.data.questionNum;
+    }
+    CatalogPage.prototype.openQuestionPage = function (examYear, questionNum) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__question_question__["a" /* QuestionPage */], { examYear: examYear, questionNum: questionNum });
+    };
+    return CatalogPage;
+}());
+CatalogPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-catalog',template:/*ion-inline-start:"/Users/xi/Ionic/QuestionBank/src/pages/catalog/catalog.html"*/'<!--\n  Generated template for the CatalogPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>{{examYear}}年真题</ion-title>\n\n    <ion-buttons end>\n      <button ion-button color="dark">重做</button>\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-grid>\n\n    <ion-row *ngFor="let row of rows">\n\n      <ion-col col-3 *ngFor="let questionNum of row[1]">\n\n        <button class="animated swing" ion-button color="light" (click)="openQuestionPage(examYear,questionNum)">\n          {{questionNum}}\n        </button>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>\n'/*ion-inline-end:"/Users/xi/Ionic/QuestionBank/src/pages/catalog/catalog.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+], CatalogPage);
+
+//# sourceMappingURL=catalog.js.map
+
+/***/ }),
+
+/***/ 284:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ExamPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catalog_catalog__ = __webpack_require__(280);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the ExamPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ExamPage = (function () {
+    function ExamPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.exams = [];
+        for (var i = 0; i < 10; i++) {
+            this.exams.push({
+                backgroundImg: "assets/img/card/card-" + (2017 - i) + ".jpg",
+                examYear: 2017 - i,
+                problemNum: 0,
+                collectionNum: 0,
+                finishedTime: "00:00:00"
+            });
+        }
+        this.examYear = this.navParams.data.examYear;
+    }
+    ExamPage.prototype.openCatalogPage = function (examYear) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__catalog_catalog__["a" /* CatalogPage */], { examYear: examYear });
+    };
+    return ExamPage;
+}());
+ExamPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-exam',template:/*ion-inline-start:"/Users/xi/Ionic/QuestionBank/src/pages/exam/exam.html"*/'<!--\n  Generated template for the ExamPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>历年真题</ion-title>\n\n    <ion-buttons end>\n      <button ion-button color="dark">模拟练习</button>\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <ion-card class="animated flipInX" tappable *ngFor="let exam of exams" (click)="openCatalogPage(exam.examYear)">\n\n    <img src="{{exam.backgroundImg}}">\n\n    <div class="card-title">{{exam.examYear}}年考研政治真题</div>\n\n    <div class="card-subtitle">选择题</div>\n\n    <ion-grid>\n\n      <ion-row>\n\n        <ion-col col-3>\n          <button ion-button icon-left clear small color="light">\n            <ion-icon ios="ios-close-circle-outline" md="ios-close-circle-outline"></ion-icon>\n            <div>{{exam.problemNum}}题</div>\n          </button>\n        </ion-col>\n\n        <ion-col col-3>\n          <button ion-button icon-left clear small color="light">\n            <ion-icon name="star"></ion-icon>\n            <div>{{exam.collectionNum}}题</div>\n          </button>\n        </ion-col>\n\n        <ion-col col-6>\n          <button ion-button clear small color="light">用时: {{exam.finishedTime}}</button>\n        </ion-col>\n\n      </ion-row>\n\n    </ion-grid>\n\n  </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/Users/xi/Ionic/QuestionBank/src/pages/exam/exam.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+], ExamPage);
+
+//# sourceMappingURL=exam.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=1.js.map
