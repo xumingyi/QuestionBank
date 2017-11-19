@@ -3,8 +3,8 @@ import { ActionSheet } from './action-sheet';
 import { App } from '../app/app';
 import { Config } from '../../config/config';
 /**
- * \@name ActionSheetController
- * \@description
+ * @name ActionSheetController
+ * @description
  * An Action Sheet is a dialog that lets the user choose from a set of
  * options. It appears on top of the app's content, and must be manually
  * dismissed by the user before they can resume interaction with the app.
@@ -30,7 +30,7 @@ import { Config } from '../../config/config';
  * the create method: `ActionSheet.create(opts)`. Otherwise the action sheet's
  * instance has methods to add options, like `setTitle()` or `addButton()`.
  *
- * \@usage
+ * @usage
  * ```ts
  * import { ActionSheetController } from 'ionic-angular'
  *
@@ -70,7 +70,7 @@ import { Config } from '../../config/config';
  * }
  * ```
  *
- * \@advanced
+ * @advanced
  *
  * ActionSheet create options
  *
@@ -148,22 +148,17 @@ import { Config } from '../../config/config';
  * out before starting a new transition.
  *
  *
- * \@demo /docs/demos/src/action-sheet/
- * @see {\@link /docs/components#action-sheets ActionSheet Component Docs}
+ * @demo /docs/demos/src/action-sheet/
+ * @see {@link /docs/components#action-sheets ActionSheet Component Docs}
  */
 export class ActionSheetController {
-    /**
-     * @param {?} _app
-     * @param {?} config
-     */
     constructor(_app, config) {
         this._app = _app;
         this.config = config;
     }
     /**
      * Open an action sheet with a title, subTitle, and an array of buttons
-     * @param {?=} opts
-     * @return {?}
+     * @param {ActionSheetOptions} opts Action sheet options
      */
     create(opts = {}) {
         return new ActionSheet(this._app, opts, this.config);
@@ -172,24 +167,9 @@ export class ActionSheetController {
 ActionSheetController.decorators = [
     { type: Injectable },
 ];
-/**
- * @nocollapse
- */
+/** @nocollapse */
 ActionSheetController.ctorParameters = () => [
     { type: App, },
     { type: Config, },
 ];
-function ActionSheetController_tsickle_Closure_declarations() {
-    /** @type {?} */
-    ActionSheetController.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    ActionSheetController.ctorParameters;
-    /** @type {?} */
-    ActionSheetController.prototype._app;
-    /** @type {?} */
-    ActionSheetController.prototype.config;
-}
 //# sourceMappingURL=action-sheet-controller.js.map

@@ -3,8 +3,8 @@ import { Alert } from './alert';
 import { App } from '../app/app';
 import { Config } from '../../config/config';
 /**
- * \@name AlertController
- * \@description
+ * @name AlertController
+ * @description
  * An Alert is a dialog that presents users with information or collects
  * information from the user using inputs. An alert appears on top
  * of the app's content, and must be manually dismissed by the user before
@@ -44,7 +44,7 @@ import { Config } from '../../config/config';
  * building the form within a modal instead.
  *
  *
- * \@usage
+ * @usage
  * ```ts
  * import { AlertController } from 'ionic-angular';
  *
@@ -120,7 +120,7 @@ import { Config } from '../../config/config';
  *   alert.present();
  * }
  * ```
- * \@advanced
+ * @advanced
  *
  *
  *  Alert options
@@ -212,21 +212,16 @@ import { Config } from '../../config/config';
  * out before starting a new transition.
  *
  *
- * \@demo /docs/demos/src/alert/
+ * @demo /docs/demos/src/alert/
  */
 export class AlertController {
-    /**
-     * @param {?} _app
-     * @param {?} config
-     */
     constructor(_app, config) {
         this._app = _app;
         this.config = config;
     }
     /**
      * Display an alert with a title, inputs, and buttons
-     * @param {?=} opts
-     * @return {?}
+     * @param {AlertOptions} opts Alert. See the table below
      */
     create(opts = {}) {
         return new Alert(this._app, opts, this.config);
@@ -235,24 +230,9 @@ export class AlertController {
 AlertController.decorators = [
     { type: Injectable },
 ];
-/**
- * @nocollapse
- */
+/** @nocollapse */
 AlertController.ctorParameters = () => [
     { type: App, },
     { type: Config, },
 ];
-function AlertController_tsickle_Closure_declarations() {
-    /** @type {?} */
-    AlertController.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    AlertController.ctorParameters;
-    /** @type {?} */
-    AlertController.prototype._app;
-    /** @type {?} */
-    AlertController.prototype.config;
-}
 //# sourceMappingURL=alert-controller.js.map

@@ -102,7 +102,7 @@
       this.startNextTransaction();
     } else {
       if (this.dbname in this.openDBs) {
-        console.log('new transaction is waiting for open operation');
+        console.log('new transaction is queued, waiting for open operation to finish');
       } else {
         console.log('database is closed, new transaction is [stuck] waiting until db is opened again!');
       }
@@ -162,7 +162,7 @@
   };
 
   SQLitePlugin.prototype.open = function(success, error) {
-    var myfn, openerrorcb, opensuccesscb;
+    var openStep2, openerrorcb, opensuccesscb;
     if (this.dbname in this.openDBs) {
       console.log('database already open: ' + this.dbname);
       nextTick((function(_this) {
@@ -202,13 +202,16 @@
         };
       })(this);
       this.openDBs[this.dbname] = DB_STATE_INIT;
-      if (!txLocks[this.dbname]) {
-        myfn = function(tx) {
-          tx.addStatement('ROLLBACK');
+      openStep2 = (function(_this) {
+        return function() {
+          return cordova.exec(opensuccesscb, openerrorcb, "SQLitePlugin", "open", [_this.openargs]);
         };
-        this.addTransaction(new SQLitePluginTransaction(this, myfn, null, null, false, false));
-      }
-      cordova.exec(opensuccesscb, openerrorcb, "SQLitePlugin", "open", [this.openargs]);
+      })(this);
+      cordova.exec(openStep2, openStep2, 'SQLitePlugin', 'close', [
+        {
+          path: this.dbname
+        }
+      ]);
     }
   };
 

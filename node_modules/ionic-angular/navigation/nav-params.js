@@ -1,11 +1,11 @@
 /**
- * \@name NavParams
- * \@description
+ * @name NavParams
+ * @description
  * NavParams are an object that exists on a page and can contain data for that particular view.
  * Similar to how data was pass to a view in V1 with `$stateParams`, NavParams offer a much more flexible
  * option with a simple `get` method.
  *
- * \@usage
+ * @usage
  * ```ts
  * import { NavParams } from 'ionic-angular';
  *
@@ -18,16 +18,16 @@
  *
  * }
  * ```
- * \@demo /docs/demos/src/nav-params/
- * @see {\@link /docs/components#navigation Navigation Component Docs}
- * @see {\@link ../NavController/ NavController API Docs}
- * @see {\@link /docs/api/components/nav/Nav/ Nav API Docs}
- * @see {\@link /docs/api/components/nav/NavPush/ NavPush API Docs}
+ * @demo /docs/demos/src/nav-params/
+ * @see {@link /docs/components#navigation Navigation Component Docs}
+ * @see {@link ../NavController/ NavController API Docs}
+ * @see {@link /docs/api/components/nav/Nav/ Nav API Docs}
+ * @see {@link /docs/api/components/nav/NavPush/ NavPush API Docs}
  */
 var NavParams = (function () {
     /**
      * @hidden
-     * @param {?=} data
+     * @param {TODO} data  TODO
      */
     function NavParams(data) {
         if (data === void 0) { data = {}; }
@@ -48,8 +48,7 @@ var NavParams = (function () {
      * ```
      *
      *
-     * @param {?} param
-     * @return {?}
+     * @param {string} param Which param you want to look up
      */
     NavParams.prototype.get = function (param) {
         return this.data[param];
@@ -57,8 +56,4 @@ var NavParams = (function () {
     return NavParams;
 }());
 export { NavParams };
-function NavParams_tsickle_Closure_declarations() {
-    /** @type {?} */
-    NavParams.prototype.data;
-}
 //# sourceMappingURL=nav-params.js.map

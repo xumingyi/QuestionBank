@@ -1,6 +1,6 @@
 import { NgZone } from '@angular/core';
-const /** @type {?} */ lorem_ipsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus nisl lobortis interdum condimentum. Cras volutpat, massa quis vehicula eleifend, turpis mauris sodales erat, ut varius ligula ipsum et turpis. Aliquam erat volutpat. Maecenas sodales pellentesque auctor. Suspendisse faucibus a erat sit amet pretium. Vestibulum nec tempus tellus. Mauris fringilla faucibus dui sed vestibulum. Curabitur porttitor consectetur nisl. Nulla porta, neque sed congue tempus, erat nunc rutrum diam, eu elementum sapien leo quis eros. Donec non convallis felis. Nam eu pharetra sapien.';
-export const /** @type {?} */ TEXT_CORPUS = [
+const lorem_ipsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus nisl lobortis interdum condimentum. Cras volutpat, massa quis vehicula eleifend, turpis mauris sodales erat, ut varius ligula ipsum et turpis. Aliquam erat volutpat. Maecenas sodales pellentesque auctor. Suspendisse faucibus a erat sit amet pretium. Vestibulum nec tempus tellus. Mauris fringilla faucibus dui sed vestibulum. Curabitur porttitor consectetur nisl. Nulla porta, neque sed congue tempus, erat nunc rutrum diam, eu elementum sapien leo quis eros. Donec non convallis felis. Nam eu pharetra sapien.';
+export const TEXT_CORPUS = [
     ['hola', 'hola'],
     ['', ''],
     ['   ', '   '],
@@ -8,7 +8,7 @@ export const /** @type {?} */ TEXT_CORPUS = [
     ['hola y adiós', 'hola y adiós'],
     [lorem_ipsum, lorem_ipsum]
 ];
-export const /** @type {?} */ NUMBER_CORPUS = [
+export const NUMBER_CORPUS = [
     [-1, -1],
     [0, 0],
     [-123456789, -123456789],
@@ -18,14 +18,14 @@ export const /** @type {?} */ NUMBER_CORPUS = [
     ['123456789', 123456789],
     ['-123456789', -123456789]
 ];
-export const /** @type {?} */ BOOLEAN_CORPUS = [
+export const BOOLEAN_CORPUS = [
     [true, true],
     [false, false],
     ['', true],
     ['false', false],
     ['true', true],
 ];
-export const /** @type {?} */ ANY_CORPUS = [
+export const ANY_CORPUS = [
     [true, true],
     [false, false],
     [0, 0],
@@ -33,17 +33,11 @@ export const /** @type {?} */ ANY_CORPUS = [
     [' ', ' '],
     ['hola', 'hola']
 ];
-/**
- * @template T
- * @param {?} input
- * @param {?} config
- * @return {?}
- */
 export function commonInputTest(input, config) {
     // TODO test form register/deregister
     // TODO test item classes
     // TODO test disable
-    const /** @type {?} */ zone = new NgZone({ enableLongStackTrace: true });
+    const zone = new NgZone({ enableLongStackTrace: true });
     zone.run(() => {
         if (config.testItem === true && !input._item) {
             (void 0) /* assert */;
@@ -54,7 +48,7 @@ export function commonInputTest(input, config) {
         // Run tests before initialization
         testInput(input, config, false);
         input.ngAfterContentInit();
-        ((input)).ngAfterViewInit && ((input)).ngAfterViewInit();
+        input.ngAfterViewInit && input.ngAfterViewInit();
         // Run tests after initialization
         testInput(input, config, true);
         // Run tests without item
@@ -72,42 +66,28 @@ export function commonInputTest(input, config) {
         (void 0) /* assert */;
     });
 }
-/**
- * @template T
- * @param {?} input
- * @param {?} config
- * @param {?} isInit
- * @return {?}
- */
 function testInput(input, config, isInit) {
     testState(input, config, isInit);
     testWriteValue(input, config, isInit);
     testNgModelChange(input, config, isInit);
 }
-/**
- * @template T
- * @param {?} input
- * @param {?} config
- * @param {?} isInit
- * @return {?}
- */
 function testState(input, config, isInit) {
     assertEqual(input._init, isInit, 'input must be init');
     assertEqual(input._isFocus, false, 'should not be focus');
     assertEqual(input.isFocus(), false, 'should not be focus');
     assertEqual(input.value, config.defaultValue, 'default value is wrong');
     if (isInit) {
-        let /** @type {?} */ blurCount = 0;
-        let /** @type {?} */ focusCount = 0;
-        let /** @type {?} */ onTouchedCalled = 0;
-        const /** @type {?} */ subBlur = input.ionBlur.subscribe((ev) => {
+        let blurCount = 0;
+        let focusCount = 0;
+        let onTouchedCalled = 0;
+        const subBlur = input.ionBlur.subscribe((ev) => {
             assertEqual(ev, input, 'ionBlur argument is wrong');
             blurCount++;
             if (config.onFocusChange && config.onFocusChange(false) !== true) {
                 (void 0) /* assert */;
             }
         });
-        const /** @type {?} */ subFocus = input.ionFocus.subscribe((ev) => {
+        const subFocus = input.ionFocus.subscribe((ev) => {
             assertEqual(ev, input, 'ionFocus argument is wrong');
             focusCount++;
             if (config.onFocusChange && config.onFocusChange(true) !== true) {
@@ -136,22 +116,15 @@ function testState(input, config, isInit) {
         subFocus.unsubscribe();
     }
 }
-/**
- * @template T
- * @param {?} input
- * @param {?} config
- * @param {?} isInit
- * @return {?}
- */
 function testWriteValue(input, config, isInit) {
-    let /** @type {?} */ test;
-    let /** @type {?} */ i;
-    let /** @type {?} */ ionChangeCalled = 0;
-    let /** @type {?} */ OnChangeCalled = 0;
-    let /** @type {?} */ OnTouchedCalled = 0;
-    let /** @type {?} */ ngModelValue;
+    let test;
+    let i;
+    let ionChangeCalled = 0;
+    let OnChangeCalled = 0;
+    let OnTouchedCalled = 0;
+    let ngModelValue;
     // Test ionChange
-    let /** @type {?} */ sub = input.ionChange.subscribe((ev) => {
+    let sub = input.ionChange.subscribe((ev) => {
         assertEqual(ionChangeCalled, 0, 'ionChange: internal error');
         assertEqual(ev, input, 'ionChange: ev is not the input');
         assertEqual(ev.value, test[1], 'ionChange: value does not match');
@@ -211,21 +184,14 @@ function testWriteValue(input, config, isInit) {
     input.registerOnTouched(null);
     sub.unsubscribe();
 }
-/**
- * @template T
- * @param {?} input
- * @param {?} config
- * @param {?} isInit
- * @return {?}
- */
 function testNgModelChange(input, config, isInit) {
-    let /** @type {?} */ test;
-    let /** @type {?} */ i;
-    let /** @type {?} */ ionChangeCalled = 0;
-    let /** @type {?} */ OnChangeCalled = 0;
-    let /** @type {?} */ OnTouchedCalled = 0;
+    let test;
+    let i;
+    let ionChangeCalled = 0;
+    let OnChangeCalled = 0;
+    let OnTouchedCalled = 0;
     // Test ionChange
-    let /** @type {?} */ sub = input.ionChange.subscribe((ev) => {
+    let sub = input.ionChange.subscribe((ev) => {
         assertEqual(ionChangeCalled, 0, 'internal error');
         assertEqual(ev, input, 'ev output does not match');
         assertEqual(test[1], ev.value, 'value does not match');
@@ -269,22 +235,11 @@ function testNgModelChange(input, config, isInit) {
     sub.unsubscribe();
     input.value = config.defaultValue;
 }
-/**
- * @param {?} a
- * @param {?} b
- * @param {?} message
- * @return {?}
- */
 function assertEqual(a, b, message) {
     if (!equal(a, b)) {
         (void 0) /* assert */;
     }
 }
-/**
- * @param {?} a
- * @param {?} b
- * @return {?}
- */
 function equal(a, b) {
     if (a === b) {
         return true;

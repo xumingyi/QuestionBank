@@ -1,7 +1,7 @@
 import { ErrorHandler } from '@angular/core';
 /**
- * \@name IonicErrorHandler
- * \@description
+ * @name IonicErrorHandler
+ * @description
  * The `IonicErrorHandler` intercepts the default `Console` error handling
  * and displays runtime errors as an overlay when using Ionic's Dev Build Server.
  *
@@ -9,10 +9,10 @@ import { ErrorHandler } from '@angular/core';
  * ### IonicErrorHandler Example
  *
  * ```typescript
- * import { ErrorHandler, NgModule } from '\@angular/core';
+ * import { ErrorHandler, NgModule } from '@angular/core';
  * import { IonicErrorHandler } from 'ionic-angular';
  *
- * \@NgModule({
+ * @NgModule({
  *   providers: [{ provide: ErrorHandler, useClass: IonicErrorHandler }]
  * })
  * class AppModule { }
@@ -31,7 +31,7 @@ import { ErrorHandler } from '@angular/core';
  *   }
  * }
  *
- * \@NgModule({
+ * @NgModule({
  *   providers: [{ provide: ErrorHandler, useClass: MyErrorHandler }]
  * })
  * class AppModule { }
@@ -41,18 +41,16 @@ import { ErrorHandler } from '@angular/core';
  */
 export class IonicErrorHandler extends ErrorHandler {
     constructor() {
-        super(false);
+        super();
     }
     /**
-     * \@internal
-     * @param {?} err
-     * @return {?}
+     * @internal
      */
     handleError(err) {
         super.handleError(err);
         try {
-            const /** @type {?} */ win = window;
-            let /** @type {?} */ monitor;
+            const win = window;
+            let monitor;
             monitor = win['IonicDevServer'];
             monitor && monitor.handleError && monitor.handleError(err);
             monitor = (win['Ionic'] = win['Ionic'] || {}).Monitor;
