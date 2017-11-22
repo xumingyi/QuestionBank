@@ -1,9 +1,6 @@
 import {Component} from '@angular/core';
 import {IonicPage, NavController, NavParams} from 'ionic-angular';
 
-import {LoginPage} from "../login/login";
-import {ProfilePage} from "../profile/profile";
-
 import {UserDataProvider} from "../../providers/user-data/user-data";
 
 /**
@@ -22,15 +19,44 @@ import {UserDataProvider} from "../../providers/user-data/user-data";
 })
 export class MyselfPage {
 
+  loginPage = 'LoginPage';
+  profilePage = 'ProfilePage';
+
+  hasLoggedIn: boolean;
+  avatar: string;
+  username: string;
+
   constructor(public navCtrl: NavController, public navParams: NavParams, public userDataProvider: UserDataProvider) {
   }
 
-  openLoginPage() {
-    this.navCtrl.push(LoginPage);
+  openPage(page: string) {
+    return this.navCtrl.push(page).then(value => {
+      return value;
+    });
   }
 
-  openProfilePage() {
-    this.navCtrl.push(ProfilePage);
+  ionViewDidEnter() {
+    this.getLoginStatus();
+    this.getAvatar();
+    this.getUsername();
+  }
+
+  getLoginStatus() {
+    this.userDataProvider.getLoginStatus().then(hasLoggedIn => {
+      this.hasLoggedIn = hasLoggedIn;
+    });
+  }
+
+  getAvatar() {
+    this.userDataProvider.getAvatar().then(avatar => {
+      this.avatar = avatar;
+    });
+  }
+
+  getUsername() {
+    this.userDataProvider.getUsername().then(username => {
+      this.username = username;
+    });
   }
 
 }

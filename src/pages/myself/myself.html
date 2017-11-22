@@ -16,7 +16,7 @@
 <ion-content>
 
   <ion-list>
-    <ion-item tappable *ngIf="!userDataProvider.hasLoggedIn" (click)="openLoginPage()">
+    <ion-item tappable *ngIf="!hasLoggedIn" (click)="openPage(loginPage)">
       <ion-thumbnail item-start>
         <img src="assets/avatar/avatar.png">
       </ion-thumbnail>
@@ -27,7 +27,15 @@
       </button>
     </ion-item>
 
-    <ion-item tappable *ngIf="userDataProvider.hasLoggedIn" (click)="openProfilePage()">
+    <ion-item tappable *ngIf="hasLoggedIn" (click)="openPage(profilePage)">
+      <ion-thumbnail item-start>
+        <img src="{{avatar}}">
+      </ion-thumbnail>
+      <h2>{{username}}</h2>
+      <p>查看个人资料</p>
+      <button ion-button clear icon-only item-end>
+        <ion-icon name="arrow-forward" color="dark"></ion-icon>
+      </button>
     </ion-item>
   </ion-list>
 

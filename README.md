@@ -1,7 +1,5 @@
-# Question Bank
-
-## Introduction
-
+# Question Bank App
 ## App Preview
+### iOS
 
-## File Structure of App
+### Android

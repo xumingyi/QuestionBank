@@ -1,10 +1,6 @@
 import {Injectable} from '@angular/core';
 
-import {SQLiteObject} from "@ionic-native/sqlite";
-
-import {DataProvider} from "../data/data";
-
-import {User} from "./user";
+import {Storage} from '@ionic/storage';
 
 /*
   Generated class for the UserDataProvider provider.
@@ -15,24 +11,154 @@ import {User} from "./user";
 @Injectable()
 export class UserDataProvider {
 
-  database: SQLiteObject;
-  hasLoggedIn: Boolean;
+  constructor(public storage: Storage) {
 
-  constructor(private dataProvider: DataProvider) {
-    this.database = this.dataProvider.myAppDatabase;
-    this.hasLoggedIn = false;
   }
 
-  insertIntoUserTable(user: User) {
-    this.database.executeSql('INSERT INTO users VALUES (?, ?, ?, NULL, NULL, NULL, NULL, NULL, NULL, NULL);', [user.email, user.username, user.password]).then(() => console.log('insert into users table successfully')).catch(e => console.log(e));
+  getLoginStatus() {
+    return this.storage.get('has_logged_in').then(value => {
+      return value;
+    });
   }
 
-  queryUserTable() {
-    this.database.executeSql('SELECT * FROM users;', {}).then(() => console.log('query users table successfully')).catch(e => console.log(e));
+  getUsername() {
+    return this.storage.get('username').then(value => {
+      return value;
+    });
   }
 
-  updateUserTable(user: User) {
-    this.database.executeSql('UPDATE users SET username=?, password=?, gender=?, age=?, birthday=?, intro=?, phone=?, location=?, avatar=? WHERE email=?;', [user.username, user.password, user.gender, user.age, user.birthday, user.intro, user.phone, user.location, user.avatar, user.email]).then(() => console.log('update users table successfully')).catch(e => console.log(e));
+  getPassword() {
+    return this.storage.get('password').then(value => {
+      return value;
+    });
+  }
+
+  getGender() {
+    return this.storage.get('is_male').then(value => {
+      return value;
+    });
+  }
+
+  getAge() {
+    return this.storage.get('age').then(value => {
+      return value;
+    });
+  }
+
+  getBirthday() {
+    return this.storage.get('birthday').then(value => {
+      return value;
+    });
+  }
+
+  getIntro() {
+    return this.storage.get('intro').then(value => {
+      return value;
+    });
+  }
+
+  getEmail() {
+    return this.storage.get('email').then(value => {
+      return value;
+    });
+  }
+
+  getPhone() {
+    return this.storage.get('phone').then(value => {
+      return value;
+    });
+  }
+
+  getLocation() {
+    return this.storage.get('location').then(value => {
+      return value;
+    });
+  }
+
+  getAvatar() {
+    return this.storage.get('avatar').then(value => {
+      return value;
+    });
+  }
+
+  setLoginStatus(hasLoggedIn: boolean) {
+    this.storage.set('has_logged_in', hasLoggedIn).then(value => {
+      return value;
+    });
+  }
+
+  setUsername(username: string) {
+    this.storage.set('username', username).then(value => {
+      return value;
+    });
+  }
+
+  setPassword(password: string) {
+    this.storage.set('password', password).then(value => {
+      return value;
+    });
+  }
+
+  setGender(isMale: boolean) {
+    this.storage.set('is_male', isMale).then(value => {
+      return value;
+    });
+  }
+
+  setAge(age: number) {
+    this.storage.set('age', age).then(value => {
+      return value;
+    });
+  }
+
+  setBirthday(birthday: string) {
+    this.storage.set('birthday', birthday).then(value => {
+      return value;
+    });
+  }
+
+  setIntro(intro: string) {
+    this.storage.set('intro', intro).then(value => {
+      return value;
+    });
+  }
+
+  setEmail(email: string) {
+    this.storage.set('email', email).then(value => {
+      return value;
+    });
+  }
+
+  setPhone(phone: string) {
+    this.storage.set('phone', phone).then(value => {
+      return value;
+    });
+  }
+
+  setLocation(location: string) {
+    this.storage.set('location', location).then(value => {
+      return value;
+    });
+  }
+
+  setAvatar(avatar: string) {
+    this.storage.set('avatar', avatar).then(value => {
+      return value;
+    });
+  }
+
+  loginOrSignUp(email: string, password: string) {
+    this.setLoginStatus(true);
+    this.setUsername(email);
+    this.setPassword(password);
+    this.setGender(true);
+    this.setAge(0);
+    this.setBirthday(null);
+    this.setIntro('');
+    this.setEmail(email);
+    this.setPhone('');
+    this.setLocation('');
+    this.setAvatar('assets/avatar/avatar.png');
   }
 
 }

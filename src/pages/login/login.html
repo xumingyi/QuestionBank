@@ -20,36 +20,41 @@
       <ion-slides #innerSlides>
         <ion-slide>
           <div class="slide-inner">
-            <ion-item>
-              <ion-label floating color="light">电子邮件</ion-label>
-              <ion-input type="email" clearInput="true"></ion-input>
-            </ion-item>
+            <form #loginForm="ngForm">
+              <ion-item>
+                <ion-label floating color="light">电子邮件</ion-label>
+                <ion-input type="email" clearInput="true" [(ngModel)]="login.email" name="email"></ion-input>
+              </ion-item>
 
-            <ion-item>
-              <ion-label floating color="light">密码</ion-label>
-              <ion-input type="password" clearInput="true"></ion-input>
-            </ion-item>
+              <ion-item>
+                <ion-label floating color="light">密码</ion-label>
+                <ion-input type="password" clearInput="true" [(ngModel)]="login.password" name="password"></ion-input>
+              </ion-item>
 
-            <button ion-button block round color="light">登录</button>
+              <button ion-button block round color="light" (click)="onLogin()">登录</button>
+            </form>
 
-            <button ion-button clear color="light" class="forget-button" (click)="innerSlideToNext()">忘记密码？</button>
+            <button ion-button clear color="light" class="forget-button" (click)="innerSlides.slideNext()">忘记密码？
+            </button>
           </div>
 
-          <button ion-button clear color="light" class="bottom-button" (click)="outerSlideToNext()">去注册&nbsp;&nbsp;
+          <button ion-button clear color="light" class="bottom-button" (click)="outerSlides.slideNext()">去注册&nbsp;&nbsp;
             <ion-icon name="arrow-down"></ion-icon>
           </button>
         </ion-slide>
 
         <ion-slide>
           <div class="slide-inner">
-            <ion-item>
-              <ion-label floating color="light">电子邮件</ion-label>
-              <ion-input type="email" clearInput="true"></ion-input>
-            </ion-item>
+            <form #forgetPasswordForm="ngForm">
+              <ion-item>
+                <ion-label floating color="light">电子邮件</ion-label>
+                <ion-input type="email" clearInput="true" [(ngModel)]="forgetPassword.email" name="email"></ion-input>
+              </ion-item>
 
-            <button ion-button block round color="light">重置密码</button>
+              <button ion-button block round color="light" (click)="onSendEmail()">发送邮件</button>
+            </form>
 
-            <button ion-button clear color="light" class="go-back-button" (click)="innerSlideToPrev()">
+            <button ion-button clear color="light" class="go-back-button" (click)="innerSlides.slidePrev()">
               <ion-icon name="arrow-back"></ion-icon>
               &nbsp;&nbsp;返回
             </button>
@@ -59,27 +64,30 @@
     </ion-slide>
 
     <ion-slide>
-      <button ion-button clear color="light" class="top-button" (click)="outerSlideToPrev()">去登录&nbsp;&nbsp;
+      <button ion-button clear color="light" class="top-button" (click)="outerSlides.slidePrev()">去登录&nbsp;&nbsp;
         <ion-icon name="arrow-up"></ion-icon>
       </button>
 
       <div class="slide-inner">
-        <ion-item>
-          <ion-label floating color="light">电子邮件</ion-label>
-          <ion-input type="email" clearInput="true"></ion-input>
-        </ion-item>
+        <form #signUpForm="ngForm">
+          <ion-item>
+            <ion-label floating color="light">电子邮件</ion-label>
+            <ion-input type="email" clearInput="true" [(ngModel)]="signUp.email" name="email"></ion-input>
+          </ion-item>
 
-        <ion-item>
-          <ion-label floating color="light">密码</ion-label>
-          <ion-input type="password" clearInput="true"></ion-input>
-        </ion-item>
+          <ion-item>
+            <ion-label floating color="light">密码</ion-label>
+            <ion-input type="password" clearInput="true" [(ngModel)]="signUp.password" name="password"></ion-input>
+          </ion-item>
 
-        <ion-item>
-          <ion-label floating color="light">确认密码</ion-label>
-          <ion-input type="password" clearInput="true"></ion-input>
-        </ion-item>
+          <ion-item>
+            <ion-label floating color="light">确认密码</ion-label>
+            <ion-input type="password" clearInput="true" [(ngModel)]="signUp.passwordVerified"
+                       name="password_verified"></ion-input>
+          </ion-item>
 
-        <button ion-button block round color="light">注册</button>
+          <button ion-button block round color="light" (click)="onSignUp()">注册</button>
+        </form>
       </div>
     </ion-slide>
 

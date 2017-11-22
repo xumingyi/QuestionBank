@@ -7,16 +7,11 @@ import {StatusBar} from '@ionic-native/status-bar';
 import {SplashScreen} from '@ionic-native/splash-screen';
 import {ScreenOrientation} from "@ionic-native/screen-orientation";
 import {SQLite} from "@ionic-native/sqlite";
+import {IonicStorageModule} from "@ionic/storage";
 
 import {MyApp} from './app.component';
 
-import {DataProvider} from '../providers/data/data';
 import {UserDataProvider} from '../providers/user-data/user-data';
-import {ExamDataProvider} from '../providers/exam-data/exam-data';
-import {QuestionDataProvider} from '../providers/question-data/question-data';
-
-// ionic storage
-/*import {IonicStorageModule} from "@ionic/storage";*/
 
 // ionic pro monitoring
 import {Pro} from '@ionic/pro';
@@ -41,11 +36,10 @@ export class MyErrorHandler implements ErrorHandler {
       preloadModules: true,
       backButtonText: ''
     }),
-    // ionic storage
-    /*IonicStorageModule.forRoot({
+    IonicStorageModule.forRoot({
       name: 'myApp',
       driverOrder: ['sqlite', 'indexeddb', 'websql']
-    })*/
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -56,12 +50,10 @@ export class MyErrorHandler implements ErrorHandler {
     SplashScreen,
     ScreenOrientation,
     SQLite,
-    DataProvider,
     UserDataProvider,
-    ExamDataProvider,
-    QuestionDataProvider,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     {provide: ErrorHandler, useClass: MyErrorHandler},
+    UserDataProvider,
   ]
 })
 
