@@ -1,6 +1,6 @@
-import {Component} from '@angular/core';
+import {Component, ViewChild} from '@angular/core';
 
-import {IonicPage, NavController, NavParams, ToastController} from 'ionic-angular';
+import {IonicPage, NavController, NavParams, ToastController, Slides} from 'ionic-angular';
 
 import {UserDataProvider} from "../../providers/user-data/user-data";
 
@@ -22,6 +22,14 @@ export class LoginPage {
   signUp = {email: '', password: '', passwordVerified: ''};
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public toastCtrl: ToastController, public userDataProvider: UserDataProvider) {
+  }
+
+  @ViewChild('outerSlides') outerSlides: Slides;
+  @ViewChild('innerSlides') innerSlides: Slides;
+
+  ionViewDidEnter() {
+    this.outerSlides.lockSwipes(true);
+    this.innerSlides.lockSwipes(true);
   }
 
   onLogin() {

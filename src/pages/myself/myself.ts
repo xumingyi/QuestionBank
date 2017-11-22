@@ -21,6 +21,7 @@ export class MyselfPage {
 
   loginPage = 'LoginPage';
   profilePage = 'ProfilePage';
+  settingPage = 'SettingPage';
 
   hasLoggedIn: boolean;
   avatar: string;
