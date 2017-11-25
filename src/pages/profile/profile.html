@@ -20,5 +20,38 @@
 
 
 <ion-content>
+  <div class="header-image" [ngStyle]="{'background-image': 'url(assets/img/profile_background.jpg)'}"></div>
+
+  <div class="main-content">
+    <div class="circular" [ngStyle]="{'background-image': 'url('+avatar+')'}"></div>
+
+    <h2>{{username}}</h2>
+
+    <p>{{gender}} &bull; {{birthday}} &bull; {{age}}岁</p>
+
+    <p class="intro">{{intro}}</p>
+
+    <hr>
+
+    <ion-list no-lines>
+      <ion-item>
+        <ion-icon name="mail" color="primary" item-start></ion-icon>
+        <p>电子邮件</p>
+        {{email}}
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="call" color="danger" item-start></ion-icon>
+        <p>手机号码</p>
+        {{phone}}
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="pin" color="secondary" item-start></ion-icon>
+        <p>居住地</p>
+        {{location}}
+      </ion-item>
+    </ion-list>
+  </div>
 
 </ion-content>

@@ -36,7 +36,7 @@ export class MyselfPage {
     });
   }
 
-  ionViewDidEnter() {
+  ionViewWillEnter() {
     this.getLoginStatus();
     this.getAvatar();
     this.getUsername();

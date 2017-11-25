@@ -219,12 +219,12 @@ export class UserDataProvider {
     this.setPassword(password);
     this.setGender(true);
     this.setAge(0);
-    this.setBirthday(null);
-    this.setIntro('');
+    this.setBirthday(new Date().toLocaleDateString());
+    this.setIntro('写点什么吧 ^_^');
     this.setEmail(email);
     this.setPhone('');
     this.setLocation('');
-    this.setAvatar('assets/avatar/avatar.png');
+    this.setAvatar('assets/avatar/avatar.jpg');
   }
 
   logout() {

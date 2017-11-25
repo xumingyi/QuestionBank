@@ -15,6 +15,13 @@
 
 <ion-content>
 
-  <button class="logout-button" ion-button full color="light" *ngIf="hasLoggedIn" (click)="logout()">退出登录</button>
+  <ion-list *ngIf="hasLoggedIn">
+    <ion-list-header color="light">个人信息</ion-list-header>
+    <button ion-item (click)="openPage(editPasswordPage)">修改密码</button>
+  </ion-list>
+
+  <button class=" logout-button
+    " ion-button full clear *ngIf="hasLoggedIn" (click)="logout()">退出登录
+  </button>
 
 </ion-content>

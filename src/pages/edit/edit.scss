@@ -1,3 +1,25 @@
 page-edit {
+  .header-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+  }
 
+  .upload-avatar {
+    margin: 0;
+    text-align: center;
+    color: #333;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .note {
+    margin: 0;
+    color: #666;
+    text-align: right;
+  }
 }

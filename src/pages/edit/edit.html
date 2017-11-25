@@ -8,11 +8,66 @@
 
   <ion-navbar>
     <ion-title>编辑</ion-title>
+
+    <ion-buttons end>
+      <button ion-button (click)="save()">保存</button>
+    </ion-buttons>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content>
+  <div class="header-image" tappable [ngStyle]="{'background-image': 'url('+avatar+')'}"
+       (click)="presentActionSheet()"></div>
 
+  <p class="upload-avatar">上传头像</p>
+
+  <ion-list>
+    <form #editForm="ngForm">
+      <button ion-item (click)="openPage(editUsernamePage)">
+        <ion-icon name="happy" item-start></ion-icon>
+        <ion-label>昵称</ion-label>
+        <ion-label class="note" item-end>{{username}}</ion-label>
+      </button>
+
+      <ion-item>
+        <ion-icon name="body" item-start></ion-icon>
+        <ion-label>性别</ion-label>
+        <ion-select interface="popover" *ngIf="gender" [(ngModel)]="gender" name="gender">
+          <ion-option value=true selected="true">男</ion-option>
+          <ion-option value=false>女</ion-option>
+        </ion-select>
+        <ion-select interface="popover" *ngIf="!gender" [(ngModel)]="gender" name="gender">
+          <ion-option value=true>男</ion-option>
+          <ion-option value=false selected="true">女</ion-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="paper-plane" item-start></ion-icon>
+        <ion-label>生日</ion-label>
+        <ion-datetime displayFormat="YYYY/MM/DD" pickerFormat="YYYY MM DD" cancelText="取消" doneText="完成"
+                      max="{{maxDate}}" [(ngModel)]="birthday"
+                      name="birthday"></ion-datetime>
+      </ion-item>
+
+      <button ion-item (click)="openPage(editIntroPage)">
+        <ion-icon name="heart" item-start></ion-icon>
+        <ion-label>个人简介</ion-label>
+        <ion-label class="note" item-end>{{intro}}</ion-label>
+      </button>
+
+      <button ion-item (click)="openPage(editPhonePage)">
+        <ion-icon name="call" item-start></ion-icon>
+        <ion-label>电话号码</ion-label>
+        <ion-label class="note" item-end>{{phone}}</ion-label>
+      </button>
+
+      <ion-item>
+        <ion-icon name="pin" item-start></ion-icon>
+        <ion-label>居住地</ion-label>
+      </ion-item>
+    </form>
+  </ion-list>
 </ion-content>

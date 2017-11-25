@@ -34,11 +34,11 @@
               <button ion-button block round color="light" (click)="onLogin()">登录</button>
             </form>
 
-            <button ion-button clear color="light" class="forget-button" (click)="innerSlides.slideNext()">忘记密码？
+            <button ion-button clear color="light" class="forget-button" (click)="slidesSlideNext(innerSlides)">忘记密码？
             </button>
           </div>
 
-          <button ion-button clear color="light" class="bottom-button" (click)="outerSlides.slideNext()">去注册&nbsp;&nbsp;
+          <button ion-button clear color="light" class="bottom-button" (click)="slidesSlideNext(outerSlides)">去注册&nbsp;&nbsp;
             <ion-icon name="arrow-down"></ion-icon>
           </button>
         </ion-slide>
@@ -54,7 +54,7 @@
               <button ion-button block round color="light" (click)="onSendEmail()">发送邮件</button>
             </form>
 
-            <button ion-button clear color="light" class="go-back-button" (click)="innerSlides.slidePrev()">
+            <button ion-button clear color="light" class="go-back-button" (click)="slidesSlidePrev(innerSlides)">
               <ion-icon name="arrow-back"></ion-icon>
               &nbsp;&nbsp;返回
             </button>
@@ -64,7 +64,7 @@
     </ion-slide>
 
     <ion-slide>
-      <button ion-button clear color="light" class="top-button" (click)="outerSlides.slidePrev()">去登录&nbsp;&nbsp;
+      <button ion-button clear color="light" class="top-button" (click)="slidesSlidePrev(outerSlides)">去登录&nbsp;&nbsp;
         <ion-icon name="arrow-up"></ion-icon>
       </button>
 

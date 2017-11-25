@@ -27,9 +27,21 @@ export class LoginPage {
   @ViewChild('outerSlides') outerSlides: Slides;
   @ViewChild('innerSlides') innerSlides: Slides;
 
-  ionViewDidEnter() {
+  ionViewWillEnter() {
     this.outerSlides.lockSwipes(true);
     this.innerSlides.lockSwipes(true);
+  }
+
+  slidesSlideNext(slides: Slides) {
+    slides.lockSwipes(false);
+    slides.slideNext();
+    slides.lockSwipes(true);
+  }
+
+  slidesSlidePrev(slides: Slides) {
+    slides.lockSwipes(false);
+    slides.slidePrev();
+    slides.lockSwipes(true);
   }
 
   onLogin() {

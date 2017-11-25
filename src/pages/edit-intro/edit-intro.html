@@ -1,0 +1,27 @@
+<!--
+  Generated template for the EditIntroPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>编辑</ion-title>
+
+    <ion-buttons end>
+      <button ion-button (click)="save()">保存</button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <form #editIntroForm="ngForm">
+    <ion-list>
+      <ion-textarea type="text" value="{{intro}}" [(ngModel)]="intro" name="intro"></ion-textarea>
+      <hr>
+    </ion-list>
+  </form>
+</ion-content>

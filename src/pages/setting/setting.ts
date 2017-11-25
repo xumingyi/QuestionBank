@@ -17,6 +17,8 @@ import {UserDataProvider} from "../../providers/user-data/user-data";
 })
 export class SettingPage {
 
+  editPasswordPage = 'EditPasswordPage';
+
   hasLoggedIn: boolean;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public userDataProvider: UserDataProvider) {
@@ -24,6 +26,12 @@ export class SettingPage {
 
   ionViewDidEnter() {
     this.getLoginStatus();
+  }
+
+  openPage(page: string) {
+    return this.navCtrl.push(page).then(value => {
+      return value;
+    });
   }
 
   getLoginStatus() {

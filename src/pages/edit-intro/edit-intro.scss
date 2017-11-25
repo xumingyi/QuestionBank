@@ -1,0 +1,22 @@
+page-edit-intro {
+  .scroll-content {
+    background-color: #f4f4f4;
+    overflow: hidden;
+  }
+
+  ion-textarea {
+    background-color: white;
+    height: 30vh;
+    padding: 10px 0 10px 8px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+  }
+
+  hr {
+    margin: 0;
+  }
+}
