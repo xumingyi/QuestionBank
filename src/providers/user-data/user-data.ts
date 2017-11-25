@@ -1,5 +1,4 @@
 import {Injectable} from '@angular/core';
-
 import {Storage} from '@ionic/storage';
 
 /*
@@ -23,12 +22,6 @@ export class UserDataProvider {
 
   getUsername() {
     return this.storage.get('username').then(value => {
-      return value;
-    });
-  }
-
-  getPassword() {
-    return this.storage.get('password').then(value => {
       return value;
     });
   }
