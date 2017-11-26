@@ -78,6 +78,12 @@
 		F8F01E88F1F945A3A1B263E8 /* UNIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBB93529F7E44BBBFBA9DE5 /* UNIHTTPRequest.m */; };
 		FDFEF87873AD4D369D36FB2E /* UNIHTTPBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B46B1927264BD18FC75923 /* UNIHTTPBinaryResponse.m */; };
 		FF2B1E8E24F042EF842BFEF9 /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 5907D1AA198F4914BBFF3474 /* UNIHTTPRequestWithBody.m */; };
+		477C6A2D99714CC88BA4D541 /* UIImage+CropScaleOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = E026A12D7D4642A798DC2B3F /* UIImage+CropScaleOrientation.m */; };
+		D9D087F98C7842FAA4E72183 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5377DBD9D84B6C86F3361A /* CDVCamera.m */; };
+		B9D78D6B9C1442FEAA5FB5C4 /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 649028DC24BC404D80F09BD6 /* CDVJpegHeaderWriter.m */; };
+		EEDF46705CFA40B381564B0B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8C69DD883B461FB4D11D02 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		244737567C624CE3AD2CF92D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229D5EEB96D6481B85346C03 /* CoreLocation.framework */; };
+		E64998BAD1B146A995C07BBE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A914CC744F447CB27793AA /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -253,6 +259,16 @@
 		F7F244C20F334AE185DED816 /* inffast.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = inffast.h; path = "cordova-plugin-ionic/inffast.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "考研政治/config.xml"; sourceTree = "<group>"; };
 		FCE5F708A3B048A19C01BBDF /* zip.c */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = zip.c; path = "cordova-plugin-ionic/zip.c"; sourceTree = "<group>"; };
+		E026A12D7D4642A798DC2B3F /* UIImage+CropScaleOrientation.m */ = {isa = PBXFileReference; name = "UIImage+CropScaleOrientation.m"; path = "cordova-plugin-camera/UIImage+CropScaleOrientation.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		6D5377DBD9D84B6C86F3361A /* CDVCamera.m */ = {isa = PBXFileReference; name = "CDVCamera.m"; path = "cordova-plugin-camera/CDVCamera.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		649028DC24BC404D80F09BD6 /* CDVJpegHeaderWriter.m */ = {isa = PBXFileReference; name = "CDVJpegHeaderWriter.m"; path = "cordova-plugin-camera/CDVJpegHeaderWriter.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		EA6AE059DD224378B49E11FD /* UIImage+CropScaleOrientation.h */ = {isa = PBXFileReference; name = "UIImage+CropScaleOrientation.h"; path = "cordova-plugin-camera/UIImage+CropScaleOrientation.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5B37461973064A33BD7C47C7 /* CDVCamera.h */ = {isa = PBXFileReference; name = "CDVCamera.h"; path = "cordova-plugin-camera/CDVCamera.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		A1A74705E2C94F7186711106 /* CDVJpegHeaderWriter.h */ = {isa = PBXFileReference; name = "CDVJpegHeaderWriter.h"; path = "cordova-plugin-camera/CDVJpegHeaderWriter.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		11E887C4E22144509AED8E3F /* CDVExif.h */ = {isa = PBXFileReference; name = "CDVExif.h"; path = "cordova-plugin-camera/CDVExif.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		0F8C69DD883B461FB4D11D02 /* ImageIO.framework */ = {isa = PBXFileReference; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		229D5EEB96D6481B85346C03 /* CoreLocation.framework */ = {isa = PBXFileReference; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		A8A914CC744F447CB27793AA /* AVFoundation.framework */ = {isa = PBXFileReference; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +279,9 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				A7CF5513C8EA40E18EF29065 /* WebKit.framework in Frameworks */,
 				F61620B16A584FEAAC3A3C9E /* libz.tbd in Frameworks */,
+				EEDF46705CFA40B381564B0B /* ImageIO.framework in Frameworks */,
+				244737567C624CE3AD2CF92D /* CoreLocation.framework in Frameworks */,
+				E64998BAD1B146A995C07BBE /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +354,9 @@
 			children = (
 				C82C227D39D148A69E5D0564 /* WebKit.framework */,
 				B036980DD1454D5299B752F1 /* libz.tbd */,
+				0F8C69DD883B461FB4D11D02 /* ImageIO.framework */,
+				229D5EEB96D6481B85346C03 /* CoreLocation.framework */,
+				A8A914CC744F447CB27793AA /* AVFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -487,6 +509,13 @@
 				12E014FC13D44CF9B6CFBD43 /* UNIHTTPResponse.h */,
 				1D9743AA3307476B8A7CA30D /* UNIHTTPStringResponse.h */,
 				F4B9F88B490A48D494E79A41 /* UNIJsonNode.h */,
+				E026A12D7D4642A798DC2B3F /* UIImage+CropScaleOrientation.m */,
+				6D5377DBD9D84B6C86F3361A /* CDVCamera.m */,
+				649028DC24BC404D80F09BD6 /* CDVJpegHeaderWriter.m */,
+				EA6AE059DD224378B49E11FD /* UIImage+CropScaleOrientation.h */,
+				5B37461973064A33BD7C47C7 /* CDVCamera.h */,
+				A1A74705E2C94F7186711106 /* CDVJpegHeaderWriter.h */,
+				11E887C4E22144509AED8E3F /* CDVExif.h */,
 			);
 			name = Plugins;
 			path = "考研政治/Plugins";
@@ -677,6 +706,9 @@
 				A574FE83C7BA445095479C69 /* UNIHTTPStringResponse.m in Sources */,
 				09249B6C186E49E4A1E2C736 /* UNIJsonNode.m in Sources */,
 				70B5FF5CD0424B7F82114D6D /* IonicCordovaCommon.swift in Sources */,
+				477C6A2D99714CC88BA4D541 /* UIImage+CropScaleOrientation.m in Sources */,
+				D9D087F98C7842FAA4E72183 /* CDVCamera.m in Sources */,
+				B9D78D6B9C1442FEAA5FB5C4 /* CDVJpegHeaderWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

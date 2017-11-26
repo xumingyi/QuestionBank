@@ -57,6 +57,38 @@ module.exports = [
             "IonicCordova"
         ],
         "runs": true
+    },
+    {
+        "id": "cordova-plugin-camera.Camera",
+        "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
+        "pluginId": "cordova-plugin-camera",
+        "clobbers": [
+            "Camera"
+        ]
+    },
+    {
+        "id": "cordova-plugin-camera.CameraPopoverOptions",
+        "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
+        "pluginId": "cordova-plugin-camera",
+        "clobbers": [
+            "CameraPopoverOptions"
+        ]
+    },
+    {
+        "id": "cordova-plugin-camera.camera",
+        "file": "plugins/cordova-plugin-camera/www/Camera.js",
+        "pluginId": "cordova-plugin-camera",
+        "clobbers": [
+            "navigator.camera"
+        ]
+    },
+    {
+        "id": "cordova-plugin-camera.CameraPopoverHandle",
+        "file": "plugins/cordova-plugin-camera/www/CameraPopoverHandle.js",
+        "pluginId": "cordova-plugin-camera",
+        "clobbers": [
+            "CameraPopoverHandle"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -71,7 +103,9 @@ module.exports.metadata =
     "cordova-sqlite-storage": "2.0.4",
     "ionic-plugin-keyboard": "2.2.1",
     "cordova-plugin-add-swift-support": "1.7.0",
-    "cordova-plugin-ionic": "1.1.9"
+    "cordova-plugin-ionic": "1.1.9",
+    "cordova-plugin-compat": "1.2.0",
+    "cordova-plugin-camera": "2.4.1"
 };
 // BOTTOM OF METADATA
 });

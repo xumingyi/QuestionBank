@@ -1,48 +1,54 @@
 {
-    "prepare_queue": {
-        "installed": [],
-        "uninstalled": []
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
     },
-    "config_munge": {
-        "files": {}
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
     },
-    "installed_plugins": {
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
-        "cordova-plugin-ionic-webview": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
-        "cordova-plugin-screen-orientation": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
-        "cordova-sqlite-storage": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
-        "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        },
-        "cordova-plugin-ionic": {
-            "APP_ID": "d6a25364",
-            "CHANNEL_NAME": "Master",
-            "UPDATE_API": "https://api.ionicjs.com",
-            "UPDATE_METHOD": "none",
-            "MAX_STORE": "2",
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        }
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
     },
-    "dependent_plugins": {
-        "cordova-plugin-add-swift-support": {
-            "PACKAGE_NAME": "metaphors.name.questionbank"
-        }
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
+    },
+    "cordova-plugin-ionic": {
+      "APP_ID": "d6a25364",
+      "CHANNEL_NAME": "Master",
+      "UPDATE_API": "https://api.ionicjs.com",
+      "UPDATE_METHOD": "none",
+      "MAX_STORE": "2",
+      "PACKAGE_NAME": "metaphors.name.questionbank"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
     }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
+    },
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
+    }
+  }
 }

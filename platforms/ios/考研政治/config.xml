@@ -44,6 +44,9 @@
     <feature name="IonicCordovaCommon">
         <param name="ios-package" onload="true" value="IonicCordovaCommon" />
     </feature>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
     <name>考研政治</name>
     <description>An awesome Ionic/Cordova app.含盖近十年考研政治选择题真题。</description>
     <author href="http://metaphors.name">Metaphors</author>
@@ -106,6 +109,7 @@
     <preference name="PaginationMode" value="unpaginated" />
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="CameraUsesGeolocation" value="false" />
     <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
