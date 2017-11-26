@@ -113,7 +113,7 @@ export class ProfilePage {
 
   getLocation() {
     this.userDataProvider.getLocation().then(location => {
-      this.location = location;
+      this.location = location.split(" ")[2];
     });
   }
 

@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {IonicPage, NavController, NavParams, ActionSheetController} from 'ionic-angular';
 
 import {UserDataProvider} from "../../providers/user-data/user-data";
+import {CityDataProvider} from "../../providers/city-data/city-data";
 
 /**
  * Generated class for the EditPage page.
@@ -32,7 +33,10 @@ export class EditPage {
 
   maxDate: string = new Date().toLocaleDateString().replace(/[^\d]/g, '-');
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public actionSheetCtrl: ActionSheetController, public userDataProvider: UserDataProvider) {
+  cityColumns: any[];
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, public actionSheetCtrl: ActionSheetController, public userDataProvider: UserDataProvider, public cityDataProvider: CityDataProvider) {
+    this.cityColumns = this.cityDataProvider.cities;
   }
 
   ionViewWillEnter() {
@@ -49,6 +53,7 @@ export class EditPage {
   save() {
     this.userDataProvider.setGender(this.gender);
     this.userDataProvider.setBirthday(this.birthday.replace(/[^\d]/g, '/'));
+    this.userDataProvider.setLocation(this.location);
     this.navCtrl.pop().then(value => {
       return value;
     });

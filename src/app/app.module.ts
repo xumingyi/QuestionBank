@@ -9,13 +9,16 @@ import {ScreenOrientation} from "@ionic-native/screen-orientation";
 import {SQLite} from "@ionic-native/sqlite";
 import {IonicStorageModule} from "@ionic/storage";
 
-import {MyApp} from './app.component';
+import {MultiPickerModule} from 'ion-multi-picker';
 
-import {UserDataProvider} from '../providers/user-data/user-data';
+import {MyApp} from './app.component';
 
 // ionic pro monitoring
 import {Pro} from '@ionic/pro';
-import { SettingDataProvider } from '../providers/setting-data/setting-data';
+
+import {UserDataProvider} from '../providers/user-data/user-data';
+import {SettingDataProvider} from '../providers/setting-data/setting-data';
+import {CityDataProvider} from '../providers/city-data/city-data';
 
 const IonicPro = Pro.init('d6a25364', {
   appVersion: "0.0.1"
@@ -33,6 +36,7 @@ export class MyErrorHandler implements ErrorHandler {
   ],
   imports: [
     BrowserModule,
+    MultiPickerModule,
     IonicModule.forRoot(MyApp, {
       preloadModules: true,
       backButtonText: ''
@@ -51,11 +55,11 @@ export class MyErrorHandler implements ErrorHandler {
     SplashScreen,
     ScreenOrientation,
     SQLite,
-    UserDataProvider,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     {provide: ErrorHandler, useClass: MyErrorHandler},
     UserDataProvider,
     SettingDataProvider,
+    CityDataProvider,
   ]
 })
 

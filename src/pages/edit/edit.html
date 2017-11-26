@@ -67,6 +67,8 @@
       <ion-item>
         <ion-icon name="pin" item-start></ion-icon>
         <ion-label>居住地</ion-label>
+        <ion-multi-picker item-content [multiPickerColumns]="cityColumns" [cancelText]="'取消'" [doneText]="'完成'"
+                          [placeholder]="'请选择省市区'" [(ngModel)]="location" name="location"></ion-multi-picker>
       </ion-item>
     </form>
   </ion-list>

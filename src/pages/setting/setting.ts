@@ -27,7 +27,7 @@ export class SettingPage {
     this.getActiveTheme();
   }
 
-  ionViewDidEnter() {
+  ionViewWillEnter() {
     this.getLoginStatus();
   }
 
