@@ -5,7 +5,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>CFBundleDisplayName</key>
-    <string>${PRODUCT_NAME}</string>
+    <string>考研政治</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIcons</key>
@@ -68,6 +68,12 @@
     </array>
     <key>UILaunchStoryboardName</key>
     <string>CDVLaunchScreen</string>
+    <key>NSCameraUsageDescription</key>
+    <string/>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string/>
     <key>IonAppId</key>
     <string>d6a25364</string>
     <key>IonChannelName</key>
@@ -75,14 +81,8 @@
     <key>IonApi</key>
     <string>https://api.ionicjs.com</string>
     <key>IonUpdateMethod</key>
-    <string>none</string>
+    <string>background</string>
     <key>IonMaxVersions</key>
     <string>2</string>
-    <key>NSCameraUsageDescription</key>
-    <string/>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string/>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string/>
   </dict>
 </plist>

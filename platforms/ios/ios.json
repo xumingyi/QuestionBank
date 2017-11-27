@@ -9,7 +9,23 @@
         "parents": {
           "/*": [
             {
+              "xml": "<feature name=\"Camera\"><param name=\"ios-package\" value=\"CDVCamera\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"CameraUsesGeolocation\" value=\"false\" />",
+              "count": 1
+            },
+            {
               "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"IonicDeploy\"><param name=\"ios-package\" onload=\"true\" value=\"IonicDeploy\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"IonicCordovaCommon\"><param name=\"ios-package\" onload=\"true\" value=\"IonicCordovaCommon\" /></feature>",
               "count": 1
             },
             {
@@ -22,10 +38,6 @@
             },
             {
               "xml": "<preference name=\"CordovaWebViewEngine\" value=\"CDVWKWebViewEngine\" />",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"CDVOrientation\"><param name=\"ios-package\" value=\"CDVOrientation\" /></feature>",
               "count": 1
             },
             {
@@ -53,19 +65,7 @@
               "count": 1
             },
             {
-              "xml": "<feature name=\"IonicDeploy\"><param name=\"ios-package\" onload=\"true\" value=\"IonicDeploy\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"IonicCordovaCommon\"><param name=\"ios-package\" onload=\"true\" value=\"IonicCordovaCommon\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"Camera\"><param name=\"ios-package\" value=\"CDVCamera\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<preference name=\"CameraUsesGeolocation\" value=\"false\" />",
+              "xml": "<feature name=\"CDVOrientation\"><param name=\"ios-package\" value=\"CDVOrientation\" /></feature>",
               "count": 1
             }
           ]
@@ -73,6 +73,24 @@
       },
       "*-Info.plist": {
         "parents": {
+          "NSCameraUsageDescription": [
+            {
+              "xml": "<string> </string>",
+              "count": 1
+            }
+          ],
+          "NSPhotoLibraryUsageDescription": [
+            {
+              "xml": "<string> </string>",
+              "count": 1
+            }
+          ],
+          "NSLocationWhenInUseUsageDescription": [
+            {
+              "xml": "<string />",
+              "count": 1
+            }
+          ],
           "IonAppId": [
             {
               "xml": "<string>d6a25364</string>",
@@ -93,7 +111,7 @@
           ],
           "IonUpdateMethod": [
             {
-              "xml": "<string>none</string>",
+              "xml": "<string>background</string>",
               "count": 1
             }
           ],
@@ -102,37 +120,35 @@
               "xml": "<string>2</string>",
               "count": 1
             }
-          ],
-          "NSCameraUsageDescription": [
-            {
-              "xml": "<string> </string>",
-              "count": 1
-            }
-          ],
-          "NSPhotoLibraryUsageDescription": [
-            {
-              "xml": "<string> </string>",
-              "count": 1
-            }
-          ],
-          "NSLocationWhenInUseUsageDescription": [
-            {
-              "xml": "<string />",
-              "count": 1
-            }
           ]
         }
       }
     }
   },
   "installed_plugins": {
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
+    },
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
+    },
+    "cordova-plugin-camera": {
+      "CAMERA_USAGE_DESCRIPTION": " ",
+      "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "metaphors.name.questionbank"
+    },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "metaphors.name.questionbank"
     },
-    "cordova-plugin-ionic-webview": {
+    "cordova-plugin-ionic": {
+      "APP_ID": "d6a25364",
+      "CHANNEL_NAME": "Master",
+      "UPDATE_API": "https://api.ionicjs.com",
+      "UPDATE_METHOD": "background",
+      "MAX_STORE": "2",
       "PACKAGE_NAME": "metaphors.name.questionbank"
     },
-    "cordova-plugin-screen-orientation": {
+    "cordova-plugin-ionic-webview": {
       "PACKAGE_NAME": "metaphors.name.questionbank"
     },
     "cordova-plugin-splashscreen": {
@@ -150,28 +166,44 @@
     "ionic-plugin-keyboard": {
       "PACKAGE_NAME": "metaphors.name.questionbank"
     },
-    "cordova-plugin-add-swift-support": {
-      "PACKAGE_NAME": "metaphors.name.questionbank"
-    },
-    "cordova-plugin-ionic": {
-      "APP_ID": "d6a25364",
-      "CHANNEL_NAME": "Master",
-      "UPDATE_API": "https://api.ionicjs.com",
-      "UPDATE_METHOD": "none",
-      "MAX_STORE": "2",
-      "PACKAGE_NAME": "metaphors.name.questionbank"
-    },
-    "cordova-plugin-compat": {
-      "PACKAGE_NAME": "metaphors.name.questionbank"
-    },
-    "cordova-plugin-camera": {
-      "CAMERA_USAGE_DESCRIPTION": " ",
-      "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
+    "cordova-plugin-screen-orientation": {
       "PACKAGE_NAME": "metaphors.name.questionbank"
     }
   },
   "dependent_plugins": {},
   "modules": [
+    {
+      "id": "cordova-plugin-camera.Camera",
+      "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "Camera"
+      ]
+    },
+    {
+      "id": "cordova-plugin-camera.CameraPopoverOptions",
+      "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "CameraPopoverOptions"
+      ]
+    },
+    {
+      "id": "cordova-plugin-camera.camera",
+      "file": "plugins/cordova-plugin-camera/www/Camera.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "navigator.camera"
+      ]
+    },
+    {
+      "id": "cordova-plugin-camera.CameraPopoverHandle",
+      "file": "plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "CameraPopoverHandle"
+      ]
+    },
     {
       "id": "cordova-plugin-device.device",
       "file": "plugins/cordova-plugin-device/www/device.js",
@@ -181,19 +213,20 @@
       ]
     },
     {
+      "id": "cordova-plugin-ionic.common",
+      "file": "plugins/cordova-plugin-ionic/www/common.js",
+      "pluginId": "cordova-plugin-ionic",
+      "clobbers": [
+        "IonicCordova"
+      ],
+      "runs": true
+    },
+    {
       "id": "cordova-plugin-ionic-webview.ios-wkwebview-exec",
       "file": "plugins/cordova-plugin-ionic-webview/src/www/ios/ios-wkwebview-exec.js",
       "pluginId": "cordova-plugin-ionic-webview",
       "clobbers": [
         "cordova.exec"
-      ]
-    },
-    {
-      "id": "cordova-plugin-screen-orientation.screenorientation",
-      "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.js",
-      "pluginId": "cordova-plugin-screen-orientation",
-      "clobbers": [
-        "cordova.plugins.screenorientation"
       ]
     },
     {
@@ -230,59 +263,26 @@
       "runs": true
     },
     {
-      "id": "cordova-plugin-ionic.common",
-      "file": "plugins/cordova-plugin-ionic/www/common.js",
-      "pluginId": "cordova-plugin-ionic",
+      "id": "cordova-plugin-screen-orientation.screenorientation",
+      "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.js",
+      "pluginId": "cordova-plugin-screen-orientation",
       "clobbers": [
-        "IonicCordova"
-      ],
-      "runs": true
-    },
-    {
-      "id": "cordova-plugin-camera.Camera",
-      "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
-      "pluginId": "cordova-plugin-camera",
-      "clobbers": [
-        "Camera"
-      ]
-    },
-    {
-      "id": "cordova-plugin-camera.CameraPopoverOptions",
-      "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
-      "pluginId": "cordova-plugin-camera",
-      "clobbers": [
-        "CameraPopoverOptions"
-      ]
-    },
-    {
-      "id": "cordova-plugin-camera.camera",
-      "file": "plugins/cordova-plugin-camera/www/Camera.js",
-      "pluginId": "cordova-plugin-camera",
-      "clobbers": [
-        "navigator.camera"
-      ]
-    },
-    {
-      "id": "cordova-plugin-camera.CameraPopoverHandle",
-      "file": "plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js",
-      "pluginId": "cordova-plugin-camera",
-      "clobbers": [
-        "CameraPopoverHandle"
+        "cordova.plugins.screenorientation"
       ]
     }
   ],
   "plugin_metadata": {
+    "cordova-plugin-add-swift-support": "1.7.0",
+    "cordova-plugin-compat": "1.2.0",
+    "cordova-plugin-camera": "2.4.1",
     "cordova-plugin-device": "1.1.4",
+    "cordova-plugin-ionic": "1.1.9",
     "cordova-plugin-ionic-webview": "1.1.14",
-    "cordova-plugin-screen-orientation": "2.0.1",
     "cordova-plugin-splashscreen": "4.0.3",
     "cordova-plugin-statusbar": "2.2.2",
     "cordova-plugin-whitelist": "1.3.1",
     "cordova-sqlite-storage": "2.0.4",
     "ionic-plugin-keyboard": "2.2.1",
-    "cordova-plugin-add-swift-support": "1.7.0",
-    "cordova-plugin-ionic": "1.1.9",
-    "cordova-plugin-compat": "1.2.0",
-    "cordova-plugin-camera": "2.4.1"
+    "cordova-plugin-screen-orientation": "2.0.2"
   }
 }

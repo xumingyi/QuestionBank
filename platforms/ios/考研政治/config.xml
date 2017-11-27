@@ -3,6 +3,10 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
+    </feature>
     <feature name="HandleOpenUrl">
         <param name="ios-package" value="CDVHandleOpenURL" />
         <param name="onload" value="true" />
@@ -15,14 +19,20 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
     <feature name="Device">
         <param name="ios-package" value="CDVDevice" />
     </feature>
+    <feature name="IonicDeploy">
+        <param name="ios-package" onload="true" value="IonicDeploy" />
+    </feature>
+    <feature name="IonicCordovaCommon">
+        <param name="ios-package" onload="true" value="IonicCordovaCommon" />
+    </feature>
     <feature name="CDVWKWebViewEngine">
         <param name="ios-package" value="CDVWKWebViewEngine" />
-    </feature>
-    <feature name="CDVOrientation">
-        <param name="ios-package" value="CDVOrientation" />
     </feature>
     <feature name="SplashScreen">
         <param name="ios-package" value="CDVSplashScreen" />
@@ -38,14 +48,8 @@
     <feature name="Keyboard">
         <param name="ios-package" onload="true" value="IonicKeyboard" />
     </feature>
-    <feature name="IonicDeploy">
-        <param name="ios-package" onload="true" value="IonicDeploy" />
-    </feature>
-    <feature name="IonicCordovaCommon">
-        <param name="ios-package" onload="true" value="IonicCordovaCommon" />
-    </feature>
-    <feature name="Camera">
-        <param name="ios-package" value="CDVCamera" />
+    <feature name="CDVOrientation">
+        <param name="ios-package" value="CDVOrientation" />
     </feature>
     <name>考研政治</name>
     <description>An awesome Ionic/Cordova app.含盖近十年考研政治选择题真题。</description>
@@ -107,9 +111,9 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
+    <preference name="CameraUsesGeolocation" value="false" />
     <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarStyle" value="lightcontent" />
-    <preference name="CameraUsesGeolocation" value="false" />
     <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />

@@ -1,8 +1,8 @@
 {
   "_from": "cordova-plugin-screen-orientation",
-  "_id": "cordova-plugin-screen-orientation@2.0.1",
+  "_id": "cordova-plugin-screen-orientation@2.0.2",
   "_inBundle": false,
-  "_integrity": "sha1-1gj9bN1+C1i64xB3aKyTCvAf9Dc=",
+  "_integrity": "sha1-kjMzRdE+T9TovUNsqeekbAl7GzY=",
   "_location": "/cordova-plugin-screen-orientation",
   "_phantomChildren": {},
   "_requested": {
@@ -19,15 +19,15 @@
     "#USER",
     "/"
   ],
-  "_resolved": "http://registry.npm.taobao.org/cordova-plugin-screen-orientation/download/cordova-plugin-screen-orientation-2.0.1.tgz",
-  "_shasum": "d608fd6cdd7e0b58bae3107768ac930af01ff437",
+  "_resolved": "http://registry.npm.taobao.org/cordova-plugin-screen-orientation/download/cordova-plugin-screen-orientation-2.0.2.tgz",
+  "_shasum": "92333345d13e4fd4e8bd436ca9e7a46c097b1b36",
   "_spec": "cordova-plugin-screen-orientation",
-  "_where": "/Users/xi/Ionic/QuestionBank/node_modules",
+  "_where": "/Users/xi/Ionic/QuestionBank",
   "author": {
     "name": "gbenvenuti"
   },
   "bugs": {
-    "url": "https://github.com/apache/cordova-plugin-screen-orientation/issues"
+    "url": "https://issues.apache.org/jira/browse/CB"
   },
   "bundleDependencies": false,
   "cordova": {
@@ -70,5 +70,5 @@
     "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint demo/www",
     "test": "npm run jshint"
   },
-  "version": "2.0.1"
+  "version": "2.0.2"
 }
