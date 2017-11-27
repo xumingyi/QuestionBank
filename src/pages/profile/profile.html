@@ -27,7 +27,8 @@
 
     <h2>{{username}}</h2>
 
-    <p>{{gender}} &bull; {{birthday}} &bull; {{age}}岁</p>
+
+    <p class="gender" *ngIf="gender">男</p><p calss="gender" *ngIf="!gender">女</p>&bull; {{birthday}} &bull; {{age}}岁
 
     <p class="intro">{{intro}}</p>
 

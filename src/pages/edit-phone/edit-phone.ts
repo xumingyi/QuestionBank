@@ -19,7 +19,12 @@ export class EditPhonePage {
 
   phone: string;
 
+  editInfo = [];
+  callback: any;
+
   constructor(public navCtrl: NavController, public navParams: NavParams, public toastCtrl: ToastController, public userDataProvider: UserDataProvider) {
+    this.editInfo = this.navParams.get('editInfo');
+    this.callback = this.navParams.get('callback');
   }
 
   ionViewWillEnter() {
@@ -38,9 +43,11 @@ export class EditPhonePage {
       this.presentToast('输入的手机号码不正确');
     } else {
       this.userDataProvider.setPhone(this.phone);
-      this.navCtrl.pop().then(value => {
-        return value;
-      });
+      this.callback(this.editInfo).then(() =>
+        this.navCtrl.pop().then(value => {
+          return value;
+        })
+      );
     }
   }
 

@@ -19,7 +19,12 @@ export class EditIntroPage {
 
   intro: string;
 
+  editInfo = [];
+  callback: any;
+
   constructor(public navCtrl: NavController, public navParams: NavParams, public userDataProvider: UserDataProvider) {
+    this.editInfo = this.navParams.get('editInfo');
+    this.callback = this.navParams.get('callback');
   }
 
   ionViewWillEnter() {
@@ -34,9 +39,11 @@ export class EditIntroPage {
 
   save() {
     this.userDataProvider.setIntro(this.intro);
-    this.navCtrl.pop().then(value => {
-      return value;
-    });
+    this.callback(this.editInfo).then(() =>
+      this.navCtrl.pop().then(value => {
+        return value;
+      })
+    );
   }
 
 }

@@ -18,14 +18,14 @@
 
 
 <ion-content>
-  <div class="header-image" tappable [ngStyle]="{'background-image': 'url('+avatar+')'}"
+  <div class="header-image" tappable [ngStyle]="{'background-image': 'url('+editAvatar+')'}"
        (click)="presentActionSheet()"></div>
 
   <p class="upload-avatar">上传头像</p>
 
   <ion-list>
     <form #editForm="ngForm">
-      <button ion-item (click)="openPage(editUsernamePage)">
+      <button ion-item (click)="openEditPage(editUsernamePage)">
         <ion-icon name="happy" item-start></ion-icon>
         <ion-label>昵称</ion-label>
         <ion-label class="note" item-end>{{username}}</ion-label>
@@ -34,11 +34,11 @@
       <ion-item>
         <ion-icon name="body" item-start></ion-icon>
         <ion-label>性别</ion-label>
-        <ion-select interface="popover" *ngIf="gender" [(ngModel)]="gender" name="gender">
+        <ion-select interface="popover" *ngIf="editGender" [(ngModel)]="editGender" name="gender">
           <ion-option value=true selected="true">男</ion-option>
           <ion-option value=false>女</ion-option>
         </ion-select>
-        <ion-select interface="popover" *ngIf="!gender" [(ngModel)]="gender" name="gender">
+        <ion-select interface="popover" *ngIf="!editGender" [(ngModel)]="editGender" name="gender">
           <ion-option value=true>男</ion-option>
           <ion-option value=false selected="true">女</ion-option>
         </ion-select>
@@ -48,17 +48,17 @@
         <ion-icon name="paper-plane" item-start></ion-icon>
         <ion-label>生日</ion-label>
         <ion-datetime displayFormat="YYYY/MM/DD" pickerFormat="YYYY MM DD" cancelText="取消" doneText="完成"
-                      max="{{maxDate}}" [(ngModel)]="birthday"
+                      max="{{maxDate}}" [(ngModel)]="editBirthday"
                       name="birthday"></ion-datetime>
       </ion-item>
 
-      <button ion-item (click)="openPage(editIntroPage)">
+      <button ion-item (click)="openEditPage(editIntroPage)">
         <ion-icon name="heart" item-start></ion-icon>
         <ion-label>个人简介</ion-label>
         <ion-label class="note" item-end>{{intro}}</ion-label>
       </button>
 
-      <button ion-item (click)="openPage(editPhonePage)">
+      <button ion-item (click)="openEditPage(editPhonePage)">
         <ion-icon name="call" item-start></ion-icon>
         <ion-label>电话号码</ion-label>
         <ion-label class="note" item-end>{{phone}}</ion-label>
@@ -68,7 +68,7 @@
         <ion-icon name="pin" item-start></ion-icon>
         <ion-label>现居地</ion-label>
         <ion-multi-picker item-content [multiPickerColumns]="cityColumns" [cancelText]="'取消'" [doneText]="'完成'"
-                          [placeholder]="'请选择省市区'" [(ngModel)]="location" name="location"></ion-multi-picker>
+                          [placeholder]="'请选择省市区'" [(ngModel)]="editLocation" name="location"></ion-multi-picker>
       </ion-item>
     </form>
   </ion-list>

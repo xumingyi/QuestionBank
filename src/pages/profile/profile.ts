@@ -21,7 +21,7 @@ export class ProfilePage {
 
   avatar: string;
   username: string;
-  gender: string;
+  gender: boolean;
   birthday: string;
   age: number;
   intro: string;
@@ -68,11 +68,7 @@ export class ProfilePage {
 
   getGender() {
     this.userDataProvider.getGender().then(gender => {
-      if (gender) {
-        this.gender = "男";
-      } else {
-        this.gender = "女";
-      }
+      this.gender = gender;
     });
   }
 

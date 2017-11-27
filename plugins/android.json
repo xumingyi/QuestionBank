@@ -7,6 +7,9 @@
     "files": {}
   },
   "installed_plugins": {
+    "com.synconset.imagepicker": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
+    },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "metaphors.name.questionbank"
     },
@@ -40,9 +43,6 @@
       "PACKAGE_NAME": "metaphors.name.questionbank"
     },
     "ionic-plugin-keyboard": {
-      "PACKAGE_NAME": "metaphors.name.questionbank"
-    },
-    "com.synconset.imagepicker": {
       "PACKAGE_NAME": "metaphors.name.questionbank"
     }
   },

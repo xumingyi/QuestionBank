@@ -34,6 +34,12 @@ export class EditPage {
   phone: string;
   location: string;
 
+  editAvatar: string;
+  editGender: boolean;
+  editBirthday: string;
+  editLocation: string;
+  editInfo = [this.editAvatar, this.editGender, this.editBirthday, this.editLocation];
+
   maxDate: string = new Date().toLocaleDateString().replace(/[^\d]/g, '-');
 
   cityColumns: any[];
@@ -53,18 +59,46 @@ export class EditPage {
     this.getLocation();
   }
 
+  ionViewDidEnter() {
+    if (typeof(this.editAvatar) === 'undefined') {
+      this.editAvatar = this.avatar;
+    }
+    if (typeof(this.editGender) === 'undefined') {
+      this.editGender = this.gender;
+    }
+    if (typeof(this.editBirthday) === 'undefined') {
+      this.editBirthday = this.birthday;
+    }
+    if (typeof(this.editLocation) === 'undefined') {
+      this.editLocation = this.location;
+    }
+  }
+
   save() {
-    this.userDataProvider.setAvatar(this.avatar);
-    this.userDataProvider.setGender(this.gender);
-    this.userDataProvider.setBirthday(this.birthday.replace(/[^\d]/g, '/'));
-    this.userDataProvider.setLocation(this.location);
+    this.userDataProvider.setAvatar(this.editAvatar);
+    this.userDataProvider.setGender(this.editGender);
+    this.userDataProvider.setBirthday(this.editBirthday.replace(/[^\d]/g, '/'));
+    this.userDataProvider.setLocation(this.editLocation);
     this.navCtrl.pop().then(value => {
       return value;
     });
   }
 
+  callback = (editInfo) => {
+    return new Promise(resolve => {
+      this.editInfo = editInfo;
+      resolve("callback");
+    });
+  };
+
+  openEditPage(page: string) {
+    this.navCtrl.push(page, {editInfo: this.editInfo, callback: this.callback}).then(value => {
+      return value;
+    });
+  }
+
   openPage(page: string) {
-    return this.navCtrl.push(page).then(value => {
+    this.navCtrl.push(page).then(value => {
       return value;
     });
   }
@@ -108,7 +142,7 @@ export class EditPage {
 
     this.camera.getPicture(options).then(image => {
       console.log('Image URI: ' + image);
-      this.avatar = image.slice(7);
+      this.editAvatar = image.slice(7);
     }, error => {
       console.log('Error: ' + error);
     });
@@ -125,7 +159,7 @@ export class EditPage {
         this.presentAlert();
       } else if (images.length === 1) {
         console.log('Image URI: ' + images[0]);
-        this.avatar = images[0].slice(7);
+        this.editAvatar = images[0].slice(7);
       }
     }, error => {
       console.log('Error: ' + error);

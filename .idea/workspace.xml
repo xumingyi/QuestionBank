@@ -6,147 +6,99 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_CordovaLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/3.3/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/4.1/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/4.1/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-release.aar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xxhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-xxhdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/drawable-port-xxxhdpi/screen.png" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-xxxhdpi/screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/mipmap-hdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/mipmap-hdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/mipmap-ldpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/mipmap-ldpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/mipmap-mdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/mipmap-mdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/mipmap-xhdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/mipmap-xhdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/mipmap-xxhdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/mipmap-xxhdpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/mipmap-xxxhdpi/icon.png" afterPath="$PROJECT_DIR$/platforms/android/res/mipmap-xxxhdpi/icon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/考研政治.xcworkspace/xcuserdata/xi.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/platforms/ios/考研政治.xcworkspace/xcuserdata/xi.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http-testing.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http-testing.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http-testing.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http-testing.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http-testing.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http.umd.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http.umd.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-http.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-testing.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-testing.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-testing.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-testing.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common-testing.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/common/bundles/common.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/common.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/common/common.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/esm2015/common.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/esm2015/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/esm2015/common.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/common/esm2015/common.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/esm2015/http.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/esm2015/http.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/esm2015/http/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/esm2015/http/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/esm2015/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/esm2015/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/esm5/common.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/esm5/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/esm5/common.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/common/esm5/common.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/esm5/http.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/esm5/http.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/esm5/http/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/esm5/http/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/esm5/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/common/esm5/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/http.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/common/http.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/http/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/common/http/testing.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/common/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/src/location/location.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/common/src/location/location.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/common/testing.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/common/testing/src/location_mock.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/common/testing/src/location_mock.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/version.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/version.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/version.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler-cli/src/version.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler-testing.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler-testing.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler-testing.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler-testing.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler-testing.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/bundles/compiler.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/esm2015/compiler.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/esm2015/compiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/esm2015/compiler.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/esm2015/compiler.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/esm2015/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/esm2015/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/esm5/compiler.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/esm5/compiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/esm5/compiler.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/esm5/compiler.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/esm5/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/esm5/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/src/aot/compiler.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/src/aot/compiler.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/compiler/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/compiler/testing.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core-testing.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/core/bundles/core.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/core.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/core/core.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/core.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/core.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/core.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm2015/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/esm5/core.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/esm5/core.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/core.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/core/esm5/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/core/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/core/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/core/testing.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/bundles/forms.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/esm2015/forms.js" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/esm2015/forms.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/esm2015/forms.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/esm2015/forms.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/esm5/forms.js" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/esm5/forms.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/esm5/forms.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/esm5/forms.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/forms.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/forms.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/forms/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/forms/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http-testing.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http-testing.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http-testing.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http-testing.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http-testing.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http.umd.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http.umd.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/http/bundles/http.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/esm2015/http.js" afterPath="$PROJECT_DIR$/node_modules/@angular/http/esm2015/http.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/esm2015/http.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/http/esm2015/http.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/esm2015/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/http/esm2015/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/esm5/http.js" afterPath="$PROJECT_DIR$/node_modules/@angular/http/esm5/http.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/esm5/http.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/http/esm5/http.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/esm5/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/http/esm5/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/http.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/http/http.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/http/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/http/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/http/testing.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/esm2015/platform-browser-dynamic.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/esm2015/platform-browser-dynamic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/esm2015/platform-browser-dynamic.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/esm2015/platform-browser-dynamic.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/esm2015/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/esm2015/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/esm5/platform-browser-dynamic.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/esm5/platform-browser-dynamic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/esm5/platform-browser-dynamic.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/esm5/platform-browser-dynamic.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/esm5/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/esm5/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/platform-browser-dynamic.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/platform-browser-dynamic.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser-dynamic/testing.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/animations.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/animations.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-animations.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-animations.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-animations.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-animations.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-animations.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-animations.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-testing.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-testing.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-testing.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-testing.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-testing.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser-testing.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.min.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.min.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/bundles/platform-browser.umd.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm2015/animations.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm2015/animations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm2015/platform-browser.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm2015/platform-browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm2015/platform-browser.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm2015/platform-browser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm2015/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm2015/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm5/animations.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm5/animations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm5/platform-browser.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm5/platform-browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm5/platform-browser.js.map" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm5/platform-browser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm5/testing.js" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/esm5/testing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/package.json" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/platform-browser.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/platform-browser.metadata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/src/dom/events/dom_events.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/src/dom/events/dom_events.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@angular/platform-browser/testing.d.ts" afterPath="$PROJECT_DIR$/node_modules/@angular/platform-browser/testing.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/build/vendor.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/build/vendor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/vendor.js" afterPath="$PROJECT_DIR$/www/build/vendor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/0.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/0.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/10.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/10.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/11.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/11.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/3.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/3.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/4.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/4.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/6.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/6.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/7.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/7.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/8.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/8.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/main.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/buildOutputCleanup/cache.properties" afterPath="$PROJECT_DIR$/platforms/android/.gradle/buildOutputCleanup/cache.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/android.json" afterPath="$PROJECT_DIR$/platforms/android/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/build/0.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/build/0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/build/10.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/build/10.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/build/11.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/build/11.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/build/3.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/build/3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/build/4.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/build/4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/build/6.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/build/6.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/build/7.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/build/7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/build/8.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/build/8.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/build/main.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/build/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/build/main.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/build/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build.gradle" afterPath="$PROJECT_DIR$/platforms/android/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/project.properties" afterPath="$PROJECT_DIR$/platforms/android/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/edit-intro/edit-intro.ts" afterPath="$PROJECT_DIR$/src/pages/edit-intro/edit-intro.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/edit-phone/edit-phone.ts" afterPath="$PROJECT_DIR$/src/pages/edit-phone/edit-phone.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/edit-username/edit-username.ts" afterPath="$PROJECT_DIR$/src/pages/edit-username/edit-username.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/edit/edit.html" afterPath="$PROJECT_DIR$/src/pages/edit/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/edit/edit.ts" afterPath="$PROJECT_DIR$/src/pages/edit/edit.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/exam/exam.html" afterPath="$PROJECT_DIR$/src/pages/exam/exam.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/myself/myself.ts" afterPath="$PROJECT_DIR$/src/pages/myself/myself.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/profile/profile.html" afterPath="$PROJECT_DIR$/src/pages/profile/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/profile/profile.scss" afterPath="$PROJECT_DIR$/src/pages/profile/profile.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/profile/profile.ts" afterPath="$PROJECT_DIR$/src/pages/profile/profile.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/setting/setting.ts" afterPath="$PROJECT_DIR$/src/pages/setting/setting.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/0.js" afterPath="$PROJECT_DIR$/www/build/0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/10.js" afterPath="$PROJECT_DIR$/www/build/10.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/11.js" afterPath="$PROJECT_DIR$/www/build/11.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/3.js" afterPath="$PROJECT_DIR$/www/build/3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/4.js" afterPath="$PROJECT_DIR$/www/build/4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/6.js" afterPath="$PROJECT_DIR$/www/build/6.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/7.js" afterPath="$PROJECT_DIR$/www/build/7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/8.js" afterPath="$PROJECT_DIR$/www/build/8.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.css" afterPath="$PROJECT_DIR$/www/build/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/build/main.js" afterPath="$PROJECT_DIR$/www/build/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -162,7 +114,20 @@
     <favorites_list name="QuestionBank" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="edit.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/edit/edit.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="160" column="37" lean-forward="false" selection-start-line="160" selection-start-column="37" selection-end-line="160" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -178,6 +143,7 @@
       <find>ion-input</find>
       <find>logIn</find>
       <find>Username</find>
+      <find>openPage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,20 +152,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LICENSE" />
-        <option value="$PROJECT_DIR$/src/interfaces/user.ts" />
-        <option value="$PROJECT_DIR$/src/pages/myself/toast.scss" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/pages/myself/myself.ts" />
         <option value="$PROJECT_DIR$/src/pages/login/login.ts" />
-        <option value="$PROJECT_DIR$/src/pages/edit-username/edit-username.ts" />
         <option value="$PROJECT_DIR$/src/pages/edit-username/edit-username.html" />
-        <option value="$PROJECT_DIR$/src/pages/edit-phone/edit-phone.ts" />
         <option value="$PROJECT_DIR$/src/pages/login/login.scss" />
         <option value="$PROJECT_DIR$/src/pages/edit-phone/edit-phone.html" />
         <option value="$PROJECT_DIR$/src/pages/edit-password/edit-password.ts" />
         <option value="$PROJECT_DIR$/src/pages/edit-intro/edit-intro.html" />
-        <option value="$PROJECT_DIR$/src/pages/edit-intro/edit-intro.ts" />
         <option value="$PROJECT_DIR$/src/pages/exam/exam.scss" />
         <option value="$PROJECT_DIR$/src/pages/edit-intro/edit-intro.scss" />
         <option value="$PROJECT_DIR$/src/pages/edit-password/edit-password.scss" />
@@ -209,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/app/app.html" />
         <option value="$PROJECT_DIR$/src/theme/variables.scss" />
         <option value="$PROJECT_DIR$/src/pages/login/login.html" />
-        <option value="$PROJECT_DIR$/src/pages/profile/profile.scss" />
         <option value="$PROJECT_DIR$/src/pages/setting/setting.html" />
         <option value="$PROJECT_DIR$/src/theme/theme.light.scss" />
         <option value="$PROJECT_DIR$/src/providers/setting-data/setting-data.ts" />
@@ -219,24 +177,32 @@
         <option value="$PROJECT_DIR$/src/pages/problem/problem.html" />
         <option value="$PROJECT_DIR$/src/pages/edit/edit.module.ts" />
         <option value="$PROJECT_DIR$/src/providers/user-data/user-data.ts" />
-        <option value="$PROJECT_DIR$/src/pages/setting/setting.ts" />
         <option value="$PROJECT_DIR$/src/pages/edit-password/edit-password.html" />
         <option value="$PROJECT_DIR$/src/pages/edit/edit.scss" />
         <option value="$PROJECT_DIR$/src/theme/theme.dark.scss" />
-        <option value="$PROJECT_DIR$/src/pages/profile/profile.ts" />
         <option value="$PROJECT_DIR$/src/providers/city-data/city-data.ts" />
-        <option value="$PROJECT_DIR$/src/pages/profile/profile.html" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/platforms/platforms.json" />
         <option value="$PROJECT_DIR$/plugins/android.json" />
         <option value="$PROJECT_DIR$/plugins/ios.json" />
-        <option value="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/pages/edit/edit.html" />
-        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/src/pages/edit/edit.ts" />
         <option value="$PROJECT_DIR$/src/pages/myself/myself.html" />
         <option value="$PROJECT_DIR$/src/pages/myself/myself.scss" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/assets/data/questions.json" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/providers/question-data/question-data.ts" />
+        <option value="$PROJECT_DIR$/src/pages/exam/exam.html" />
+        <option value="$PROJECT_DIR$/src/pages/myself/myself.ts" />
+        <option value="$PROJECT_DIR$/src/pages/setting/setting.ts" />
+        <option value="$PROJECT_DIR$/src/pages/edit/edit.html" />
+        <option value="$PROJECT_DIR$/src/pages/edit-intro/edit-intro.ts" />
+        <option value="$PROJECT_DIR$/src/pages/edit-phone/edit-phone.ts" />
+        <option value="$PROJECT_DIR$/src/pages/edit-username/edit-username.ts" />
+        <option value="$PROJECT_DIR$/src/pages/profile/profile.ts" />
+        <option value="$PROJECT_DIR$/src/pages/profile/profile.scss" />
+        <option value="$PROJECT_DIR$/src/pages/profile/profile.html" />
+        <option value="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/pages/edit/edit.ts" />
       </list>
     </option>
   </component>
@@ -306,6 +272,17 @@
             <path>
               <item name="QuestionBank" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuestionBank" type="462c0819:PsiDirectoryNode" />
+              <item name="platforms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionBank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionBank" type="462c0819:PsiDirectoryNode" />
+              <item name="platforms" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionBank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionBank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -313,6 +290,12 @@
               <item name="QuestionBank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionBank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuestionBank" type="b2602c69:ProjectViewProjectNode" />
@@ -332,6 +315,13 @@
               <item name="QuestionBank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="edit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionBank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="exam" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -340,6 +330,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="question" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionBank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionBank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="providers" type="462c0819:PsiDirectoryNode" />
+              <item name="question-data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -451,12 +454,12 @@
       <workItem from="1511700356038" duration="4251000" />
       <workItem from="1511750734104" duration="280000" />
       <workItem from="1511752548717" duration="33000" />
-      <workItem from="1511761510891" duration="11281000" />
+      <workItem from="1511761510891" duration="26439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353294000" />
+    <option name="totallyTimeSpent" value="368452000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -471,7 +474,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32737276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24225576" sideWeight="0.47638604" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24225576" sideWeight="0.47638604" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39614856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -559,40 +562,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/ionic2-city-picker/dist/city-picker.d.ts" />
-    <entry file="file://$PROJECT_DIR$/node_modules/ionic2-city-picker/dist/city-picker.js" />
-    <entry file="file://$PROJECT_DIR$/src/providers/setting-data/setting-data.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/ion-multi-picker/dist/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/ion-multi-picker/dist/module.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/ion-multi-picker/dist/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/edit/edit.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -607,20 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/providers/user-data/user-data.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="218" column="22" lean-forward="false" selection-start-line="218" selection-start-column="22" selection-end-line="218" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/providers/city-data/city-data.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265920">
-          <caret line="17728" column="6" lean-forward="false" selection-start-line="17728" selection-start-column="6" selection-end-line="17728" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -696,73 +655,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="343" lean-forward="false" selection-start-line="5" selection-start-column="343" selection-end-line="5" selection-end-column="343" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platforms/platforms.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/exam/exam.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/exam/exam.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="21" column="89" lean-forward="false" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/edit-intro/edit-intro.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/edit-password/edit-password.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/edit-phone/edit-phone.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/edit-username/edit-username.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/profile/profile.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/setting/setting.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -801,16 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/login/login.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="109" />
-          <folding>
-            <element signature="e#0#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/profile/profile.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -821,42 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/profile/profile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/profile/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/myself/myself.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/myself/myself.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -869,31 +723,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/exam/exam.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-            <element signature="e#678#709#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -906,18 +741,222 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/exam/exam.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/exam/exam.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#678#709#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/providers/city-data/city-data.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265920">
+          <caret line="17728" column="6" lean-forward="false" selection-start-line="17728" selection-start-column="6" selection-end-line="17728" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/data/questions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5083" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/myself/myself.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/exam/exam.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/edit/edit.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/providers/question-data/question-data.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="5099" column="0" lean-forward="false" selection-start-line="5099" selection-start-column="0" selection-end-line="5099" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#QuestionDataProvider#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/catalog/catalog.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/edit-password/edit-password.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/exam/exam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="1" column="43" lean-forward="true" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/login/login.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="23" column="83" lean-forward="false" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/myself/myself.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/setting/setting.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/providers/user-data/user-data.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="94" column="2" lean-forward="false" selection-start-line="94" selection-start-column="2" selection-end-line="94" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/edit-intro/edit-intro.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="45" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/edit-phone/edit-phone.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="49" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/edit-username/edit-username.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/edit/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="14" />
+        <state relative-caret-position="522">
+          <caret line="54" column="36" lean-forward="false" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/profile/profile.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/profile/profile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/profile/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="343" lean-forward="false" selection-start-line="5" selection-start-column="343" selection-end-line="5" selection-end-column="343" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/edit/edit.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="139" selection-end-column="3" />
+        <state relative-caret-position="369">
+          <caret line="160" column="37" lean-forward="false" selection-start-line="160" selection-start-column="37" selection-end-line="160" selection-end-column="37" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>

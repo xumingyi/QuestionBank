@@ -31,7 +31,7 @@ export class MyselfPage {
   }
 
   openPage(page: string) {
-    return this.navCtrl.push(page).then(value => {
+    this.navCtrl.push(page).then(value => {
       return value;
     });
   }

@@ -44,7 +44,7 @@ export class SettingPage {
   }
 
   openPage(page: string) {
-    return this.navCtrl.push(page).then(value => {
+    this.navCtrl.push(page).then(value => {
       return value;
     });
   }

@@ -1,6 +1,14 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
   {
+    "id": "com.synconset.imagepicker.ImagePicker",
+    "file": "plugins/com.synconset.imagepicker/www/imagepicker.js",
+    "pluginId": "com.synconset.imagepicker",
+    "clobbers": [
+      "plugins.imagePicker"
+    ]
+  },
+  {
     "id": "cordova-plugin-camera.Camera",
     "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
     "pluginId": "cordova-plugin-camera",
@@ -95,19 +103,12 @@ module.exports = [
       "cordova.plugins.Keyboard"
     ],
     "runs": true
-  },
-  {
-    "id": "com.synconset.imagepicker.ImagePicker",
-    "file": "plugins/com.synconset.imagepicker/www/imagepicker.js",
-    "pluginId": "com.synconset.imagepicker",
-    "clobbers": [
-      "plugins.imagePicker"
-    ]
   }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
+  "com.synconset.imagepicker": "2.1.8",
   "cordova-plugin-add-swift-support": "1.7.0",
   "cordova-plugin-camera": "2.4.1",
   "cordova-plugin-device": "1.1.4",
@@ -119,8 +120,7 @@ module.exports.metadata =
   "cordova-plugin-statusbar": "2.2.2",
   "cordova-plugin-whitelist": "1.3.1",
   "cordova-sqlite-storage": "2.0.4",
-  "ionic-plugin-keyboard": "2.2.1",
-  "com.synconset.imagepicker": "2.1.8"
+  "ionic-plugin-keyboard": "2.2.1"
 };
 // BOTTOM OF METADATA
 });

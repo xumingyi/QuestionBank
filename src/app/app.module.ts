@@ -21,6 +21,7 @@ import {Pro} from '@ionic/pro';
 import {UserDataProvider} from '../providers/user-data/user-data';
 import {SettingDataProvider} from '../providers/setting-data/setting-data';
 import {CityDataProvider} from '../providers/city-data/city-data';
+import {QuestionDataProvider} from '../providers/question-data/question-data';
 
 const IonicPro = Pro.init('d6a25364', {
   appVersion: "0.0.1"
@@ -64,6 +65,7 @@ export class MyErrorHandler implements ErrorHandler {
     UserDataProvider,
     SettingDataProvider,
     CityDataProvider,
+    QuestionDataProvider,
   ]
 })
 
