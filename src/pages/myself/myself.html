@@ -24,7 +24,7 @@
   <ion-list>
     <ion-item tappable *ngIf="!hasLoggedIn" (click)="openPage(loginPage)">
       <ion-thumbnail item-start>
-        <img src="assets/avatar/avatar.jpg">
+        <div class="avatar" [ngStyle]="{'background-image': 'url(assets/avatar/avatar.jpg)'}"></div>
       </ion-thumbnail>
       <h2>登录 / 注册</h2>
       <p>你还没有登录或注册呢</p>
@@ -35,7 +35,7 @@
 
     <ion-item tappable *ngIf="hasLoggedIn" (click)="openPage(profilePage)">
       <ion-thumbnail item-start>
-        <img src="{{avatar}}">
+        <div class="avatar" [ngStyle]="{'background-image': 'url('+avatar+')'}"></div>
       </ion-thumbnail>
       <h2>{{username}}</h2>
       <p>查看个人资料</p>

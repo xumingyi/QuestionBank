@@ -7,6 +7,7 @@ import {StatusBar} from '@ionic-native/status-bar';
 import {SplashScreen} from '@ionic-native/splash-screen';
 import {ScreenOrientation} from "@ionic-native/screen-orientation";
 import {Camera} from "@ionic-native/camera";
+import {ImagePicker} from "@ionic-native/image-picker";
 import {SQLite} from "@ionic-native/sqlite";
 import {IonicStorageModule} from "@ionic/storage";
 
@@ -56,6 +57,7 @@ export class MyErrorHandler implements ErrorHandler {
     SplashScreen,
     ScreenOrientation,
     Camera,
+    ImagePicker,
     SQLite,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     {provide: ErrorHandler, useClass: MyErrorHandler},

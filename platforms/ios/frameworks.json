@@ -3,5 +3,10 @@
     "CoreLocation.framework": 1,
     "AVFoundation.framework": 1,
     "WebKit.framework": 1,
-    "libz.tbd": 1
+    "libz.tbd": 1,
+    "Accelerate.framework": 1,
+    "Security.framework": 1,
+    "Photos.framework": 1,
+    "SystemConfiguration.framework": 1,
+    "QuartzCore.framework": 1
 }

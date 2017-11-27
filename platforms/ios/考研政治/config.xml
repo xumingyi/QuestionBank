@@ -51,6 +51,9 @@
     <feature name="CDVOrientation">
         <param name="ios-package" value="CDVOrientation" />
     </feature>
+    <feature name="ImagePicker">
+        <param name="ios-package" value="SOSPicker" />
+    </feature>
     <name>考研政治</name>
     <description>An awesome Ionic/Cordova app.含盖近十年考研政治选择题真题。</description>
     <author href="http://metaphors.name">Metaphors</author>

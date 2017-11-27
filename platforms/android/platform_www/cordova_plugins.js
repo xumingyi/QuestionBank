@@ -95,6 +95,14 @@ module.exports = [
       "cordova.plugins.Keyboard"
     ],
     "runs": true
+  },
+  {
+    "id": "com.synconset.imagepicker.ImagePicker",
+    "file": "plugins/com.synconset.imagepicker/www/imagepicker.js",
+    "pluginId": "com.synconset.imagepicker",
+    "clobbers": [
+      "plugins.imagePicker"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -111,7 +119,8 @@ module.exports.metadata =
   "cordova-plugin-statusbar": "2.2.2",
   "cordova-plugin-whitelist": "1.3.1",
   "cordova-sqlite-storage": "2.0.4",
-  "ionic-plugin-keyboard": "2.2.1"
+  "ionic-plugin-keyboard": "2.2.1",
+  "com.synconset.imagepicker": "2.1.8"
 };
 // BOTTOM OF METADATA
 });

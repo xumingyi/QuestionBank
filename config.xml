@@ -106,4 +106,7 @@
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value=" " />
     </plugin>
     <plugin name="cordova-plugin-screen-orientation" spec="^2.0.2" />
+    <plugin name="com.synconset.imagepicker" spec="~2.1.8">
+        <variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value="" />
+    </plugin>
 </widget>

@@ -43,6 +43,10 @@
     },
     "cordova-plugin-screen-orientation": {
       "PACKAGE_NAME": "metaphors.name.questionbank"
+    },
+    "com.synconset.imagepicker": {
+      "PHOTO_LIBRARY_USAGE_DESCRIPTION": "",
+      "PACKAGE_NAME": "metaphors.name.questionbank"
     }
   },
   "dependent_plugins": {

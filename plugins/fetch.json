@@ -106,5 +106,15 @@
     },
     "is_top_level": false,
     "variables": {}
+  },
+  "com.synconset.imagepicker": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-telerik-imagepicker"
+    },
+    "is_top_level": true,
+    "variables": {
+      "PHOTO_LIBRARY_USAGE_DESCRIPTION": ""
+    }
   }
 }

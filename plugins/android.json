@@ -41,6 +41,9 @@
     },
     "ionic-plugin-keyboard": {
       "PACKAGE_NAME": "metaphors.name.questionbank"
+    },
+    "com.synconset.imagepicker": {
+      "PACKAGE_NAME": "metaphors.name.questionbank"
     }
   },
   "dependent_plugins": {

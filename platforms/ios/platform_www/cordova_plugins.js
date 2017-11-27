@@ -97,6 +97,14 @@ module.exports = [
     "clobbers": [
       "cordova.plugins.screenorientation"
     ]
+  },
+  {
+    "id": "com.synconset.imagepicker.ImagePicker",
+    "file": "plugins/com.synconset.imagepicker/www/imagepicker.js",
+    "pluginId": "com.synconset.imagepicker",
+    "clobbers": [
+      "plugins.imagePicker"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -113,7 +121,8 @@ module.exports.metadata =
   "cordova-plugin-whitelist": "1.3.1",
   "cordova-sqlite-storage": "2.0.4",
   "ionic-plugin-keyboard": "2.2.1",
-  "cordova-plugin-screen-orientation": "2.0.2"
+  "cordova-plugin-screen-orientation": "2.0.2",
+  "com.synconset.imagepicker": "2.1.8"
 };
 // BOTTOM OF METADATA
 });
