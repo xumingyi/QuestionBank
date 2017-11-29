@@ -1,3 +1,22 @@
 page-question {
+  .swiper-slide {
+    overflow: scroll;
+  }
 
+  .slide-zoom {
+    height: 100%;
+  }
+
+  .card-content {
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .input-wrapper {
+    font-size: 14px;
+  }
+
+  .label {
+    white-space: normal;
+  }
 }

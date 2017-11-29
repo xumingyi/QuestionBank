@@ -7,13 +7,11 @@
 <ion-header>
 
   <ion-navbar>
-
     <ion-title>{{examYear}}年真题</ion-title>
 
     <ion-buttons end>
       <button ion-button color="dark">重做</button>
     </ion-buttons>
-
   </ion-navbar>
 
 </ion-header>
@@ -25,15 +23,17 @@
 
     <ion-row *ngFor="let row of rows">
 
-      <ion-col col-3 *ngFor="let questionNum of row[1]">
+      <ion-col col-3 *ngFor="let questionNum of row">
 
-        <button class="animated swing" ion-button color="light" (click)="openQuestionPage(examYear,questionNum)">
+        <button class="animated swing" ion-button color="bronze" (click)="openQuestionPage(examYear,questionNum)">
           {{questionNum}}
         </button>
 
       </ion-col>
 
     </ion-row>
+
+    <ion-label class="tip">1～16为单选，17～33为多选</ion-label>
 
   </ion-grid>
 

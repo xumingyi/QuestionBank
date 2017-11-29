@@ -8,11 +8,68 @@
 
   <ion-navbar>
     <ion-title>{{examYear}}年第{{questionNum}}题</ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="star"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content>
+  <ion-slides #slides centeredSlides=true pager=true paginationType="progress" initialSlide={{questionNum-1}}
+              (ionSlideDidChange)="slideDidChange()">
+    <ion-slide *ngFor="let question of exam">
+      <ion-card>
+        <ion-card-content>
+          {{question['Content']}}
+        </ion-card-content>
+      </ion-card>
 
+      <ion-card>
+        <ion-list radio-group *ngIf="this.questionNum<=16">
+          <ion-item>
+            <ion-label>A. {{question['OptionA']}}</ion-label>
+            <ion-radio color="bronze"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>B. {{question['OptionB']}}</ion-label>
+            <ion-radio color="bronze"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>C. {{question['OptionC']}}</ion-label>
+            <ion-radio color="bronze"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>D. {{question['OptionD']}}</ion-label>
+            <ion-radio color="bronze"></ion-radio>
+          </ion-item>
+        </ion-list>
+
+        <ion-list *ngIf="this.questionNum>16">
+          <ion-item>
+            <ion-label>A. {{question['OptionA']}}</ion-label>
+            <ion-checkbox></ion-checkbox>
+          </ion-item>
+          <ion-item>
+            <ion-label>B. {{question['OptionB']}}</ion-label>
+            <ion-checkbox></ion-checkbox>
+          </ion-item>
+          <ion-item>
+            <ion-label>C. {{question['OptionC']}}</ion-label>
+            <ion-checkbox></ion-checkbox>
+          </ion-item>
+          <ion-item>
+            <ion-label>D. {{question['OptionD']}}</ion-label>
+            <ion-checkbox></ion-checkbox>
+          </ion-item>
+        </ion-list>
+      </ion-card>
+
+      <button ion-button small color="bronze">提交答案</button>
+    </ion-slide>
+  </ion-slides>
 </ion-content>

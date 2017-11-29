@@ -41,6 +41,7 @@ export class MyErrorHandler implements ErrorHandler {
     BrowserModule,
     MultiPickerModule,
     IonicModule.forRoot(MyApp, {
+      tabsHideOnSubPages: 'true',
       preloadModules: true,
       backButtonText: ''
     }),

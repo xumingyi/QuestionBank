@@ -19,9 +19,8 @@
 
 <ion-content>
   <form #editIntroForm="ngForm">
-    <ion-list>
-      <ion-textarea type="text" value="{{intro}}" [(ngModel)]="intro" name="intro"></ion-textarea>
-      <hr>
-    </ion-list>
+    <ion-item class="editIntro">
+      <ion-textarea value="{{intro}}" name="intro" [(ngModel)]="intro"></ion-textarea>
+    </ion-item>
   </form>
 </ion-content>

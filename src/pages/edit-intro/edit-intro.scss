@@ -3,19 +3,11 @@ page-edit-intro {
     overflow: hidden;
   }
 
-  ion-textarea {
-    background-color: white;
-    height: 30vh;
-    padding: 10px 0 10px 8px;
+  ion-item {
+    height: 300px !important;
   }
 
   textarea {
-    width: 100%;
-    height: 100%;
-    margin: 0 !important;
-  }
-
-  hr {
-    margin: 0;
+    height: 90%;
   }
 }
