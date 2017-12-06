@@ -40,7 +40,18 @@ export class EditPage {
   editLocation: string;
   editInfo = [this.editAvatar, this.editGender, this.editBirthday, this.editLocation];
 
-  maxDate: string = new Date().toLocaleDateString().replace(/[^\d]/g, '-');
+  maxDate: string;
+
+  getMaxDate() {
+    let maxDateArray = new Date().toLocaleDateString().split("/");
+    if (parseInt(maxDateArray[1]) < 10) {
+      maxDateArray[1] = "0" + maxDateArray[1];
+    }
+    if (parseInt(maxDateArray[2]) < 10) {
+      maxDateArray[2] = "0" + maxDateArray[2];
+    }
+    this.maxDate = maxDateArray[0] + "-" + maxDateArray[1] + "-" + maxDateArray[2];
+  }
 
   cityColumns: any[];
 
@@ -57,6 +68,7 @@ export class EditPage {
     this.getEmail();
     this.getPhone();
     this.getLocation();
+    this.getMaxDate();
   }
 
   ionViewDidEnter() {
@@ -77,7 +89,7 @@ export class EditPage {
   save() {
     this.userDataProvider.setAvatar(this.editAvatar);
     this.userDataProvider.setGender(this.editGender);
-    this.userDataProvider.setBirthday(this.editBirthday.replace(/[^\d]/g, '/'));
+    this.userDataProvider.setBirthday(this.editBirthday);
     this.userDataProvider.setLocation(this.editLocation);
     this.navCtrl.pop().then(value => {
       return value;
@@ -193,7 +205,7 @@ export class EditPage {
 
   getBirthday() {
     this.userDataProvider.getBirthday().then(birthday => {
-      this.birthday = birthday.replace(/[^\d]/g, '-');
+      this.birthday = birthday;
     });
   }
 

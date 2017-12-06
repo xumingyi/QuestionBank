@@ -212,7 +212,7 @@ export class UserDataProvider {
     this.setPassword(password);
     this.setGender(true);
     this.setAge(0);
-    this.setBirthday(new Date().toLocaleDateString());
+    this.setBirthday(new Date().toLocaleDateString().replace(/[^\d]/g, '-'));
     this.setIntro('写点什么吧 ^_^');
     this.setEmail(email);
     this.setPhone('');
