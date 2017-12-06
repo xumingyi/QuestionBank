@@ -29,47 +29,73 @@
         </ion-card-content>
       </ion-card>
 
+      <ion-card *ngIf="userIsCorrect[questionNum-1]===true&&questionNum<=16">
+        <ion-card-content color="primary">
+          恭喜你，答对了，正确答案是 {{singleSelectionAnswers[questionNum-1]}}
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card *ngIf="userIsCorrect[questionNum-1]===false&&questionNum<=16">
+        <ion-card-content color="danger">
+          很抱歉，答错了，正确答案是 {{singleSelectionAnswers[questionNum-1]}}
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card *ngIf="userIsCorrect[questionNum-1]===true&&questionNum>16">
+        <ion-card-content color="primary">
+          恭喜你，答对了，正确答案是{{multipleChoiceAnswers[questionNum-1]}}
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card *ngIf="userIsCorrect[questionNum-1]===false&&questionNum>16">
+        <ion-card-content color="danger">
+          很抱歉，答错了，正确答案是{{multipleChoiceAnswers[questionNum-1]}}
+        </ion-card-content>
+      </ion-card>
+
       <ion-card>
-        <ion-list radio-group *ngIf="this.questionNum<=16">
+        <ion-list radio-group *ngIf="questionNum<=16" [(ngModel)]="userSingleSelectionAnswers[questionNum-1]">
           <ion-item>
             <ion-label>A. {{question['OptionA']}}</ion-label>
-            <ion-radio color="bronze"></ion-radio>
+            <ion-radio color="bronze" value="A"></ion-radio>
           </ion-item>
           <ion-item>
             <ion-label>B. {{question['OptionB']}}</ion-label>
-            <ion-radio color="bronze"></ion-radio>
+            <ion-radio color="bronze" value="B"></ion-radio>
           </ion-item>
           <ion-item>
             <ion-label>C. {{question['OptionC']}}</ion-label>
-            <ion-radio color="bronze"></ion-radio>
+            <ion-radio color="bronze" value="C"></ion-radio>
           </ion-item>
           <ion-item>
             <ion-label>D. {{question['OptionD']}}</ion-label>
-            <ion-radio color="bronze"></ion-radio>
+            <ion-radio color="bronze" value="D"></ion-radio>
           </ion-item>
         </ion-list>
 
-        <ion-list *ngIf="this.questionNum>16">
+        <ion-list *ngIf="questionNum>16">
           <ion-item>
             <ion-label>A. {{question['OptionA']}}</ion-label>
-            <ion-checkbox></ion-checkbox>
+            <ion-checkbox [(ngModel)]="userMultipleChoiceAnswers[questionNum-1][0]"></ion-checkbox>
           </ion-item>
           <ion-item>
             <ion-label>B. {{question['OptionB']}}</ion-label>
-            <ion-checkbox></ion-checkbox>
+            <ion-checkbox [(ngModel)]="userMultipleChoiceAnswers[questionNum-1][1]"></ion-checkbox>
           </ion-item>
           <ion-item>
             <ion-label>C. {{question['OptionC']}}</ion-label>
-            <ion-checkbox></ion-checkbox>
+            <ion-checkbox [(ngModel)]="userMultipleChoiceAnswers[questionNum-1][2]"></ion-checkbox>
           </ion-item>
           <ion-item>
             <ion-label>D. {{question['OptionD']}}</ion-label>
-            <ion-checkbox></ion-checkbox>
+            <ion-checkbox [(ngModel)]="userMultipleChoiceAnswers[questionNum-1][3]"></ion-checkbox>
           </ion-item>
         </ion-list>
       </ion-card>
 
-      <button ion-button small color="bronze">提交答案</button>
+      <button ion-button small color="bronze" *ngIf="questionNum<=16" (click)="submit1()">提交答案</button>
+
+      <button ion-button small color="bronze" *ngIf="questionNum>16" (click)="submit2()">提交答案</button>
     </ion-slide>
   </ion-slides>
 </ion-content>
