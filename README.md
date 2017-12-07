@@ -8,22 +8,22 @@
 ## App Preview
 ### iOS
 <div>
-<img alt="iOS Change Avatar" src="https://github.com/metaphors/QuestionBank/raw/master/gif/iOS_Change_Avatar.gif" width="30%" height="30%"/>
-<img alt="iOS City Picker" src="https://github.com/metaphors/QuestionBank/raw/master/gif/iOS_City_Picker.gif" width="30%" height="30%"/>
-<img alt="iOS Dark Theme" src="https://github.com/metaphors/QuestionBank/raw/master/gif/iOS_Dark_Theme.gif" width="30%" height="30%"/>
-<img alt="iOS Login" src="https://github.com/metaphors/QuestionBank/raw/master/gif/iOS_Login.gif" width="30%" height="30%"/>
-<img alt="iOS Multiple Option" src="https://github.com/metaphors/QuestionBank/raw/master/gif/iOS_Multiple_Option.gif" width="30%" height="30%"/>
-<img alt="iOS Single Selection" src="https://github.com/metaphors/QuestionBank/raw/master/gif/iOS_Single_Selection.gif" width="30%" height="30%"/>
+<img alt="iOS Change Avatar" src="https://github.com/metaphors/QuestionBank/raw/master/gif/iOS_Change_Avatar.gif" width="33%" height="33%"/>
+<img alt="iOS City Picker" src="https://github.com/metaphors/QuestionBank/raw/master/gif/iOS_City_Picker.gif" width="33%" height="33%"/>
+<img alt="iOS Dark Theme" src="https://github.com/metaphors/QuestionBank/raw/master/gif/iOS_Dark_Theme.gif" width="33%" height="33%"/>
+<img alt="iOS Login" src="https://github.com/metaphors/QuestionBank/raw/master/gif/iOS_Login.gif" width="33%" height="33%"/>
+<img alt="iOS Multiple Option" src="https://github.com/metaphors/QuestionBank/raw/master/gif/iOS_Multiple_Option.gif" width="33%" height="33%"/>
+<img alt="iOS Single Selection" src="https://github.com/metaphors/QuestionBank/raw/master/gif/iOS_Single_Selection.gif" width="33%" height="33%"/>
 </div>
 
 ### Android
 <div>
-<img alt="Android Change Avatar" src="https://github.com/metaphors/QuestionBank/raw/master/gif/Android_Change_Avatar.gif" width="30%" height="30%"/>
-<img alt="Android City Picker" src="https://github.com/metaphors/QuestionBank/raw/master/gif/Android_City_Picker.gif" width="30%" height="30%"/>
-<img alt="Android Dark Theme" src="https://github.com/metaphors/QuestionBank/raw/master/gif/Android_Dark_Theme.gif" width="30%" height="30%"/>
-<img alt="Android Login" src="https://github.com/metaphors/QuestionBank/raw/master/gif/Android_Login.gif" width="30%" height="30%"/>
-<img alt="Android Multiple Option" src="https://github.com/metaphors/QuestionBank/raw/master/gif/Android_Multiple_Option.gif" width="30%" height="30%"/>
-<img alt="Android Single Selection" src="https://github.com/metaphors/QuestionBank/raw/master/gif/Android_Single_Selection.gif" width="30%" height="30%"/>
+<img alt="Android Change Avatar" src="https://github.com/metaphors/QuestionBank/raw/master/gif/Android_Change_Avatar.gif" width="33%" height="33%"/>
+<img alt="Android City Picker" src="https://github.com/metaphors/QuestionBank/raw/master/gif/Android_City_Picker.gif" width="33%" height="33%"/>
+<img alt="Android Dark Theme" src="https://github.com/metaphors/QuestionBank/raw/master/gif/Android_Dark_Theme.gif" width="33%" height="33%"/>
+<img alt="Android Login" src="https://github.com/metaphors/QuestionBank/raw/master/gif/Android_Login.gif" width="33%" height="33%"/>
+<img alt="Android Multiple Option" src="https://github.com/metaphors/QuestionBank/raw/master/gif/Android_Multiple_Option.gif" width="33%" height="33%"/>
+<img alt="Android Single Selection" src="https://github.com/metaphors/QuestionBank/raw/master/gif/Android_Single_Selection.gif" width="33%" height="33%"/>
 </div>
 
 ## 相关博客
