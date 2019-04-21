@@ -5,7 +5,7 @@
   "homepage": "http://metaphors.name/",
   "private": true,
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.html",
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
